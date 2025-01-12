@@ -1,6 +1,9 @@
 # The URL the site will be built for
 base_url = "https://princesssarmica.github.io/"
 
+# Website Title
+title = "CNN"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -29,8 +32,8 @@ galleria.enabled = true
 navbar_items = [
  { code = "en", nav_items = [
   { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/posts", name = "Posts" },
-  { url = "$BASE_URL/docs", name = "Docs" },
+  { url = "$BASE_URL/news", name = "News" },
+  { url = "$BASE_URL/radio", name = "Radio" },
   { url = "$BASE_URL/tags", name = "Tags" },
   { url = "$BASE_URL/categories", name = "Categories" },
  ]},
@@ -46,26 +49,17 @@ webmanifest = "/icons/site.webmanifest"
 
 # Author details
 [extra.author]
-name = "DeepThought"
-avatar = "/images/avatar.png"
+name = "Media Communications"
+avatar = "/images/medijske_komunikacije_logo.svg"
 
 # Social links
 [extra.social]
-email = "<email_id>"
-facebook = "<facebook_username>"
-github = "<github_username>"
-gitlab = "<gitlab_username>"
-keybase = "<keybase_username>"
-linkedin = "<linkedin_username>"
-stackoverflow = "<stackoverflow_userid>"
-twitter = "<twitter_username>"
-instagram = "<instagram_username>"
-behance = "<behance_username>"
-google_scholar = "<googlescholar_userid>"
-orcid = "<orcid_userid>"
-mastodon_username = "<mastadon_username>"
-mastodon_server = "<mastodon_server>" # (if not set, defaults to mastodon.social)
-
+email = "medijske@um.si"
+facebook = "medijskekomunikacijeFERI"
+youtube = "@medijskekomunikacijeferi3538"
+github = "princessSarmica"
+twitter = "@medijske"
+instagram = "medijske.um.si"
 
 # To add google analytics
 [extra.analytics]
