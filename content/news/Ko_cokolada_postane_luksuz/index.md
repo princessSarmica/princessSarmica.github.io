@@ -12,6 +12,8 @@ tags = ["čokolada", "cenovna rast", "Dubajska čokolada"]
 
 **Čokolada ni le sladica, ampak simbol prazničnega veselja in tradicije, ki jo čutimo na vsakem koraku – od zavitih čokoladnih božičkov do prefinjenih gurmanskih poslastic. Kljub temu pa čokolada letos nosi grenko-sladek priokus, saj so njene cene po Evropi in drugod strmo narasle, zaradi česar je marsikomu praznična nakupovalna košarica težja za denarnico. Vendar pa, kljub visokim cenam, čokolada ostaja nepogrešljiv del praznikov, saj na globalni ravni opažamo celo rast povpraševanja, ki ga dodatno spodbuja novi praznični megahit tega leta.**
 
+<!-- more -->
+
 ---
 
 ### Praznični posladki dražji kot kdaj koli prej
