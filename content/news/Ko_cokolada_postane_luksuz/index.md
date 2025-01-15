@@ -43,7 +43,7 @@ Kljub izzivom v pridelavi in cenovni dostopnosti čokolade, ta ostaja univerzaln
 
 ---
 
-### Viri:
+### Viri
 
 - [24ur - Dubajska čokolada](https://www.24ur.com/novice/slovenija/dubajska-cokolada-novi-fenomen-slascicarskega-sveta.html)
 - [24ur - Muzej čokolade](https://www.24ur.com/novice/slovenija/muzej-cokolade.html)

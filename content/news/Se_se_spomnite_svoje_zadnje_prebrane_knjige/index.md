@@ -64,7 +64,7 @@ V projektu sodeluje več partnerjev, od vrtcev, šol, knjižnic pa vse do občin
 
 ---
 
-### Viri:
+### Viri
 
 - [RTV Slovenija](https://www.rtvslo.si/kultura/knjige/upad-bralne-pismenosti-je-povezan-s-spremembami-vrednot-v-druzbi/728701)
 - [The Atlantic](https://www.theatlantic.com/magazine/archive/2024/11/the-elite-college-students-who-cant-read-books/679945/)
