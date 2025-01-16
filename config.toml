@@ -2,7 +2,7 @@
 base_url = "https://princesssarmica.github.io/"
 
 # Website Title
-title = "CNN"
+title = "Mačje novice"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -37,13 +37,15 @@ galleria.enabled = true
 
 navbar_items = [
  { code = "en", nav_items = [
-  { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/news", name = "News" },
+  { url = "$BASE_URL/", name = "Domov" },
+  { url = "$BASE_URL/news", name = "Novice" },
   { url = "$BASE_URL/radio", name = "Radio" },
-  { url = "$BASE_URL/tags", name = "Tags" },
-  { url = "$BASE_URL/categories", name = "Categories" },
+  { url = "$BASE_URL/tags", name = "Etikete" },
+  { url = "$BASE_URL/categories", name = "Kategorije" },
  ]},
 ]
+
+locale = "sl_SI"
 
 # Add links to favicon, you can use https://realfavicongenerator.net/ to generate favicon for your site
 [extra.favicon]
@@ -55,7 +57,7 @@ webmanifest = "/icons/site.webmanifest"
 
 # Author details
 [extra.author]
-name = "Media Communications"
+name = "princessSarmica"
 avatar = "/images/avatar.svg"
 
 # Social links

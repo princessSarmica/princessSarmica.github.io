@@ -1,5 +1,5 @@
 +++
-title = "News Cover"
+title = "Medijska predilnica"
 sort_by = "date"
 paginate_by = 5
 +++  

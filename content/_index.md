@@ -1,6 +1,6 @@
 +++
-title = "Cool News, Nerds"
-description = "Where Student Voices Shape the News!"
+title = "Mačje novice"
+description = "Kjer študentje predejo svoje zgodbe"
 +++
 
-Your go-to hub for breaking news, thought-provoking articles, and creative contributions straight from the minds of students. Whether you're here for the latest scoop, insightful commentary, or to share your own voice, this is where stories come to life. Dive in, get inspired, and let your words make waves! 🚀✨
+<p style="text-align:center;">Dobrodošli na Mačjih novicah, prostoru, kjer študentje ustvarjajo, delijo in razpravljajo o aktualnih dogodkih in novicah. Prostor, kjer lahko vsak mačkast um zamjavka po svoje! 😸</p>
