@@ -1,7 +1,7 @@
 +++
-title="Odnosi z javnostmi oblikujejo zgodbo: Blake Lively proti Justinu Baldoniju"
+title="Zakulisje zabavne industrije"
 date=2025-01-15
-
+description="Odnosi z javnostmi oblikujejo zgodbo: Blake Lively proti Justinu Baldoniju"
 [extra]
 author = "Elena Schmid"
 
