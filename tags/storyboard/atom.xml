@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Mačje novice - storyboard</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/tags/storyboard/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-17T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/tags/storyboard/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Osebna galerija</title>
+        <published>2025-01-17T00:00:00+00:00</published>
+        <updated>2025-01-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/news/osebna-galerija/"/>
+        <id>https://princesssarmica.github.io/news/osebna-galerija/</id>
+        
+        <content type="html" xml:base="https://princesssarmica.github.io/news/osebna-galerija/">&lt;div class=&quot;galleria mb-6&quot; style=&quot;height: 450px&quot;&gt;{
+  &quot;images&quot;: [
+    {
+      &quot;src&quot;: &quot;slika1.png&quot;,
+      &quot;title&quot;: &quot;EU Election Design&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika2.png&quot;,
+      &quot;title&quot;: &quot;EU a me slišiš&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika3.png&quot;,
+      &quot;title&quot;: &quot;Choosing Paths&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika4.png&quot;,
+      &quot;title&quot;: &quot;Morning Drive&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika5.png&quot;,
+      &quot;title&quot;: &quot;Fish&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika6.png&quot;,
+      &quot;title&quot;: &quot;Jurij The Dualist&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika7.png&quot;,
+      &quot;title&quot;: &quot;From inspiration to idea&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika8.png&quot;,
+      &quot;title&quot;: &quot;From Idea to reality&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika9.png&quot;,
+      &quot;title&quot;: &quot;Banana&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika10.png&quot;,
+      &quot;title&quot;: &quot;Matija&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika11.png&quot;,
+      &quot;title&quot;: &quot;Storyboard1&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika12.png&quot;,
+      &quot;title&quot;: &quot;Storyboard2&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika13.png&quot;,
+      &quot;title&quot;: &quot;Storyboard3&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika14.png&quot;,
+      &quot;title&quot;: &quot;Arriving&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika15.gif&quot;,
+      &quot;title&quot;: &quot;At the intersection&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika16.png&quot;,
+      &quot;title&quot;: &quot;Valtor&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika17.jpeg&quot;,
+      &quot;title&quot;: &quot;Day Dreaming&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika18.jpeg&quot;,
+      &quot;title&quot;: &quot;Hand study 1&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika19.jpeg&quot;,
+      &quot;title&quot;: &quot;Hand study 2&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika20.jpeg&quot;,
+      &quot;title&quot;: &quot;Yuna&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika21.jpeg&quot;,
+      &quot;title&quot;: &quot;Wings&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika22.jpeg&quot;,
+      &quot;title&quot;: &quot;Reading&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika23.png&quot;,
+      &quot;title&quot;: &quot;Night Sky&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika24.png&quot;,
+      &quot;title&quot;: &quot;Evening Talk&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika25.png&quot;,
+      &quot;title&quot;: &quot;Chilling in the park&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika26.png&quot;,
+      &quot;title&quot;: &quot;Programmer Concept Art&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika27.png&quot;,
+      &quot;title&quot;: &quot;Underwater Fantasy&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika28.png&quot;,
+      &quot;title&quot;: &quot;Github Princess&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika29.png&quot;,
+      &quot;title&quot;: &quot;Video Game Enemy Concept Art&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika30.png&quot;,
+      &quot;title&quot;: &quot;Video Game Fight Concept Art&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika31.png&quot;,
+      &quot;title&quot;: &quot;Mysteries&quot;
+    }
+  ]
+}&lt;&#x2F;div&gt;</content>
+        
+    </entry>
+</feed>
