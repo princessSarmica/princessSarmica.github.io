@@ -22,13 +22,16 @@ tags = ["Donald Trump", "Grenlandija"]
 
 ## Pripravljen je uporabiti tudi orožje
 
-Novoizvoljeni ameriški predsednik Donald Trump je pred zaključkom prejšnjega leta presenetil javnost z zanimanjem za ameriško lastništvo Grenlandije. Ta je izrazil svoj interes za njen nakup že med svojim prvim mandatom leta 2019, vendar so mu danske oblasti hitro sporočile, da je največji otok na svetu del kraljevine in ni na prodaj. Trump je dodatno razburil javnost z grožnjo, da je za Grenlandijo sedaj pripravljen uporabiti vojaške ali gospodarske ukrepe, med temi carine proti Danski.
+Novoizvoljeni ameriški predsednik **Donald Trump** je pred zaključkom prejšnjega leta presenetil javnost z zanimanjem za ameriško lastništvo Grenlandije. Ta je izrazil svoj interes za njen nakup že med svojim prvim mandatom leta 2019, vendar so mu danske oblasti hitro sporočile, da je največji otok na svetu del kraljevine in ni na prodaj. Trump je dodatno razburil javnost z grožnjo, da je za Grenlandijo sedaj pripravljen uporabiti vojaške ali gospodarske ukrepe, med temi carine proti Danski.
+
+{{ youtube(id="GzBAw1Y3X-8") }}
+<small>Frederiksenova pojasnjuje, da je Grenlandija za Grenlandce in samo oni se lahko odločijo kam bodo spadali. | Video: [New York Post](https://www.youtube.com/watch?v=GzBAw1Y3X-8)</small>
 
 Trump je na svoje interese komentiral:
 
 > "Za namene nacionalne varnosti in svobode po vsem svetu ZDA menim, da sta lastništvo in nadzor Grenlandije absolutna nuja."
 
-Danska premierka Mette Frederiksen ga je opomnila, da otok ni na prodaj, o njegovi prihodnosti pa odločajo tamkajšnji prebivalci.
+Danska premierka **Mette Frederiksen** ga je opomnila, da otok ni na prodaj, o njegovi prihodnosti pa odločajo tamkajšnji prebivalci.
 
 ---
 
@@ -45,7 +48,7 @@ Grenlandija ima ključno vlogo pri spremljanju ruskih vojaških aktivnosti, hkra
 
 ## Nočemo biti Američani. Želimo biti Grenlandci
 
-Grenlandski premier Mute B. Egede je odločno zavrnil špekulacije, da bi ZDA lahko poskušale pridobiti Grenlandijo, potem ko je Donald Trump sprožil govorice o uporabi sile. Verjame, da Grenlandija stremi k neodvisnosti, sam pa je dejal:
+Grenlandski premier **Mute B. Egede** je odločno zavrnil špekulacije, da bi ZDA lahko poskušale pridobiti Grenlandijo, potem ko je Donald Trump sprožil govorice o uporabi sile. Verjame, da Grenlandija stremi k neodvisnosti, sam pa je dejal:
 
 > "Združuje nas več, toda želja, da bi bili gospodar v lastni hiši, bi morala biti razumljiva vsem na svetu."
 
