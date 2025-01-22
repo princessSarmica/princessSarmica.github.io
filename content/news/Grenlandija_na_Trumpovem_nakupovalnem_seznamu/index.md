@@ -10,13 +10,13 @@ categories = ["Politika"]
 tags = ["Donald Trump", "Grenlandija"]
 +++
 
+**47\. ameriški predsednik Donald Trump je s koncem prejšnjega leta razburil javnost, ko je razkril svoje načrte za širitev ameriškega ozemlja, med temi tudi nakup Grenlandije. Za njen doseg je pripravljen uporabiti tako gospodarske kot vojaške ukrepe. Otok je za Američane posebej pomemben zaradi svoje lege, bogatih naravnih virov in spremljanje ruskih vojaških aktivnosti. Trump kot glavni razlog navaja nacionalno varnost ZDA ter njeno globalno svobodo. Prebivalci Grenlandije nakupu nasprotujejo, sami pa si prizadevajo za popolno nacionalno avtonomijo.**
+
 <!-- more -->
 
 ---
 ![Trump bi rad kupil Grenlandijo.](slika1.png)\
 <small>Trump bi rad kupil Grenlandijo. | (Foto: [Breitbart](https://www.breitbart.com/politics/2024/12/23/pinkerton-trump-wants-to-make-greenland-great-again/))</small>
-
-**47\. ameriški predsednik Donald Trump je s koncem prejšnjega leta razburil javnost, ko je razkril svoje načrte za širitev ameriškega ozemlja, med temi tudi nakup Grenlandije. Za njen doseg je pripravljen uporabiti tako gospodarske kot vojaške ukrepe. Otok je za Američane posebej pomemben zaradi svoje lege, bogatih naravnih virov in spremljanje ruskih vojaških aktivnosti. Trump kot glavni razlog navaja nacionalno varnost ZDA ter njeno globalno svobodo. Prebivalci Grenlandije nakupu nasprotujejo, sami pa si prizadevajo za popolno nacionalno avtonomijo.**
 
 ---
 
