@@ -25,27 +25,27 @@ Adolescenca je ključna faza v življenju, v kateri se otroci spreminjajo tako f
 
 ### Pritisk zaradi šolskih obveznosti
 
-![](slika1.jpg)
-
 Otroci in najstniki se že od mlajših let soočajo s pritiski šolskega sistema. Stres zaradi izpitov, visokih pričakovanj in akademskih dosežkov lahko vpliva na njihovo duševno zdravje. Preobremenjenost z nalogami, pomanjkanje časa za prosti čas in zabavo ter občutek, da morajo biti vedno najboljši, so dejavniki, ki lahko vodijo do tesnobe in depresije.
+
+![](slika1.jpg)
 
 ### Vpliv družbenih omrežij
 
-![](slika2.jpg)
-
 Družbena omrežja so postala pomemben del vsakdanjega življenja otrok in najstnikov. Na teh platformah se mladostniki pogosto primerjajo z drugimi, kar lahko privede do občutkov manjvrednosti. Vpliv popolnih življenjskih slik na Instagramu, TikToku in drugih platformah je lahko zelo škodljiv za samopodobo mladih, kar povzroči stres, anksioznost in depresijo.
+
+![](slika2.jpg)
 
 ### Družinski in socialni pritiski
 
-![](slika3.jpg)
-
 Družina je eden ključnih dejavnikov v razvoju otroka. Toda težave v družinskem okolju, kot so razveze, zlorabe, pomanjkanje podpore ali slabi odnosi s starši, lahko povzročijo občutke osamljenosti, žalosti in stresa. Poleg tega so nekateri otroci in najstniki izpostavljeni socialnim pritiskom v svojih prijateljskih krogih, kar lahko privede do težav z identiteto in duševnega zdravja.
+
+![](slika3.jpg)
 
 ### Vpliv medijev in oglaševanja
 
-![](slika4.jpg)
-
 Mediji in oglaševanje otrokom pogosto ponujajo nerealne predstave o življenju, videzu in sreči. Otroci in najstniki se pogosto soočajo z občutkom, da morajo doseči določene standarde, ki jim jih predstavljajo televizija, reklame in spletni oglasi. To lahko vpliva na njihovo samopodobo in poveča tveganje za duševne težave, kot so tesnoba in depresija.
+
+![](slika4.jpg)
 
 ---
 
