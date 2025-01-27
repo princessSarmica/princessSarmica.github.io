@@ -17,7 +17,7 @@ tags = ["Arcane", "Netflix", "Fortiche", "League of Legends"]
 
 ---
 
-![Uspešnica studia Fortiche – Arcane](slika1.jpg)
+![Uspešnica studia Fortiche – Arcane](slika1.jpg)\
 <small>Uspešnica studia Fortiche – Arcane | Vir: Riot Games</small>  
 
 ---
@@ -26,7 +26,7 @@ tags = ["Arcane", "Netflix", "Fortiche", "League of Legends"]
 
 Mineva že četrto leto, odkar je prva sezona Netflixove serije Arcane doživela izjemen uspeh. Animirano serijo, ki jo je francoski animacijski studio Fortiche ustvaril v sodelovanju s podjetjem Riot in jo na Netflixu predstavil javnosti konec leta 2021, je novembra 2024 dopolnila druga sezona, s katero pa se zgodba zaključuje. Ustvarjalci so svoj navdih za serijo črpali iz računalniške igre League of Legends, ki jo je pred več kot petnajstimi leti izdalo podjetje Riot Games. Zgodba sledi sporom dveh nasprotujočih si fiktivnih mest Piltover in Zaun, glavni liki pa so zasnovani po likih iz računalniške igre League of Legends.
 
-![Utrinek iz zadnje sezone serije, ki je bil zaradi svoje lezbične narave izbrisan v določenih državah.](slika2.jpg)
+![Utrinek iz zadnje sezone serije, ki je bil zaradi svoje lezbične narave izbrisan v določenih državah.](slika2.jpg)\
 <small>Utrinek iz zadnje sezone serije, ki je bil zaradi svoje lezbične narave izbrisan v določenih državah. | Vir: Esports.gg</small>
 
 ---
