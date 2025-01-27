@@ -7,8 +7,8 @@ description="Kako prepoznati lažne novice"
 author = "Andreja Bratuša, Amanda Vogrin"
 
 [taxonomies]
-categories = ["Podnebne spremembe"]
-tags = ["Globalno segrevanje", "Pariški sporazum", "Onesnaževanje"]
+categories = ["Mediji in komunikacija"]
+tags = ["Lažne novice", "Manipulacija informacij", "Dezinformacije"]
 +++
 
 ![](slika1.svg)
