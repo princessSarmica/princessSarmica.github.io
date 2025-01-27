@@ -27,13 +27,13 @@ tags = ["Študentski domovi", "Najemnine", "Slovenija"]
 
 ## Podražitve študentskih domov v Mariboru so odvisne tudi od odgovornega ravnanja študentov
 
-Študentski domovi Univerze v Mariboru so s 1. januarjem 2025 uvedli nove cene stanarin in ostalih storitev. Povprečna subvencionirana stanarina se je tako iz 123,11 EUR zvišala na 141,92 EUR, kar pomeni 15,3-odstotno rast. V to ceno so še naprej vključeni vsi stroški bivanja, kot so poraba energije, vode in ogrevanja, ter dostop do obštudijskih dejavnosti, med drugim neomejena uporaba fitnesov, glasbenih sob in telovadnic. Po navedbah Študentskih domov UM, je podražitev posledica 67-odstotnega povečanja stroškov v zadnjih letih, medtem ko povišanje stanarin v tem obdobju znaša le 21 %. Direktor Študentskih domov Univerze v Mariboru, Borut Gaber, pojasnjuje, da so z višanjem cen odlašali, kolikor se je dalo: 
+Študentski domovi Univerze v Mariboru so s 1. januarjem 2025 uvedli nove cene stanarin in ostalih storitev. Povprečna subvencionirana stanarina se je tako s 123,11 EUR zvišala na 141,92 EUR, kar pomeni 15,3-odstotno rast. V to ceno so še naprej vključeni vsi stroški bivanja, kot so poraba energije, vode in ogrevanja, ter dostop do obštudijskih dejavnosti, med drugim neomejena uporaba fitnesov, glasbenih sob in telovadnic. Po navedbah Študentskih domov UM, je podražitev posledica 67-odstotnega povečanja stroškov v zadnjih letih, medtem ko povišanje stanarin v tem obdobju znaša le 21 %. Direktor Študentskih domov Univerze v Mariboru, **Borut Gaber**, pojasnjuje, da so z višanjem cen odlašali, kolikor se je dalo: 
 
-> ”*To razliko smo ves čas pokrivali iz rezerve, ki smo jo imeli v mislih za investicijsko-vzdrževalna dela.*”
+> ”*To razliko smo ves čas pokrivali z lastnimi sredstvi, tudi iz rezerv za izredna investicijsko-vzdrževalna dela.*”
 
-Ob tem zagotavljajo, da iščejo rešitve, ki bi najmanj obremenile študente in napovedujejo redno spremljanje stroškov ter prilagoditve v prihodnje. Pri tem pa opozarjajo tudi na odgovorno ravnanje stanovalcev: 
+Ob tem zagotavljajo, da iščejo rešitve, ki bi najmanj obremenile študente in napovedujejo nadaljnjo redno spremljanje stroškov ter prilagoditve v prihodnje. Pri tem pa opozarjajo tudi na odgovorno ravnanje stanovalcev: 
 
-> “*Največji strošek pri nas predstavljajo ravno energenti, torej elektrika in ogrevanje, to sta ključna dva stroška. Če bi vsak stanovalec dosledno ločeval odpadke, bi na letni ravni lahko privarčevali 70.000 €, to pa več ni takšen majhen denar. Če bi to razdelili na število ležišč, potem hitro vidimo, kakšen bi bil ta znesek pri posamezni stanarini.*”
+> “*Največji strošek pri nas predstavljajo energenti, torej elektrika in ogrevanje, ki imata največji delež med stroški. Če bi še vsak stanovalec dosledno ločeval odpadke, bi na letni ravni lahko privarčevali 70.000 €, to pa več ni tako majhen denar. Če bi to razdelili na število ležišč, potem hitro vidimo, kakšen bi bil ta znesek pri posamezni stanarini.*”
 
 ---
 
