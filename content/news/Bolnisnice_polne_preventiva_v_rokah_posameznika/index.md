@@ -38,7 +38,7 @@ Gripa, ena najpogostejših sezonskih nalezljivih bolezni, jo povzročata virusa 
 
 Cepljenje proti gripi je brezplačno za vse z urejenim zdravstvenim zavarovanjem in ga je mogoče opraviti pri osebnem zdravniku, v zdravstvenih domovih ali ambulantah NIJZ, ki se nahajajo v večjih mestih po Sloveniji. Cepljenje poteka od začetka oktobra, saj sezona gripe doseže vrhunec med decembrom in februarjem. Nacionalna koordinatorica za cepljenje dr. Marta Grgič Vitek iz NIJZ poudarja, da je cepljenje proti gripi še vedno smiselno, saj vrh obolevanja letos pričakujemo konec januarja in v začetku februarja. Po cepljenju telo potrebuje približno dva tedna, da razvije zaščito, zato strokovnjaki priporočajo, da se cepite čim prej, še preden gripa doseže svoj vrh. Cepljenje ne le ščiti posameznika pred težkim potekom bolezni, temveč tudi zmanjšuje širjenje gripe med bolj ranljive skupine, kot so dojenčki in starejši.
 
-Na [tej povezavi](https://nijz.si/nalezljive-bolezni/ambulante/) lahko preverite, delovni čas ambulanta v vašem kraju.
+Na [tej povezavi](https://nijz.si/nalezljive-bolezni/ambulante/) lahko preverite, delovni čas ambulante v vašem kraju.
 
 ![Cepljenje proti gripi ostaja ključni ukrep za zaščito pred hudim potekom bolezni.](slika2.jpg)\
 <small>Cepljenje proti gripi ostaja ključni ukrep za zaščito pred hudim potekom bolezni.︱FOTO: Ljubo Vukelič</small>
