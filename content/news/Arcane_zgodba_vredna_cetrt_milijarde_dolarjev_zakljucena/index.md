@@ -7,7 +7,7 @@ description="Kakšna je prihodnost Netflixove animirane serije, ki je obnorela s
 author = "Aja Cugmas"
 
 [taxonomies]
-categories = ["Animacija"]
+categories = ["Animacija", "Kultura in zabava"]
 tags = ["Arcane", "Netflix", "Fortiche", "League of Legends"]
 +++
 
@@ -18,7 +18,7 @@ tags = ["Arcane", "Netflix", "Fortiche", "League of Legends"]
 ---
 
 ![Uspešnica studia Fortiche – Arcane](slika1.jpg)
-<small>Vir: Riot Games</small>  
+<small>Uspešnica studia Fortiche – Arcane | Vir: Riot Games</small>  
 
 ---
 
