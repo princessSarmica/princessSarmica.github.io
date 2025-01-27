@@ -74,3 +74,4 @@ Kljub vsakršnim izzivom, ki jim pridejo nasproti, pa študentje niso popolnoma 
 
 *Za pogovor s strokovnjaki lahko pokličete **Klic v duševni stiski** na številko **01 520 99 00**, **Zaupna telefona Samarijan in Sopotnik** na številko **116 123**, **Društvo SOS telefon za ženske in otroke žrtve nasilja** na številko **080 11 55** ali **TOM telefon za otroke in mladostnike** na številko **116 111**.*
 
+{{ youtube(id="8wdTYWCaokU") }}
