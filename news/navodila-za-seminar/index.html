@@ -1,0 +1,727 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Mačje novice | Navodila za seminar pri predmetu Praktikum: Pisanje za elektronske medije
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body class="has-background-white">
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">Mačje novice</a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;news">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Navodila za seminar pri predmetu Praktikum: Pisanje za elektronske medije
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      princessSarmica
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-15">
+      15. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>4 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>745 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/seminar/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Seminar</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/ppem/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>PPEM</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/navodila/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Navodila</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/trpljenje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Trpljenje</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <h1 id="navodila-za-pripravo-vsebine-za-objavo-na-spletni-strani-praktikum-pisanje-za-elektronske-medije">Navodila za pripravo vsebine za objavo na spletni strani – Praktikum: Pisanje za elektronske medije</h1>
+<p>Dragi sošolci,</p>
+<p>Kakorkoli se bo sledeč stavek glupo slišal, upam, da še niste preveč delali na seminarju, saj bi vam rad podal nekaj smernic za poenostavitev priprave vsebine in objavo na spletni strani (upam, da nisem too late 😥).</p>
+<h1 id="kaj-je-treba-pripraviti">Kaj je treba pripraviti?</h1>
+<h2 id="1-besedilo">1. <strong>Besedilo</strong></h2>
+<ul>
+<li>Pripravite besedilno vsebino (približno 1000 besed) v formatu Word ali drugem tekstovnem formatu (npr. <code>.docx</code>, <code>.txt</code>, ali <code>.odt</code>).</li>
+<li>V dokument lahko vključite tudi opombe, kje želite dodati multimedijske elemente, kot so slike, videi, grafi itd.</li>
+</ul>
+<h2 id="2-slike">2. <strong>Slike</strong></h2>
+<ul>
+<li>Pošljite slike ločeno od besedilnega dokumenta (npr. v formatu <code>.jpg</code> ali <code>.png</code>).</li>
+<li>Kak so slike poimenovane ni pomembno.</li>
+<li>Če boste imeli več slik je tudi možno oblikovanje v obliki fotogalerije</li>
+</ul>
+<div class="galleria mb-6" style="height: 450px">{
+  "images": [
+    {
+      "src": "slika1.png",
+      "title": "Lazanja 1",
+      "description": "Njam."
+    },
+    {
+      "src": "slika2.png",
+      "title": "Lazanja 2",
+      "description": "Njam."
+    },
+    {
+      "src": "slika3.png",
+      "title": "Lazanja 3",
+      "description": "Njam."
+    },
+    {
+      "src": "slika4.png",
+      "title": "Lazanja 4",
+      "description": "Njam."
+    }
+  ]
+}</div><h2 id="3-video-vsebine">3. <strong>Video vsebine</strong></h2>
+<ul>
+<li>Najlažje je, če video naložite na YouTube in mi pošljete povezavo. YouTube link lahko vključite neposredno v besedilni dokument, kamor želite, da ga umestim.</li>
+</ul>
+<div class="youtube is-flex is-justify-content-center is-align-items-center">
+    <iframe
+        width="848" height="510"
+        src="https://www.youtube.com/embed/KESyoPHt2kw"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div><h2 id="4-grafikoni-in-infografike">4. <strong>Grafikoni in infografike</strong></h2>
+<ul>
+<li>Če želite vključiti grafikone, lahko podatke pripravite v Excelu, Wordu, ali čem podobnem in jih priložite. Če bi bilo možno, bi bil vesel, če mogoče grafikon izrišete, da dobim idejo, kako bi naj izgledal (da nebi npr. moral izgledati graf kot kvadratna funkcija, jaz bi pa na strani izrisal korensko funkcijo).</li>
+<li>Prav tako bi rad omenil, da bodo grafikoni na spletni strani avtomatsko lahko že interaktivni</li>
+</ul>
+<p>V nadaljevanju sledi prikaz nekaj možnih interaktivnih grafikonov.</p>
+<p><strong>Toti grafikon:</strong></p>
+<svg class="chart">{
+"type": "Line",
+"title": "Učenje povprečnega študneta",
+"xLabel": "x",
+"yLabel": "y",
+"data": {
+    "labels": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+    "datasets": [
+    {
+        "label": "Razmišljanje o učenju",
+        "data": [30, 70, 200, 300, 500, 800, 1500, 2900, 5000, 8000]
+    },
+    {
+        "label": "Dejansko učenje",
+        "data": [0, 1, 30, 70, 80, 100, 50, 80, 40, 150]
+    }
+    ]
+}
+}</svg>
+<p><strong>Toti drugi grafikon:</strong></p>
+<svg class="chart">{
+  "type": "XY",
+  "title": "Pokemon farme",
+  "xLabel": "Koordinacija",
+  "yLabel": "Količina",
+  "data": {
+    "datasets": [
+      {
+        "label": "Pikachu",
+        "data": [
+          {
+            "x": 3,
+            "y": 10
+          },
+          {
+            "x": 4,
+            "y": 122
+          },
+          {
+            "x": 10,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "label": "Squirtle",
+        "data": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "label": "Charizard",
+        "data": [
+          {
+            "x": 2,
+            "y": 5
+          },
+          {
+            "x": 6,
+            "y": 8
+          }
+        ]
+      }
+    ]
+  },
+  "options": {
+    "xTickCount": 5,
+    "yTickCount": 5,
+    "showLine": false,
+    "dotSize": 1
+  }
+}</svg>
+<p><strong>Ta ta tretji grafikon:</strong></p>
+<svg class="chart">{
+  "type": "Bar",
+  "title": "Kako zapravin mesečno štipendijo",
+  "xLabel": "Hudiči zapravljanja",
+  "yLabel": "Denar (EUR)",
+  "data": {
+    "labels": ["študentski boni", "Pijača", "Muller"],
+    "datasets": [
+      {
+        "data": [30, 45, 100]
+      }
+    ]
+  },
+  "options": {
+    "yTickCount": 2,
+    "dataColors": ["Red", "Green", "Blue"]
+  }
+}</svg>
+<p><strong>Še en grafikon</strong></p>
+<svg class="chart">{
+  "type": "StackedBar",
+  "title": "Sadje, ki ga prodajajo branjevke",
+  "xLabel": "Branjevke",
+  "yLabel": "Število sadja",
+  "data": {
+    "labels": ["Lojzka", "Petra", "Bukev", "Sara", "Balbina"],
+    "datasets": [
+      {
+        "label": "Jabolka",
+        "data": [12, 19, 11, 29, 17]
+      },
+      {
+        "label": "Slive",
+        "data": [3, 5, 2, 4, 1]
+      },
+      {
+        "label": "Banane",
+        "data": [2, 3, 0, 1, 1]
+      }
+    ]
+  }
+}</svg>
+<p><strong>Tortnii (yey za tega celo ven ime):</strong></p>
+<svg class="chart">{
+  "type": "Pie",
+  "title": "Priljubljenost tort med študenti",
+  "data": {
+    "labels": ["jagodna torta", "borovnična torta", "biskvit", "pinki torta", "pistacija myb?"],
+    "datasets": [
+      {
+        "data": [500, 200, 80, 90, 100]
+      }
+    ]
+  }
+}</svg>
+<p><strong>Ka da f je to??! To sploh kdo uporabla??</strong></p>
+<svg class="chart">{
+  "type": "Radar",
+  "title": "???",
+  "data": {
+    "labels": ["c", "h", "a", "r", "t"],
+    "datasets": [
+      {
+        "label": "???",
+        "data": [2, 1, 1, 3, 1]
+      },
+      {
+        "label": "???",
+        "data": [1, 2, 2, 1, 1]
+      }
+    ]
+  },
+  "options": {
+    "showLegend": true,
+    "showLabels": true
+  }
+}</svg>
+<h2 id="5-dodatni-vecpredstavnostni-elementi">5. <strong>Dodatni večpredstavnostni elementi</strong></h2>
+<ul>
+<li>Možno je tudi vključiti zemljevide, zvočne posnetke ali druge interaktivne elemente.</li>
+</ul>
+<h1 id="predlog-za-cim-bolj-preprosto-pripravo">Predlog za čim bolj preprosto pripravo</h1>
+<ul>
+<li>Najpomembnejše je, da vsebino pripravite v čim bolj osnovni obliki. Poskrbeli bomo za prilagoditve in tehnično urejanje na spletni strani.</li>
+<li>Če imate kakšno vprašanje, se lahko obrnete name 🐱</li>
+</ul>
+<h1 id="zakljucek">Zaključek</h1>
+<p>Skupaj lahko poskrbimo, da bodo vaše vsebine odlično izpadle na spletni strani. Ne pozabite, da je ključ do uspeha dobro pripravljeno besedilo in osnovni vizualni elementi – za vse drugo bomo poskrbeli med samim urejanjem. (To je rekel ChatGPT, ne jaz)</p>
+<p>Za samo vsebino, ki jo boste pripravili bi mogoče zaprosil edino še, da mi podate tudi nekaj naslovov za kategorije in tagge, po katerih je vaš članek zaznamovan (npr. kategorija Kulinarika, Zdrava prehrana; taggi: Lazanja, Garfiled, Fat Cat).</p>
+<p>Also...pri temni temi sem opazil, da znajo slike in video posnetki dobiti čudno formo spektra barv, taka toti bug še morem odpravit.</p>
+<p>Prispevke in vsebino oddajte v skupno mapo, pri čemer naj vsak par ustvari svojo podmapo, kamor bo shranil svoje gradivo. Povezava do skupne mape je na voljo v naši Messenger/Discord skupini.
+Hvala vnaprej za sodelovanje in se veselim vaših prispevkov! 😊</p>
+<p>LPP in lep pozdrav,
+princessSarmica</p>
+
+          </div>
+        </article>
+      </div>
+      
+      <div class="column is-2 is-hidden-mobile">
+        <aside class="menu" style="position: sticky; top: 48px">
+          <p class="heading has-text-weight-bold">Vsebina</p>
+          <ul class="menu-list">
+            
+            <li>
+              <a id="link-navodila-za-pripravo-vsebine-za-objavo-na-spletni-strani-praktikum-pisanje-za-elektronske-medije" class="toc is-size-7 is-active"
+                href="https://princesssarmica.github.io/news/navodila-za-seminar/#navodila-za-pripravo-vsebine-za-objavo-na-spletni-strani-praktikum-pisanje-za-elektronske-medije">
+                Navodila za pripravo vsebine za objavo na spletni strani – Praktikum: Pisanje za elektronske medije
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-kaj-je-treba-pripraviti" class="toc is-size-7 "
+                href="https://princesssarmica.github.io/news/navodila-za-seminar/#kaj-je-treba-pripraviti">
+                Kaj je treba pripraviti?
+              </a>
+              
+              <ul>
+                
+                <li>
+                  <a id="link-1-besedilo" class="toc is-size-7" href="https://princesssarmica.github.io/news/navodila-za-seminar/#1-besedilo">
+                    1. Besedilo
+                  </a>
+                </li>
+                
+                <li>
+                  <a id="link-2-slike" class="toc is-size-7" href="https://princesssarmica.github.io/news/navodila-za-seminar/#2-slike">
+                    2. Slike
+                  </a>
+                </li>
+                
+                <li>
+                  <a id="link-3-video-vsebine" class="toc is-size-7" href="https://princesssarmica.github.io/news/navodila-za-seminar/#3-video-vsebine">
+                    3. Video vsebine
+                  </a>
+                </li>
+                
+                <li>
+                  <a id="link-4-grafikoni-in-infografike" class="toc is-size-7" href="https://princesssarmica.github.io/news/navodila-za-seminar/#4-grafikoni-in-infografike">
+                    4. Grafikoni in infografike
+                  </a>
+                </li>
+                
+                <li>
+                  <a id="link-5-dodatni-vecpredstavnostni-elementi" class="toc is-size-7" href="https://princesssarmica.github.io/news/navodila-za-seminar/#5-dodatni-vecpredstavnostni-elementi">
+                    5. Dodatni večpredstavnostni elementi
+                  </a>
+                </li>
+                
+              </ul>
+              
+            </li>
+            
+            <li>
+              <a id="link-predlog-za-cim-bolj-preprosto-pripravo" class="toc is-size-7 "
+                href="https://princesssarmica.github.io/news/navodila-za-seminar/#predlog-za-cim-bolj-preprosto-pripravo">
+                Predlog za čim bolj preprosto pripravo
+              </a>
+              
+            </li>
+            
+            <li>
+              <a id="link-zakljucek" class="toc is-size-7 "
+                href="https://princesssarmica.github.io/news/navodila-za-seminar/#zakljucek">
+                Zaključek
+              </a>
+              
+            </li>
+            
+          </ul>
+        </aside>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px" />
+</figure>    
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level-item has-text-centered">
+            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;news&#x2F;pozari-ki-sirijo-zarote&#x2F;">
+              <span class="icon mr-2">
+                <i class="fas fa-arrow-circle-left"></i>
+              </span>
+              Požari, ki širijo zarote
+            </a>
+          </div>
+           
+          <div class="level-item has-text-centered">
+            <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;news&#x2F;antisemitski-grafiti-oskrunili-mariborsko-sinagogo&#x2F;">
+              Antisemitski grafiti oskrunili mariborsko sinagogo<span class="icon ml-2">
+                <i class="fas fa-arrow-circle-right"></i>
+              </span>
+            </a>
+          </div>
+          
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+<script type="text/javascript">
+  const menuBarHeight = document.querySelector("nav.navbar").clientHeight;
+  const tocItems = document.querySelectorAll(".toc");
+  const navSections = new Array(tocItems.length);
+
+  tocItems.forEach((el, i) => {
+    let id = el.getAttribute("id").substring(5);
+    navSections[i] = document.getElementById(id);
+  })
+
+  function isVisible(tocIndex) {
+    const current = navSections[tocIndex];
+    const next = tocIndex < tocItems.length - 1 ? navSections[tocIndex + 1]
+      : document.querySelectorAll("section.section").item(1);
+
+    const c = current.getBoundingClientRect();
+    const n = next.getBoundingClientRect();
+    const h = (window.innerHeight || document.documentElement.clientHeight);
+
+    return (c.top <= h) && (n.top - menuBarHeight >= 0);
+  }
+
+  function activateIfVisible() {
+    for (b = true, i = 0; i < tocItems.length; i++) {
+      if (b && isVisible(i)) {
+        tocItems[i].classList.add('is-active');
+        b = false;
+      } else
+        tocItems[i].classList.remove('is-active');
+    }
+  }
+
+  var isTicking = null;
+  window.addEventListener('scroll', () => {
+    if (!isTicking) {
+      window.requestAnimationFrame(() => {
+        activateIfVisible();
+        isTicking = false;
+      });
+      isTicking = true;
+    }
+  }, false);
+</script>
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+
