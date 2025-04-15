@@ -2,7 +2,7 @@
 base_url = "https://princesssarmica.github.io/"
 
 # Website Title
-title = "Mačje novice"
+title = "Medijska predilnica"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
