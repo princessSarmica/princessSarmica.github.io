@@ -1,5 +1,5 @@
 +++
-title = "Medijska predilnica"
+title = "Mačje novice"
 sort_by = "date"
 paginate_by = 5
 +++  

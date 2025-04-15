@@ -1,5 +1,5 @@
 +++
-title = "Mačje novice"
+title = "Medijska predilnica"
 description = "Kjer študentje predejo svoje zgodbe"
 +++
 
