@@ -116,22 +116,22 @@
           </div>
           {% endif %} 
           <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
-            {% if page.higher %}
+            {% if page.lower %}
             <div class="level-item has-text-centered">
-              <a class="button is-black is-outlined" href="{{ page.higher.permalink }}">
+              <a class="button is-black is-outlined" href="{{ page.lower.permalink }}">
                 <span class="icon mr-2">
                   <i class="fas fa-arrow-circle-left"></i>
                 </span>
                 <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-                  {{ page.higher.title }}
+                  {{ page.lower.title }}
                 </span>
               </a>
             </div>
-            {% endif %} {% if page.lower %}
+            {% endif %} {% if page.higher %}
             <div class="level-item has-text-centered">
-              <a class="button is-black is-outlined" href="{{ page.lower.permalink }}">
+              <a class="button is-black is-outlined" href="{{ page.higher.permalink }}">
                 <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-                  {{ page.lower.title }}
+                  {{ page.higher.title }}
                 </span>
                 <span class="icon ml-2">
                   <i class="fas fa-arrow-circle-right"></i>
