@@ -29,7 +29,7 @@ Evropska prestolnica kulture GO! 2025 bo združila mesti Nova Gorica in Gorica v
 
 ---
 
-<iframe src="https://www.google.com/maps/embed?pb=!4v1737476549793!6m8!1m7!1s0ZXNnZ8-0xqZt0vMIq1NeA!2m2!1d45.95530366053605!2d13.63507772160043!3f268.37018!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+<iframe src="https://www.google.com/maps/embed?pb=!4v1737476549793!6m8!1m7!1s0ZXNnZ8-0xqZt0vMIq1NeA!2m2!1d45.95530366053605!2d13.63507772160043!3f268.37018!4f0!5f0.7820865974627469" width="100%" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
 <small>Street view osrednje lokacije | Vir: Google</small>
 
 ---
