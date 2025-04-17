@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Medijska predilnica - slovensko zdravstvo</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/categories/slovensko-zdravstvo/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-26T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/categories/slovensko-zdravstvo/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Študenti v belem: mladi, ki pišejo prihodnost zdravstva</title>
+        <published>2025-01-26T00:00:00+00:00</published>
+        <updated>2025-01-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/seminarji/studenti-v-belem-mladi-ki-pisejo-prihodnost-zdravstva/"/>
+        <id>https://princesssarmica.github.io/seminarji/studenti-v-belem-mladi-ki-pisejo-prihodnost-zdravstva/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Slovensko zdravstvo že dlje časa deluje pod velikim pritiskom zaradi dolgotrajnih čakalnih dob, pomanjkanja kadrov in vse večjih potreb starajoče se populacije. Kljub tem težavam so študenti medicine z inovativnimi projekti in praktično pomočjo ključen dejavnik izboljšanja stanja. S svojo energijo in znanjem ne razbremenjujejo le zdravstvenega osebja, temveč z raznimi projekti tudi pomembno prispevajo k ozaveščanju javnosti in reševanju življenj. Eden izmed takih je tudi projekt Slovenija oživlja, ki se osredotoča na temeljne postopke oživljanja.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

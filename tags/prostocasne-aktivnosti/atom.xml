@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Medijska predilnica - Prostočasne aktivnosti</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/tags/prostocasne-aktivnosti/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-26T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/tags/prostocasne-aktivnosti/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Ustvarjalnost kot veščina, ki je dostopna vsem</title>
+        <published>2025-01-26T00:00:00+00:00</published>
+        <updated>2025-01-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/seminarji/ustvarjalnost-kot-vescina-ki-je-dostopna-vsem/"/>
+        <id>https://princesssarmica.github.io/seminarji/ustvarjalnost-kot-vescina-ki-je-dostopna-vsem/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Kreativnost pogosto povezujemo z umetniškimi talenti in nadarjenostjo, vendar je v resnici veščina, ki jo lahko razvijamo vsi. V Mariboru med odrasle kreativnost širi, ki redno izvaja ustvarjalne delavnice, ki redno izvaja ustvarjalne delavnice pod imenom Creative Tea Breaks.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>
