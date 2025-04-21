@@ -192,14 +192,16 @@ function documentReadyCallback() {
     }
   })
 
-  document.getElementById("nav-search").addEventListener("click", (evt) => {
-    //let target = evt.currentTarget.getAttribute("data-target");
+  function openSearchModal() {
     document.querySelector("html").classList.add("is-clipped");
     document.getElementById("search-modal").classList.add("is-active");
-
+  
     document.getElementById("search").focus();
     document.getElementById("search").select();
-  });
+  }
+  
+  document.getElementById("nav-search").addEventListener("click", openSearchModal);
+  document.getElementById("nav-search-mobile").addEventListener("click", openSearchModal);
 
   document.querySelector(".modal-close").addEventListener("click", (evt) => {
     document.querySelector("html").classList.remove("is-clipped");
@@ -215,26 +217,30 @@ function documentReadyCallback() {
     search();
   });
 
-  document.getElementById("dark-mode").addEventListener("click", () => {
-    if (
-      localStorage.getItem("theme") == null ||
-      localStorage.getItem("theme") == "light"
-    ) {
+  function toggleDarkMode() {
+    const currentTheme = localStorage.getItem("theme");
+  
+    if (currentTheme == null || currentTheme === "light") {
       localStorage.setItem("theme", "dark");
       document.body.setAttribute("theme", "dark");
       document.querySelectorAll("img, picture, video, pre").forEach(img => img.setAttribute("theme", "dark"));
       document.querySelectorAll(".vimeo, .youtube, .chart").forEach(video => video.setAttribute("theme", "dark"));
-
+  
       document.getElementById("dark-mode").setAttribute("title", "Switch to light theme");
+      document.getElementById("dark-mode-mobile").setAttribute("title", "Switch to light theme");
     } else {
       localStorage.setItem("theme", "light");
       document.body.removeAttribute("theme", "dark");
-      document.querySelectorAll("img, picture, video, pre").forEach(img => img.removeAttribute("theme", "dark"))
+      document.querySelectorAll("img, picture, video, pre").forEach(img => img.removeAttribute("theme", "dark"));
       document.querySelectorAll(".vimeo, .youtube, .chart").forEach(video => video.removeAttribute("theme", "dark"));
-
+  
       document.getElementById("dark-mode").setAttribute("title", "Switch to dark theme");
+      document.getElementById("dark-mode-mobile").setAttribute("title", "Switch to dark theme");
     }
-  });
+  }
+  
+  document.getElementById("dark-mode").addEventListener("click", toggleDarkMode);
+  document.getElementById("dark-mode-mobile").addEventListener("click", toggleDarkMode);  
 
   if (typeof mermaid !== "undefined") {
     mermaid.initialize({ startOnLoad: true });

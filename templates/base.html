@@ -76,13 +76,29 @@
   <nav aria-label="section navigation" class="navbar is-light" role="navigation">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item is-size-5 has-text-weight-bold" href="{{config.base_url}}">{{ config.title }}</a>
         <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="{{config.base_url}}">
+          <img src="{{config.extra.author.avatar}}" class="mr-2" style="height: 1.5rem;">
+          {{ config.title }}
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
       </div>
+      
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-end has-text-centered">
           {% for item in config.extra.navbar_items %}
@@ -94,12 +110,12 @@
           {% endfor %}
           {% endif %}
           {% endfor %}
-          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
             <span class="icon">
               <i class="fas fa-search"></i>
             </span>
-          </a>
-          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
             <span class="icon">
               <i class="fas fa-adjust"></i>
             </span>
@@ -126,7 +142,7 @@
       <section class="modal-card-body">
         <div class="field mb-2">
           <div class="control">
-            <input class="input" id="search" placeholder="Vnesite iskalni niz." type="search" />
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
           </div>
         </div>
         <div class="search-results">
@@ -150,12 +166,6 @@
           </span>
           Nazaj
         </a>
-        <a class="pagination-next" href='{{ paginator.next }}' {% if not paginator.next %}disabled{% endif %}>
-          Naprej
-          <span class="icon">
-            <i class="fas fa-angle-double-right"></i>
-          </span>
-        </a>
         <ul class="pagination-list">
           {% for pager in range(start=1, end=paginator.number_pagers+1) %}
           <li>
@@ -165,6 +175,12 @@
           </li>
           {% endfor %}
         </ul>
+        <a class="pagination-next" href='{{ paginator.next }}' {% if not paginator.next %}disabled{% endif %}>
+          Naprej
+          <span class="icon">
+            <i class="fas fa-angle-double-right"></i>
+          </span>
+        </a>
       </nav>
     </div>
   </section>
