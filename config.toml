@@ -39,7 +39,7 @@ navbar_items = [
  { code = "en", nav_items = [
   { url = "$BASE_URL/", name = "Domov" },
   { url = "$BASE_URL/seminarji", name = "Seminarji" },
-  { url = "$BASE_URL/news", name = "Novice" },
+  { url = "$BASE_URL/novice", name = "Novice" },
   { url = "$BASE_URL/radio", name = "Radio" },
   { url = "$BASE_URL/tags", name = "Etikete" },
   { url = "$BASE_URL/categories", name = "Kategorije" },
