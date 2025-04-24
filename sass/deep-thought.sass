@@ -16,25 +16,8 @@ body
     flex-direction: column
     min-height: 100vh
 
-
-body[theme="dark"]
-    filter: invert(1) hue-rotate(180deg)
-
-body[theme="dark"] iframe
-    filter: invert(1) hue-rotate(180deg)
-
-body[theme="dark"] .galleria-image img
-  filter: invert(1) hue-rotate(180deg)
-
 section
     flex: 1
-
-
-img[theme="dark"],
-picture[theme="dark"],
-video[theme="dark"],
-pre[theme="dark"]
-    filter: invert(1) hue-rotate(180deg)
 
 @import "utilities/_all"
 @import "base/_all"
@@ -44,3 +27,144 @@ pre[theme="dark"]
 @import "grid/_all"
 @import "helpers/_all"
 @import "layout/_all"
+
+html[theme="dark"]
+  body
+    background-color: #000000 !important
+    color: #e0e0e0 !important
+
+  h1, h2, h3, h4, h5, h6
+    color: #c9c9c9 !important
+
+  .navbar
+    background-color: #0a0a0a !important
+    color: #bababa !important
+
+  .navbar-item
+    color: #bababa !important
+
+  .navbar-item:hover,
+  .navbar-item.is-active
+    background-color: #171717 !important
+    color: #ffffff !important
+
+  .footer
+    background-color: #050505 !important
+    color: #b5b5b5 !important
+
+  .box, .card, .modal-card
+    background-color: #1e1e1e !important
+    color: #f0f0f0 !important
+
+  .card-title, .content h1
+    color: #e3e3e3 !important
+
+  code, pre
+    background-color: #2c2c2c !important
+    color: #d0d0d0 !important
+
+  .input, .textarea
+    background-color: #2a2a2a !important
+    color: #ffffff !important
+    border-color: #444 !important
+
+  .pagination-link, .button
+    background-color: #333 !important
+    color: #fff !important
+    border-color: #444 !important
+
+  p
+    color: #b5b5b5 !important
+
+  .button.is-black.is-outlined
+    background-color: transparent !important
+    color: #bababa !important
+    border-color: #444 !important
+    transition: background-color 0.2s ease, color 0.2s ease
+
+    &:hover
+      background-color: #171717 !important
+      color: #f5f5f5 !important
+      border-color: #555 !important
+
+  .pagination-link.is-current
+    background-color: #171717 !important
+    color: #f5f5f5 !important
+    border-color: #444 !important
+
+  .content
+    color: #c9c9c9 !important
+
+  .navbar-menu.is-active
+    background-color: #0a0a0a !important
+
+  .navbar-menu.is-active .navbar-item
+    color: #bababa !important
+
+    &:hover
+      background-color: #171717 !important
+      color: #f5f5f5 !important
+
+  .navbar-burger
+    span
+      background-color: #bababa !important
+
+    &.is-active span
+      background-color: #bababa !important
+
+  article.box
+    h2.title
+      a
+        color: #e3e3e3 !important
+
+    p.subtitle
+      color: #b5b5b5 !important
+
+    .content
+      color: #c9c9c9 !important
+
+      p, span, div, li, strong, em
+        color: #c9c9c9 !important
+
+  hr
+    background-color: #2a2a2a !important
+    height: 1px
+    border: none
+
+  blockquote
+    background-color: #1a1a1a !important
+    border-left: 4px solid #444 !important
+    padding: 1.25em 1.5em
+    color: #c9c9c9 !important
+
+  .pagination-previous,
+  .pagination-next
+    background-color: #171717 !important
+    color: #f5f5f5 !important
+    border: 1px solid #444 !important
+    transition: background-color 0.2s ease, color 0.2s ease
+
+    &:hover
+      background-color: #2a2a2a !important
+      color: #ffffff !important
+      border-color: #555 !important
+
+  .pagination-link
+    background-color: transparent !important
+    color: #bababa !important
+    border: 1px solid #444 !important
+    transition: background-color 0.2s ease, color 0.2s ease
+
+    &:hover
+      background-color: #171717 !important
+      color: #f5f5f5 !important
+      border-color: #555 !important
+
+  .pagination-link.is-current
+    background-color: #171717 !important
+    color: #f5f5f5 !important
+    border-color: #444 !important
+
+
+body
+  transition: background-color 0.5s ease, color 0.3s ease

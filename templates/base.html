@@ -10,6 +10,15 @@
   <meta content="#ffffff" name="theme-color" />
   <meta content="#da532c" name="msapplication-TileColor" />
 
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
   {% if config.extra.favicon.webmanifest %}
   <link href='{{ config.extra.favicon.webmanifest }}' rel="manifest" />
   {% endif %}
@@ -71,7 +80,7 @@
   {% endif %}
 </head>
 
-<body class="has-background-white">
+<body>
   {% block navbar %}
   <nav aria-label="section navigation" class="navbar is-light" role="navigation">
     <div class="container">
