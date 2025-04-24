@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Medijska predilnica - Grammyji</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/tags/grammyji/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-22T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/tags/grammyji/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Je oskar še pomemben, ko izgubiš dom?</title>
+        <published>2025-01-22T00:00:00+00:00</published>
+        <updated>2025-01-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/novice/je-oskar-se-pomemben-ko-izgubis-dom/"/>
+        <id>https://princesssarmica.github.io/novice/je-oskar-se-pomemben-ko-izgubis-dom/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Že od prvih dni novega leta se gasilci borijo s požari, ki divjajo po zvezdniškem Los Angelesu. Številne produkcije, premiere in podelitve nagrad so že prestavljene, le glasbeni grammyji zaenkrat potekajo po prvotnem načrtu. Ob tem pa se postavlja vprašanje, kako zares smiselne so podelitve v takšnih trenutkih.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

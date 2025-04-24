@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Nenavadni muzeji Zagreba, ki privabljajo turiste
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Nenavadni muzeji Zagreba, ki privabljajo turiste
+          </h1>
+          <p class="subtitle">Uspešne zgodbe odštekanih muzejev prestolnice sosedov</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Jasna Bahovec
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-22">
+      22. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>6 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>1025 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/potovanja/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Potovanja</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/zagreb/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Zagreb</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/muzeji/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Muzeji</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/turizem/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Turizem</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Zagreb je mesto, za katerega kljub nepreverjenim podatkom, pogosto pravijo, da ima največje število muzejev na prebivalca na svetu. Ne glede na to, ali ta trditev drži ali ne, pa se Zagreb ponaša z enimi izmed najbolj nenavadnih muzejev. Od Muzeja prekinjenih ljubezni, ki je postal svetovna ikona, do prvega muzeja smeha HaHaHouse, so zagrebški muzeji postali ena največjih turističnih atrakcij mesta. Dodatno pozornost v zadnjih letih pa so pridobili še zaradi prenove večine javnih muzejev, poškodovanih v potresu leta 2020.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/slika1.jpg" alt="Nenavadni predmeti, ki govorijo zgodbe o propadlih razmerjih." /><br />
+<small>Nenavadni predmeti, ki govorijo zgodbe o propadlih razmerjih.︱FOTO: Paul Prescott</small></p>
+<hr />
+<h2 id="muzej-prekinjenih-ljubezni-od-propadlega-razmerja-do-globalne-ikone">Muzej prekinjenih ljubezni: od propadlega razmerja do globalne ikone</h2>
+<p>Najbolj prepoznaven je nedvomno <a href="https://brokenships.com/"><strong>Muzej prekinjenih ljubezni</strong></a>. Razpadla zveza ustanoviteljev - umetnikov Olinke Vištice in Dražena Grubišića, oziroma njuni skupni predmeti, so bili povod za idejo o potujoči razstavi zgodb in predmetov propadlih razmerij. Leta 2010 je razstava svojo stalno mesto našla v Zagrebu. Muzej, ki ga pogosto uvrščajo med najbolj nenavadne in edinstvene muzeje v Evropi in po svetu, je s svojo izvirnostjo in univerzalno tematiko postal globalna ikona. Njegov uspeh je spodbudil nastanek drugih inovativnih muzejev, lani pa so odprli tudi podružnico v Chiang Maiu na Tajskem.</p>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/slika2.jpg" alt="V Muzeju čokolade Zagreb se lahko preizkusite v mletju kakavovih zrn." /><br />
+<small>V Muzeju čokolade Zagreb se lahko preizkusite v mletju kakavovih zrn.︱FOTO: Muzej čokolade Zagreb</small></p>
+<h2 id="ena-izmed-10-najboljsih-turisticnih-aktivnosti-je-obisk-muzeja-cokolade">Ena izmed 10 % najboljših turističnih aktivnosti je obisk Muzeja čokolade</h2>
+<p><a href="https://muzejcokolade.hr/ulaznice/"><strong>Muzej čokolade Zagreb</strong></a> se je leta 2024 uvrstil med najboljše 10 % turističnih aktivnosti na svetu in prejel nagrado Traveller’s Choice, ki jo podeljuje TripAdvisor. Nagrada je rezultat ocen obiskovalcev, ki jih je muzej navdušil z edinstveno kombinacijo zabave, izobraževanja in sladkih doživetij. Obiskovalci lahko spoznajo zgodovino čokolade, poskusijo devet vrst čokolade iz degustacijske škatle in se celo preizkusijo v mletju kakavovih zrn. Muzej vključuje tudi trgovino, kjer lahko kupite čokoladne praline lokalnih in mednarodnih proizvajalcev.</p>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/slika3.jpg" alt="Soba iluzije preizkuša vašo logiko." /><br />
+<small>Soba iluzije preizkuša vašo logiko.︱FOTO: Muzej iluzij Zagreb</small></p>
+<h2 id="prvi-muzej-iluzij-v-verigi">Prvi Muzej iluzij v verigi</h2>
+<p><strong>Muzeji iluzij</strong> so postali svetovna atrakcija, ki v svoje prostore pritegnejo več kot 15 milijonov obiskovalcev letno. Ta največja in najhitreje rastoča veriga zasebnih muzejev na svetu, ki šteje že več kot 50 lokacij po vsem svetu, je svoje prvo lokacijo odprla prav v Zagrebu. <a href="https://muzejiluzija.com/naslovna/"><strong>Muzej iluzij Zagreb</strong></a> je vizualna, senzorična in izobraževalna izkušnja, zasnovana tako, da spremeni vaš pogled na svet skozi znanost, ki stoji za optičnimi iluzijami.</p>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/slika4.jpg" alt="Kravate so najprej nosili hrvaški vojaki." /><br />
+<small>Kravate so najprej nosili hrvaški vojaki.︱FOTO: Cravaticum</small></p>
+<h2 id="ko-vojni-sal-postane-modni-dodatek">Ko vojni šal postane modni dodatek</h2>
+<p>Le redko kdo ve, da kravata izhaja iz Hrvaške. Prav to je bil povod, da od lani lahko v Zagrebu obiščemo <a href="https://cravaticum.com/english/"><strong>Muzej Cravaticum</strong></a>, posvečen samo kravatam. Kravata, ki je svoje ime dobila po šalih hrvaških vojakov v francoski vojski, je danes prepoznaven svetovni simbol. Obiskovalci lahko v muzeju odkrijejo, kako se je kravata razvijala skozi čas, od vojnih obdobij do sodobnih različic. Muzej ponuja vpogled v kar 177.147 načinov zavezovanja kravate – vsak z lastnim pomenom in stilom.</p>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/slika5.png" alt="HaHaHouse je odprtje razglasil tudi preko svojega Instagram profila." /><br />
+<small>HaHaHouse je odprtje razglasil tudi preko svojega Instagram profila.︱FOTO: hahahousezagreb, Instagram</small></p>
+<h2 id="naj-se-smeh-iz-zagreba-siri-po-celem-svetu">»Naj se smeh iz Zagreba širi po celem svetu«</h2>
+<p>Najnovejši zagrebški muzej, <a href="https://www.haha.house/"><strong>HaHaHouse</strong></a>, se je odprl 10. januarja, na mednarodni dan smeha. Gre za prvi muzej na svetu, ki združuje humor, umetnost in tehnologijo, da obiskovalce vseh starosti spravi v smeh. Igrive instalacije in interaktivni prikazi obiskovalce spodbujajo k sodelovanju in zabavi. Ustanoviteljica muzeja Andrea Golubić, <a href="https://www.euronews.com/culture/2025/01/12/museum-of-laughter-opens-in-zagreb-on-international-laughter-day">je ob otvoritvi povedala</a>:</p>
+<blockquote>
+<p>»Naj se smeh iz Zagreba širi po celem svetu. Odprti bomo vsak dan od 9.00 do 21.00, nasmejali ljudi in dali vse od sebe, da bo več radosti, sreče in smeha na ulicah Zagreba.«</p>
+</blockquote>
+<p>Upajo, da bodo z muzejem lahko pomagali pri duševnem zdravju ljudi, saj nudijo priložnost za smeh, sprostitev in odmor od monotonega vsakdana.</p>
+<p><img src="https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/slika6.png" alt="Prvi obiskovalci se že zabavajo v  muzeju smeha." /><br />
+<small>Prvi obiskovalci se že zabavajo v  muzeju smeha | Posnetek zaslona: euronews.com</small></p>
+<hr />
+<h2 id="muzeji-prostor-za-ustvarjalnost-in-nekonvencionalne-tematike">Muzeji: prostor za ustvarjalnost in nekonvencionalne tematike</h2>
+<p>Seznam nenavadnih muzejev v Zagrebu se tu še ne konča. Med bolj zanimivimi so tudi <a href="https://otoreisinger.com/">Muzej karikature</a>, <a href="https://hmnu.hr/">Muzej naivne umetnosti</a>, <a href="https://www.museumofunfinishedart.com/">Muzej nedokončane umetnosti</a> in <a href="https://muzejmamurluka.com/">Muzej pivskega mačka</a>. Mesto s svojo raznolikostjo muzejev dokazuje, da je pravi prostor za ustvarjalnost in inovativne tematike. Zdi se, da bo Zagreb v prihodnosti še naprej navdihoval s svojimi nenavadnimi koncepti in presenetil obiskovalce z novimi idejami, ki pritegnejo tako domačine kot turiste.</p>
+<hr />
+<h2 id="naslovi-in-odpiralni-casi-omenjenih-muzejev">Naslovi in odpiralni časi omenjenih muzejev</h2>
+<ul>
+<li><a href="https://brokenships.com/">Muzej prekinjenih ljubezni</a> (Ćirilometodska 2): ponedeljek – nedelja: 09:00 - 21:00</li>
+<li><a href="https://muzejcokolade.hr/ulaznice/">Muzej čokolade Zagreb</a>: zaprto zaradi selitve (15.–31. januar 2025)</li>
+<li><a href="https://muzejiluzija.com/naslovna/">Muzej iluzij Zagreb</a> (Ilica 72): ponedeljek – nedelja: 10:00 - 22:00</li>
+<li><a href="https://cravaticum.com/english/">Cravaticum</a> (Tomićeva ulica 5): ponedeljek – nedelja: 10:00 - 20:00</li>
+<li><a href="https://www.haha.house/">HaHaHouse</a> (Gajeva ulica 7/1): ponedeljek – nedelja: 09:00 - 21:00</li>
+<li><a href="https://otoreisinger.com/">Muzej karikature</a> (Radićeva ulica 44): ponedeljek – nedelja: 10:00 - 19:00</li>
+<li><a href="https://hmnu.hr/">Muzej naivne umetnosti</a> (Ćirilometodska 3): ponedeljek – petek: 09:00 - 17:00, sobota: 10.00 - 14.00</li>
+<li><a href="https://www.museumofunfinishedart.com/">Muzej nedokončane umetnosti</a> (Eugena Kumičića 10): torek – četrtek: 16.00 - 19.00, petek – nedelja: 10:00 - 19:00</li>
+<li><a href="https://muzejmamurluka.com/">Muzej pivskega mačka</a> (Vlaška ulica 55): ponedeljek – nedelja: 10:00 - 22:00</li>
+</ul>
+<hr />
+<h2 id="viri">Viri</h2>
+<ul>
+<li><a href="https://www.delo.si/magazin/potovanja/zagreb-mesto-kjer-dobis-muzejskega-macka">Delo</a></li>
+<li><a href="https://www.chiangmaicitylife.com/citynow/social-life/live-events/the-opening-of-the-museum-of-broken-relationships/">Chiang Mai Citylife</a></li>
+<li><a href="https://www.croatiaweek.com/zagreb-museum-ranked-among-worlds-top-10-tourist-activities/#google_vignette">Croatia Week</a></li>
+<li><a href="https://biznakenya.com/museum-of-illusions-nairobi/">Bizna Kenya</a></li>
+<li><a href="https://www.euronews.com/culture/2024/07/25/this-treasure-house-of-ties-is-far-from-outdated-worlds-first-cravat-museum-opens-in-zagre">Euronews</a></li>
+<li><a href="https://www.euronews.com/culture/2025/01/12/museum-of-laughter-opens-in-zagreb-on-international-laughter-day">Euronews</a></li>
+<li><a href="https://siol.net/trendi/potovanja/zanimiv-in-cudovit-svet-nenavadnih-muzejev-v-zagrebu-646690">Siol.net</a></li>
+</ul>
+<hr />
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;je-oskar-se-pomemben-ko-izgubis-dom&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Je oskar še pomemben, ko izgubiš dom?
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;drugi-mandat-zasencil-kazenske-obtozbe&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Drugi mandat zasenčil kazenske obtožbe
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+
