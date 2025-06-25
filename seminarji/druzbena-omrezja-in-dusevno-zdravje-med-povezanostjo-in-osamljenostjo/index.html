@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Družbena omrežja in duševno zdravje: med povezanostjo in osamljenostjo
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Družbena omrežja in duševno zdravje: med povezanostjo in osamljenostjo
+          </h1>
+          <p class="subtitle">Kako digitalne platforme vplivajo na naše počutje in kaj lahko storimo za uravnoteženo uporabo.</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Maja Kuhl
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-26">
+      26. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>7 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>1384 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/dusevno-zdravje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Duševno zdravje</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/druzbena-omrezja/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Družbena omrežja</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/digitalna-odvisnost/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Digitalna odvisnost</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/samopodoba/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Samopodoba</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Leto 2024 je bilo do sedaj najtoplejše leto, saj se je povprečna globalna temperatura dvignila za 1,6 °C in s tem prvič presegla predindustrijsko raven. Kljub svojim trudom za zmanjšanje onesnaževanja okolja, pa je Evropa še vedno četrta največja onesnaževalka na svetu. Strokovnjaki in poznavalci po vsem svetu opozarjajo, da je čas za ukrepanje zdaj, saj bo v nasprotnem primeru prepozno. Kljub temu pa novoizvoljeni ameriški predsednik obstoj globalnega segrevanja zanika in ga označuje za prevaro.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<p><img src="https://princesssarmica.github.io/seminarji/druzbena-omrezja-in-dusevno-zdravje-med-povezanostjo-in-osamljenostjo/slika1.jpg" alt="Zasvojenost z družbenimi omrežij" /><br />
+<small>Foto: Zasvojenost z družbenimi omrežij | Vir: Freepik</small></p>
+<p>V digitalni dobi, kjer so družbeni mediji postali neločljiv del našega vsakdanjega življenja, se vse bolj zavedamo njihovega vpliva na naše duševno zdravje. Digitalne platforme, ki so sprva obetale povezanost in skupnost, so se sčasoma izkazale tudi za možen vir negativnih posledic, zlasti na mlade. Raziskave, ki preučujejo povezavo med uporabo družbenih medijev in duševnim zdravjem, so razkrile zapleteno mrežo vplivov, ki vključujejo depresijo, anksioznost, zadovoljstvo z življenjem, samopodobo in občutke osamljenosti.</p>
+<h2 id="vpliv-druzbenih-medijev-na-nase-pocutje">Vpliv družbenih medijev na naše počutje</h2>
+<p>Problematična uporaba družbenih medijev ni le stvar časa, ki ga preživimo na spletu. Gre predvsem za način, kako uporabljamo te platforme, saj je uporaba družbenih medijev sama po sebi nevtralna. Pasivno brskanje po objavah pogosto vodi v negativne občutke, kot so zavist, manjvrednost in izolacija. Nasprotno pa lahko aktivna komunikacija, izmenjava mnenj in ustvarjanje resničnih povezav z drugimi pozitivno vplivajo na naše počutje. Individualne razlike pri tem igrajo ključno vlogo pri tem, kako platforme vplivajo na uporabnike. Nekateri posamezniki so zaradi osebnostnih lastnosti ali obstoječih težav z duševnim zdravjem bolj občutljivi na negativne vplive. Na drugi strani tisti z močnimi socialnimi vezmi pogosto uspešno uravnavajo uporabo družbenih omrežij, ne da bi to škodovalo njihovemu počutju.</p>
+<p>Pomemben dejavnik, ki vpliva na duševno zdravje, je tudi primerjanje z drugimi. Družbeni mediji pogosto prikazujejo idealizirane različice življenja, ki ne odražajo resničnosti, kar lahko povzroči občutke nezadostnosti in nižje samopodobe. Ta primerjava lahko sproži nerealna pričakovanja, povzroči socialni pritisk in poveča negotovost o lastni vrednosti. Uporabniki se pogosto znajdejo pod socialnim pritiskom, da dosežejo standarde, ki so nerealni ali neizvedljivi. Zavedanje, da je vsebina na družbenih omrežjih pogosto prirejena in selektivna, lahko pomaga ublažiti negativne učinke teh primerjav.</p>
+<p><em>Spodaj je odlomek iz podkasta <strong>Brstologija</strong>, ki razpravlja o nerealnem prikazovanju življenja na družbenih omrežjih. Celotno epizodo podkasta "<strong>Čustvene, vedenjske in duševne težave otrok in mladostnikov</strong>" (Sanja Brezničar, epizoda #35) si lahko ogledate <a href="https://www.youtube.com/watch?v=ZQYh5Olvi7I">tukaj</a>.</em></p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/ZQYh5Olvi7I"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).--><h2 id="posebnosti-platform-in-vloga-osebnih-znacilnosti">Posebnosti platform in vloga osebnih značilnosti</h2>
+<p>Različne digitalne platforme lahko nekoliko drugače vplivajo na uporabnike. Zaradi značilnosti posameznih družbenih omrežij lahko pride do razlik v tem kako jih uporabniki doživljajo in s tem vplivajo na njihovo duševno zdravje. Na primer, vizualne platforme, kot je Instagram, kjer so slike pogosto močno obdelane, lahko močneje vplivajo na samopodobo kot platforme, kjer prevladujejo besedilne objave. Hitre spremembe v digitalnem okolju lahko močno vplivajo na duševno zdravje posameznikov, pri čemer so negativni učinki pogosto izrazitejši pri tistih, ki so že ranljivi ali imajo pretekle izkušnje z duševnimi težavami. Na to kako družbeni mediji učinkujejo na nas, vplivajo različni dejavniki. Naše osebnostne lastnosti, pretekle izkušnje, socialno okolje in genetska predispozicija igrajo pomembno vlogo pri tem, kako doživljamo vpliv digitalnega sveta. Na primer, raziskave kažejo, da so dekleta pogosto bolj občutljiva na negativne vplive družbenih omrežij kot fantje. Posamezniki, ki so že nagnjeni k duševnim težavam, so tako lahko bolj ranljivi za negativne učinke, medtem ko so tisti z močnimi socialnimi vezmi v resničnem svetu lahko bolj zaščiteni pred temi vplivi.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/druzbena-omrezja-in-dusevno-zdravje-med-povezanostjo-in-osamljenostjo/slika2.png" alt="Družbena omrežja in duševno zdravje" /><br />
+<small>Foto: Družbena omrežja in duševno zdravje | Vir: Maja Kuhl</small></p>
+<h2 id="pot-k-uravnotezeni-uporabi-in-resitve-za-dusevno-zdravje">Pot k uravnoteženi uporabi in rešitve za duševno zdravje</h2>
+<p>Digitalne tehnologije pa ne prinašajo le izzivov, temveč tudi rešitve za izboljšanje duševnega zdravja. Pametni telefoni in aplikacije omogočajo zbiranje podatkov o razpoloženju ter sledenje simptomom, kar lahko pripomore k zgodnjemu odkrivanju težav. Aplikacije za meditacijo, terapijo in obvladovanje stresa lahko pomagajo posameznikom, da se soočijo z vsakodnevnimi izzivi. Takšne aplikacije so lahko koristne, še posebej, če se uporabljajo v kombinaciji s strokovno pomočjo. Pomembno pa je, da te tehnologije ne zamenjajo osebnega stika s strokovnjaki.</p>
+<p><em><a href="https://mindyourmind.ca/apps/squishem_2023/pages/squish.html">Kliknite to povezavo</a> ali  skenirajte qr kodo in preiskusite igro <a href="https://mindyourmind.ca/apps/squishem_2023/index.html">Annoying Stress Trogs</a>, zasnovano za sproščanje stresa. Igra vključuje tri izzive, kjer morate stisniti stvore, poiskati pare ali pokati mehurčke, medtem ko obvladujete stres in pridobite koristne nasvete.</em></p>
+<p><img src="https://princesssarmica.github.io/seminarji/druzbena-omrezja-in-dusevno-zdravje-med-povezanostjo-in-osamljenostjo/slika3.png" alt="" /></p>
+<p>Ključnega pomena za zmanjšanje negativnih vplivov družbenih medijev je ozaveščanje o lastnih navadah in postavljanje meja. Omejevanje časa, preživetega na platformah, je ena od učinkovitih strategij, pa tudi aktivno prekinjanje uporabe naprav za vzpostavljanje boljšega ravnovesja med digitalnim in resničnim življenjem. Uporabnike je treba spodbuditi h kritičnemu pregledu vsebine, ki jo vidijo na spletu, zavedajoč se, da nerealistične predstavitve življenj lahko povzročijo neugodne socialne primerjave in negativno vplivajo na samopodobo.  Digitalne interakcije ne bi smele nadomestiti realnih socialnih stikov. Spodbujanje druženja v živo in gradnje offline odnosov je ključno za preprečevanje osamljenosti in izboljšanje duševnega zdravja. V primeru težav pa je nujno poiskati strokovno pomoč, saj lahko negativni učinki družbenih medijev vodijo do resnih posledic, kot so kronična depresija, anksioznost ali druge motnje.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/druzbena-omrezja-in-dusevno-zdravje-med-povezanostjo-in-osamljenostjo/slika4.jpg" alt="Družbena omrežja in duševno zdravje" /><br />
+<small>Foto: Socialni stiki in dialog | Vir: Freepik</small></p>
+<p>Pomembno je, da spodbujamo dialog o vplivu družbenih medijev na duševno zdravje, tako med strokovnjaki kot med uporabniki teh platform. Le s skupnim razumevanjem in odprto komunikacijo lahko začnemo graditi digitalno okolje, ki bo spodbujalo dobro počutje in zmanjšalo negativne učinke. Končni cilj mora biti ravnovesje med digitalnim in resničnim svetom. To pomeni ne le postavljanje meja uporabe družbenih omrežij, ampak tudi spodbujanje pristnih odnosov, razvijanje odpornosti na negativne vplive ter podpiranje tistih, ki so zaradi svojih izkušenj ali okoliščin bolj ranljivi. S prizadevanjem za bolj zdravo digitalno kulturo lahko ustvarimo svet, kjer tehnologija ne bo prevladovala nad nami, ampak bo delovala v našo korist – podpirala naše duševno zdravje in omogočala resnično povezanost.</p>
+<h2 id="viri">Viri</h2>
+<h3 id="clanki-in-raziskave">Članki in raziskave</h3>
+<ul>
+<li>Sadagheyani, H. E., &amp; Tatari, F. (2021). Investigating the role of social media on mental health. <em>Mental health and social inclusion, 25</em>(1), 41-51. <a href="https://www.emerald.com/insight/content/doi/10.1108/mhsi-06-2020-0039/full/pdf?title=investigating-the-role-of-social-media-on-mental-health">Povezava do članka</a></li>
+<li>Braghieri, L., Levy, R. E., &amp; Makarin, A. (2022). Social media and mental health. <em>American Economic Review, 112</em>(11), 3660-3693. <a href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.20211218">Povezava do članka</a></li>
+<li>Valkenburg, P. M., Meier, A., &amp; Beyens, I. (2022). Social media use and its impact on adolescent mental health: An umbrella review of the evidence. <em>Current opinion in psychology, 44</em>, 58-68. <a href="https://www.sciencedirect.com/science/article/pii/S2352250X21001500">Povezava do članka</a></li>
+<li>Huang, C. (2022). A meta-analysis of the problematic social media use and mental health. <em>International Journal of Social Psychiatry, 68</em>(1), 12-33. <a href="https://journals.sagepub.com/doi/abs/10.1177/0020764020978434">Povezava do članka</a></li>
+<li>Boer, M., Stevens, G. W., Finkenauer, C., de Looze, M. E., &amp; van den Eijnden, R. J. (2021). Social media use intensity, social media use problems, and mental health among adolescents: Investigating directionality and mediating processes. <em>Computers in Human Behavior, 116</em>, 106645. <a href="https://www.sciencedirect.com/science/article/pii/S0747563220303927">Povezava do članka</a></li>
+<li>Torous, J., Bucci, S., Bell, I. H., Kessing, L. V., Faurholt‐Jepsen, M., Whelan, P., ... &amp; Firth, J. (2021). The growing field of digital psychiatry: current evidence and the future of apps, social media, chatbots, and virtual reality. <em>World Psychiatry, 20</em>(3), 318-335. <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20883">Povezava do članka</a></li>
+</ul>
+<h3 id="igra">Igra</h3>
+<ul>
+<li><a href="https://mindyourmind.ca/games-tools/stress-wellness/squish-em/">Squish 'Em – igra za zmanjšanje stresa</a></li>
+</ul>
+<h3 id="statistika-in-infografike">Statistika in infografike</h3>
+<ul>
+<li><a href="https://www.who.int/europe/news-room/25-09-2024-teens--screens-and-mental-health">Teens, Screens, and Mental Health – WHO</a></li>
+<li><a href="https://law.stanford.edu/2024/05/20/social-media-addiction-and-mental-health-the-growing-concern-for-youth-well-being/">Social Media Addiction and Mental Health: The Growing Concern for Youth Well-Being – Stanford Law</a></li>
+<li><a href="https://www.statista.com/statistics/1081292/social-media-addiction-by-age-usa/">Social Media Addiction by Age – Statista</a></li>
+<li><a href="https://etactics.com/blog/social-media-and-mental-health-statistics">Social Media and Mental Health Statistics – Etactics</a></li>
+<li><a href="https://www.statista.com/search/?q=social+media+and+mental+health&amp;Search=&amp;p=1">Search results: Social Media and Mental Health – Statista</a></li>
+<li><a href="https://nijz.si/wp-content/uploads/2022/12/zadnja_mira_resolucija_10_feb_2020_slo_1.pdf">Resolucija: Nacionalni inštitut za javno zdravje (NIJZ)</a></li>
+</ul>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;dusevno-zdravje-otrok-in-najstnikov&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Duševno zdravje otrok in najstnikov
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

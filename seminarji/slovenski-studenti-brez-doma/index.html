@@ -1,0 +1,528 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Slovenski študenti brez doma?
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Slovenski študenti brez doma?
+          </h1>
+          <p class="subtitle">Pomanjkanje kapacitet in visoke cene najemnin so že dalj časa realnost študentov</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Maša Klopčič, Eva Plešec
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-26">
+      26. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>5 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>931 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/studenti/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Študenti</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/studentski-domovi/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Študentski domovi</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/najemnine/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Najemnine</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/slovenija/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Slovenija</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Študentski domovi v Sloveniji že vrsto let ne zadostujejo potrebam vseh študentov, kar številne mlade prisili v iskanje zasebnih nastanitev. Te pa so pogosto povezane z visokimi stroški in neustreznimi pogoji za študij. V Ljubljani in Mariboru se študenti soočajo s podobnimi izzivi, v slednjem pa so s prenovo študentskega doma pomembno prispevali k izboljšanju kakovosti bivanja.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<h2 id="tezave-z-razpolozljivostjo-mest-v-studentskih-domovih">Težave z razpoložljivostjo mest v študentskih domovih</h2>
+<p>Študentski domovi v Sloveniji že dolgo ne zadoščajo potrebam vseh študentov. Po podatkih portala student.si za leto 2024, je bilo v Študentskem domu Ljubljana na voljo 7.039 ležišč. Kljub temu je bilo v tem letu oddanih že več kot 9.000 prošenj za bivanje, kar kaže na <a href="https://www.24ur.com/novice/slovenija/studentskih-postelj-premalo-obnove-in-novogradnje-a-kdaj-in-kje.html">primanjkljaj nastanitvenih kapacitet</a>. Veliko študentov je tako primoranih iskati zasebne nastanitve, kjer pa se soočajo z visokimi najemninami, kar pogosto predstavlja finančno breme.</p>
+<blockquote>
+<p>“<em>Na prosto sobo v študentskem domu sem čakala približno pol leta, kar se mi je zdelo odločno predolgo. Dokler nastanitve nisem dobila, sem se vsak dan vozila več kot eno uro od doma do faksa, pri tem pa sem morala večkrat prestopati. Vožnja mi je tako vzela veliko časa, ki bi ga lahko porabila za študijske obveznosti.</em>”, pravi Ana, študentka Univerze v Ljubljani.</p>
+</blockquote>
+<hr />
+<h2 id="podrazitve-studentskih-domov-v-mariboru-so-odvisne-tudi-od-odgovornega-ravnanja-studentov">Podražitve študentskih domov v Mariboru so odvisne tudi od odgovornega ravnanja študentov</h2>
+<p>Študentski domovi Univerze v Mariboru so s 1. januarjem 2025 uvedli nove cene stanarin in ostalih storitev. Povprečna subvencionirana stanarina se je tako s 123,11 EUR zvišala na 141,92 EUR, kar pomeni 15,3-odstotno rast. V to ceno so še naprej vključeni vsi stroški bivanja, kot so poraba energije, vode in ogrevanja, ter dostop do obštudijskih dejavnosti, med drugim neomejena uporaba fitnesov, glasbenih sob in telovadnic. Po navedbah Študentskih domov UM, je podražitev posledica 67-odstotnega povečanja stroškov v zadnjih letih, medtem ko povišanje stanarin v tem obdobju znaša le 21 %. Direktor Študentskih domov Univerze v Mariboru, <strong>Borut Gaber</strong>, pojasnjuje, da so z višanjem cen odlašali, kolikor se je dalo:</p>
+<blockquote>
+<p>”<em>To razliko smo ves čas pokrivali z lastnimi sredstvi, tudi iz rezerv za izredna investicijsko-vzdrževalna dela.</em>”</p>
+</blockquote>
+<p>Ob tem zagotavljajo, da iščejo rešitve, ki bi najmanj obremenile študente in napovedujejo nadaljnjo redno spremljanje stroškov ter prilagoditve v prihodnje. Pri tem pa opozarjajo tudi na odgovorno ravnanje stanovalcev:</p>
+<blockquote>
+<p>“<em>Največji strošek pri nas predstavljajo energenti, torej elektrika in ogrevanje, ki imata največji delež med stroški. Če bi še vsak stanovalec dosledno ločeval odpadke, bi na letni ravni lahko privarčevali 70.000 €, to pa več ni tako majhen denar. Če bi to razdelili na število ležišč, potem hitro vidimo, kakšen bi bil ta znesek pri posamezni stanarini.</em>”</p>
+</blockquote>
+<hr />
+<h2 id="visoke-cene-najemnin-v-zasebnem-sektorju">Visoke cene najemnin v zasebnem sektorju</h2>
+<p>Poleg pomanjkanja prostih mest se študenti pogosto soočajo tudi z visokimi najemninami na trgu nepremičnin. Po podatkih Statističnega urada Republike Slovenije (SURS), so se cene stanovanjskih nepremičnin v letu 2023 zvišale za 6,8 %, kar je najmanj po letu 2021, ko je bilo zaznano najvišje zvišanje cen v zadnjih nekaj letih (15,8 %).</p>
+<p>Rast najemnin v zadnjih letih pa dodatno otežuje dostopnost študentskega bivanja. Študenti, ki ne dobijo mesta v študentskih domovih, so pogosto prisiljeni najeti sobe v zasebnih stanovanjih, kjer pa se soočajo z visokimi stroški in pomanjkanjem ustreznih pogojev za študij. Študent mariborske univerze, <strong>Klemen</strong>, je zaradi dolgih čakalnih vrst in visokih najemnin našel drugo rešitev:</p>
+<blockquote>
+<p>“<em>... sam imam to srečo, da v bližini faksa stanujejo sorodniki, pri katerih sem lahko bival v času študija.</em>”</p>
+</blockquote>
+<p>Študentska organizacija Slovenije (ŠOS) je že večkrat opozorila na nujnost zagotavljanja dostopnih cen najemnin ter širitev kapacitet v študentskih domovih.</p>
+<hr />
+<h2 id="gradnja-novih-studentskih-domov-v-mariboru">Gradnja novih študentskih domov v Mariboru</h2>
+<p>V Mariboru pa se stanje izboljšuje z gradnjo novih študentskih nastanitev. Leta 2024 je bil odprt nov študentski dom na Tyrševi 1, ki bo študentom ponudil več kot 100 posteljnih mest. Ta objekt je energetsko učinkovit, upoštevane so bile tudi potrebe študentov, kot so prostori za študij in sprostitev - kino soba, soba čitalnica, zen soba, kuhinjska delavnica ... Ob odprtju je <strong>Borut Gaber</strong> poudaril:</p>
+<blockquote>
+<p>“<em>... v kolikor se te tematske sobe ne bi uporabljale, tako kot se to želi, jih je možno predelati v ležišče, kar pomeni, da se bo število ležišč na takšen način lahko povečalo.</em>”</p>
+</blockquote>
+<p>Nova gradnja bo pomembno prispevala k večji dostopnosti študentskih nastanitev in izboljšanju kakovosti življenja mladih v mestu. Ta dom bo tudi povečal privlačnost Maribora kot študentskega središča.</p>
+<h3 id="galerija-fotografij-z-dneva-otvoritve-novega-studentskega-doma-na-tyrsevi-1">Galerija fotografij z dneva otvoritve novega študentskega doma na Tyrševi 1</h3>
+<div class="galleria mb-6" style="height: 450px">{
+  "images": [
+    {
+      "src": "slika1.jpg",
+      "title": "",
+      "description": ""
+    },
+    {
+      "src": "slika2.jpg",
+      "title": "",
+      "description": ""
+    },
+    {
+      "src": "slika3.jpg",
+      "title": "",
+      "description": ""
+    },
+    {
+      "src": "slika4.jpg",
+      "title": "",      
+      "description": ""
+    },
+    {
+      "src": "slika5.jpg",
+      "title": "",      
+      "description": ""
+    },
+    {
+      "src": "slika6.jpg",
+      "title": "",
+      "description": ""
+    },
+    {
+      "src": "slika7.jpg",
+      "title": "",
+      "description": ""
+    },
+    {
+      "src": "slika8.jpg",
+      "title": "",      
+      "description": ""
+    },
+    {
+      "src": "slika9.jpg",
+      "title": "",      
+      "description": ""
+    }
+  ]
+}</div>
+<hr />
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/c9I8pz00l0Y"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+<hr />
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/gYGXlcWJduw"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+<hr />
+<p>Povečanje števila študentskih nastanitev, kot je nov študentski dom na Tyrševi 1 v Mariboru, je pomemben korak k izboljšanju kakovosti bivanja za mlade v Sloveniji. Vendar pa se še vedno potrebuje več naložb v gradnjo novih domov, zlasti v Ljubljani, kjer povpraševanje po prostih mestih močno presega ponudbo. Ob tem je ključnega pomena tudi uravnavanje cen najemnin, saj se študenti že zdaj srečujejo z visokimi stroški, ki presegajo njihove možnosti.</p>
+<hr />
+<h2 id="viri">Viri</h2>
+<ul>
+<li><a href="https://www.student.si/studij-in-kariera/studij/koliko-studentskih-postelj-je-na-voljo-za-novo-studijsko-leto/">Študent: Koliko študentskih postelj je na voljo za novo študijsko leto?</a></li>
+<li><a href="https://www.24ur.com/novice/slovenija/studentskih-postelj-premalo-obnove-in-novogradnje-a-kdaj-in-kje.html">24ur: Študentskih postelj premalo – obnove in novogradnje, a kdaj in kje?</a></li>
+<li><a href="https://www.stat.si/StatWeb/News/Index/12744">Statistični urad RS: Novica 12744</a></li>
+<li><a href="https://www.studentska-org.si/wp-content/uploads/2017/06/s178_dokument_sos_koncna.pdf">Študentska organizacija Slovenije: Končna verzija dokumenta SOS</a></li>
+</ul>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;resnica-in-manipulacija&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Resnica in manipulacija
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;stanovanjska-kriza-in-mladi&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Stanovanjska kriza in mladi
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

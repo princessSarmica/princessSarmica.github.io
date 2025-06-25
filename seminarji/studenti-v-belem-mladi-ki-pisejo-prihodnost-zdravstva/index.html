@@ -1,0 +1,505 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Študenti v belem: mladi, ki pišejo prihodnost zdravstva
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Študenti v belem: mladi, ki pišejo prihodnost zdravstva
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Maja Turinek
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-26">
+      26. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>8 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>1488 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/slovensko-zdravstvo/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>slovensko zdravstvo</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/studenti/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>študenti</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/medicina/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>medicina</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/studentski-projekti/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>študentski projekti</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/slovenija-ozivlja/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Slovenija Oživlja</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Slovensko zdravstvo že dlje časa deluje pod velikim pritiskom zaradi dolgotrajnih čakalnih dob, pomanjkanja kadrov in vse večjih potreb starajoče se populacije. Kljub tem težavam so študenti medicine z inovativnimi projekti in praktično pomočjo ključen dejavnik izboljšanja stanja. S svojo energijo in znanjem ne razbremenjujejo le zdravstvenega osebja, temveč z raznimi projekti tudi pomembno prispevajo k ozaveščanju javnosti in reševanju življenj. Eden izmed takih je tudi projekt Slovenija oživlja, ki se osredotoča na temeljne postopke oživljanja.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<h2 id="izzivi-slovenskega-zdravstva">Izzivi slovenskega zdravstva</h2>
+<p>Slovenski zdravstveni sistem se že vrsto let sooča z več ključnimi izzivi, ki vplivajo na dostopnost in kakovost zdravstvenih storitev. Med najbolj perečimi težavami so <strong>dolge čakalne dobe</strong>, ki omejujejo pravočasen dostop pacientov do potrebne oskrbe. Nacionalni inštitut za javno zdravje (NIJZ) v svojih analizah ugotavlja, da so se čakalne dobe v zadnjih desetletjih <strong>opazno podaljšale</strong>, kar negativno vpliva na obravnavo in izid zdravljenja. Poleg tega se slovensko zdravstvo sooča še s problemom neenakomerne dostopnosti do zdravstvenih storitev med regijami in preobremenjenostjo zdravnikov in zdravstvenega osebja. Dodatno obremenitev za sistem predstavlja tudi staranje prebivalstva. Starejši ljudje zahtevajo več zdravstvenih storitev, kar povečuje pritisk na že zdaj <strong>omejene vire in kadre</strong>.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/studenti-v-belem-mladi-ki-pisejo-prihodnost-zdravstva/slika1.png" alt="Povprečne čakalne dobe za preglede v Sloveniji " /><br />
+<small>Povprečne čakalne dobe za preglede v Sloveniji</small></p>
+<p><strong>Vlada Republike Slovenije</strong> je pripravila več ukrepov za spopadanje s temi težavami,
+vključno s strategijami za skrajšanje čakalnih dob, prilagoditvijo zdravstvenih storitev starajoči se populaciji in zagotavljanjem finančne stabilnosti sistema. Kot prioritete so med usmeritve zdravstvene politike za leti 2024–2025 zapisali tudi več vlaganj v preventivo in zdrav življenski slog, več kadrovskih virov in prilagoditev sistema izobraževanja za zdravstvene delavce, povečanje učinkovitosti urgentnih služb in krepitev javno zasebnih partnerstev.</p>
+<blockquote>
+<p>»<em>Eden izmed najpomembnejših konceptov na področju javnega zdravja je poenostavljeno <strong>bolje je preprečevati kot zdraviti</strong>. Z ozaveščanjem, krepitvijo znanja o lastnem zdravju skrbimo, da so ljudje opolnomočeni za sprejemanje odločitev o zdravem načinu življenja – vse od zdrave prehrane in gibanja, oživljanja in prve pomoči pa do zdrave spolnosti in duševnega zdravja. Zdravo in opolnomočeno prebivalstvo pa posledično pomeni manjšo obremenitev za zdravstveni sistem in boljše ter učinkovitejše razporejanje sredstev.</em>« je situacijo komentirala Kristina Brečko, vodja projekta Slovenija Oživlja.</p>
+</blockquote>
+<hr />
+<h2 id="mladi-nosilci-zdravstvene-prihodnosti">Mladi nosilci zdravstvene prihodnosti</h2>
+<p>K boljšemu delovanju javnega zdravstvenega sistema pripomorejo tudi <strong>študenti medicine</strong>, saj z njim sodelujejo skozi celoten študij. S svojim znanjem in energijo pomagajo <strong>razbremeniti zdravstveno osebje</strong> in <strong>izboljšati dostopnost storitev</strong>. Njihova predanost se je lepo pokazala med epidemijo COVIDA-19, ko so študenti prostovoljno pomagali v bolnišnicah in domovih za starejše, kjer so odvzemali brise, spremljali paciente in izvajali administrativna dela. Njihovo delo je bilo ključno v kriznih trenutkih, saj so omogočili boljšo obravnavo pacientov in olajšali delo obstoječih kadrov. Poleg pomoči med epidemijo so študenti medicine aktivni tudi v okviru <strong>praktičnega usposabljanja</strong>, ki ga izvajajo v bolnišnicah in zdravstvenih domovih. Ta praksa jim omogoča pridobivanje dragocenih izkušenj, hkrati pa predstavlja pomemben prispevek k zdravstvenemu sistemu.</p>
+<p>Ključen prispevek študentov pa ni le njihova pomoč v zdravstvenih institucijah, ampak tudi <strong>mnogo projektov</strong>, ki jih izvajajo ob študiju. Ti so usmerjeni predvsem v ozaveščanje, preventivo in izboljšanje zdravstvene pismenosti prebivalstva. Za take projekte je med študenti ogromno zanimanja tako na <strong>fakulteti ljubljanske kot mariborske univerze</strong>. Predvsem priljubljena so področja srčnožilnih obolenj in duševnega zdravja, torej tam, kjer lahko posameznik največ naredi za svoje zdravje. Tako na primer projekta V odsevu in Serotonin širita zavedanje o duševnem zdravju in se zavzemata za njegovo destigmatizacijo. Projekti, kot so <strong>Dotik življenja</strong>, <strong>Za Življenje!</strong>, <strong>Projekt Imuno</strong>, <strong>Vakcinet</strong> in <strong>Misli na srce</strong>, se osredotočajo na <strong>preventivno ozaveščanje</strong>, s čimer si prizadevajo zmanjšati tveganje za nastanek resnih zdravstvenih težav ter prispevati k bolj zdravemu življenju posameznikov v prihodnosti.</p>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Interactive gallery" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/6781534a6f9bea42dd0cbd06" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<small>Projekti študentov medicine</small>
+<p>Z izvajanjem teh projektov gre za neke vrste <strong>opolnomočenje prebivalstva</strong> s tem, da se jim predaja znanje. S takimi projekti pa veliko pridobijo tudi študenti, saj dobijo občutek za to, kaj je ljudem pomembno, kaj so njihove skrbi in pogosta vprašanja. Naučijo se tudi ustrezne komunikacije ter ustreznega predajanja informacij, kar je ključno za večino zdravniških poklicev. Sodelovanje študentov pri takšnih projektih <strong>ustvarja komunikacijsko sposobnejše zdravnike</strong>.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/fZVRRmyMIME"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+<small>Intervju z Evo Nograšek, koordinatorico projekta Dotik Življenja</small></p>
+<hr />
+<h2 id="projekt-slovenija-ozivlja">Projekt Slovenija oživlja</h2>
+<p>Projekt <strong>Slovenija oživlja</strong> je eden izmed najvidnejših projektov na področju temeljnih postopkov oživljanja v Sloveniji. Ključni del tega projekta so prav študenti medicine, ki vsako leto okoli <strong>16. oktobra</strong>, ko je <strong>svetovni dan oživljanja</strong>, opravijo okoli sto prikazov. S takimi akcijami želijo doseči čim več ljudi in jim predstaviti oživljanje ter poudariti pomen le-tega. Medijski partner projekta je <strong>Val 202</strong>, na katerem vsako leto v oddaji <strong>Sekunde rešujejo</strong> skozi uspešne zgodbe poudarjajo pomen znanja oživljanja. Glavni cilj projekta je namreč vse prebivalce Slovenije ozavestiti o pomenu temeljnih postopkov oživljanja.</p>
+<p>Zadnji dve leti je projekt vodila <strong>Kristina Brečko</strong>, študentka 6. letnika Medicinske fakultete Univerze v Ljubljani, ki poudarja: »Ko človek doživi srčni zastoj, imajo možgani štiri minute časa, preden se začnejo dogajati nepopravljive možganske poškodbe. Če v tem času očividec začne s temeljnimi postopki oživljanja, je verjetnost preživetja približno 15 % višja kot po desetih minutah srčnega zastoja. Slovenija oživlja vsako leto doda svoj košček tej zgodbi in poskuša trenutni odstotek oživljanja s strani očividcev dvigniti na zavidljivo raven.«</p>
+<h3 id="izvedene-akcije">Izvedene akcije</h3>
+<p>Promocije si prizadevajo izvesti na <strong>čim več lokacijah po Sloveniji</strong>, s poudarkom na frekventnejših krajih. Študentje medicine jih imajo največ <strong>v Ljubljani in Mariboru</strong>, pokrijejo pa tudi Koper, Novo mesto, Kranjsko Goro, Kranj, Celje, Mursko Soboto, Slovenj Gradec, Velenje, Domžale in Novo Gorico. Zelo pomembno je tudi sodelovanje z zdravniki iz <strong>Slovenskega reanimacijskega sveta</strong>, s prostovoljci <strong>Rdečega križa Slovenije</strong> in reševalci iz <strong>Sekcije reševalcev Slovenije</strong>. V manjših krajih prav slednji opravijo največ prikazov v lokalnih zdravstvenih ali gasilskih domovih. Prostovoljci so na lokaciji nekaj ur, na svetovni dan oživljanja pa po navadi kar cel dan, razstavljene imajo lutke in defibrilatorje. Skupaj z mimoidočimi ponovijo oživljanje, odgovarjajo na vprašanja, delijo informativno gradivo ... Največji je odziv družin z otroki, pa tudi starejših parov, zlasti če so v preteklosti že doživeli podoben dogodek, so bolni, jemljejo zdravila ...</p>
+<h3 id="projekt-slovenija-ozivlja-na-terenu">Projekt Slovenija oživlja na terenu</h3>
+<div class="galleria mb-6" style="height: 450px">{
+  "images": [
+    {
+      "src": "slika2.jpg",
+      "title": "",
+      "description": "Slovenija oživlja 1"
+    },
+    {
+      "src": "slika3.jpg",
+      "title": "",
+      "description": "Slovenija oživlja 2"
+    },
+    {
+      "src": "slika4.JPEG",
+      "title": "",      
+      "description": "Slovenija oživlja 3"
+    },
+    {
+      "src": "slika5.jpg",
+      "title": "",      
+      "description": "Slovenija oživlja 4"
+    },
+    {
+      "src": "slika6.jpg",
+      "title": "",
+      "description": "Slovenija oživlja 5"
+    },
+    {
+      "src": "slika7.JPEG",
+      "title": "",
+      "description": "Slovenija oživlja 6"
+    },
+    {
+      "src": "slika8.JPEG",
+      "title": "",      
+      "description": "Slovenija oživlja 8"
+    }
+  ]
+}</div>
+<hr />
+<h3 id="statistika-uspesnosti">Statistika uspešnosti</h3>
+<p>V lanskem letu je oddajo <strong>Sekunde rešujejo</strong> poslušalo <strong>450.000 poslušalcev</strong>. V povezavi s svetovnim dnem oživljanja je bilo objavljenih 192 internetnih prispevkov z dosegom preko 200.000 ljudi. Skupni doseg na družabnih omrežjih je bil več kot 40.000 uporabnikov, v živo pa naj bi s <strong>prikazi oživljanja dosegli čez 5000 ljudi</strong>. Pri projektu je sodelovalo malo manj kot sto študentov medicine in 25 društev/organizacij.</p>
+<p>Da gre Slovenija v pravo smer, kažejo tudi rezultati raziskave, ki je primerjala oživljanje s strani očividcev. V <strong>leta 1998</strong> objavljenem slovenskem članku (podatki so se zbirali med 1995 in 1997) <strong>je oživljalo 20 % očividcev</strong>, bolnišnico je zapustilo 5,2 % oseb. Brez nevroloških posledic je bilo 3,5 % oseb. V <strong>21 let kasneje</strong> objavljenem članku iste ekipe (zbiranje podatkov 2016–2018) <strong>oživlja 60 % očividcev</strong>, preživetje do odpusta iz bolnišnice je bilo 13,8 %, od tega 10,9 % oseb brez težav ali z blagimi nevrološkimi težavami. Ti podatki ne pomenijo, da se je odstotek preživetja dvignil zgolj zaradi pogostejšega oživljanja očividcev, definitivno pa korelirajo, skupaj z razvojem tehnologije, transportnih zmožnosti ipd.</p>
+<blockquote>
+<p>»<em>V projektu sem letos sodelovala že peto leto in resnično imam občutek, da so ljudje bolj zainteresirani, več znajo, več sprašujejo in poslušajo. Glede na zgoraj omenjene podatke se tudi dejanski odstotek oživljanja s strani očividcev viša in verjamem, da se bo to v prihodnosti še nadaljevalo. Javnost nas lepo sprejme, mislim, da smo Slovenci narod, ki nam je mar za naše okolje in za naše zdravje in oživljanje se v to neposredno vpleta. Še pred desetimi leti reševalni pas na avtocesti v Sloveniji ni bila poznana entiteta, danes pa je kar samoumeven. Zdi se mi, da se podobno dogaja z oživljanjem,</em>«  je povedala Kristina Brečko.</p>
+</blockquote>
+<p>Študenti medicine v Sloveniji ne prispevajo le k trenutnemu delovanju zdravstvenega sistema, temveč tudi aktivno oblikujejo njegovo prihodnost. Zaradi pomanjkanja zdravnikov v državi se načrtuje <strong>povečanje števila vpisnih mest</strong> na medicinskih fakultetah. Rektor Univerze v Ljubljani, <strong>Gregor Majdič</strong>, je napovedal, da bo z <strong>izgradnjo novega kampusa</strong> na Vrazovem trgu, ki naj bi bil dokončan leta 2026, omogočeno povečanje vpisa študentov medicine že v letu 2027. Ta razvoj bo študentom omogočil še več priložnosti za sodelovanje v prostovoljnih projektih in prispevanje k izboljšanju zdravstvenega sistema. To bo še okrepilo njihovo vlogo kot nosilcev pozitivnih sprememb in ključnih gradnikov prihodnosti slovenskega zdravstva.</p>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;stanovanjska-kriza-in-mladi&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Stanovanjska kriza in mladi
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;ustvarjalnost-kot-vescina-ki-je-dostopna-vsem&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Ustvarjalnost kot veščina, ki je dostopna vsem
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

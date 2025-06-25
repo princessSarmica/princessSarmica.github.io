@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Medijska predilnica - Svet</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/categories/svet/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-15T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/categories/svet/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Požari, ki širijo zarote</title>
+        <published>2025-01-15T00:00:00+00:00</published>
+        <updated>2025-01-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/novice/pozari-ki-sirijo-zarote/"/>
+        <id>https://princesssarmica.github.io/novice/pozari-ki-sirijo-zarote/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Požari, ki so se začeli 7. januarja v Kaliforniji, so povzročili opustošenje in sprožili številna vprašanja o njihovem izvoru. Fotografije nedotaknjenih dreves sredi pogorišč pa so podžgale teorije o skrivnih tehnologijah in načrtnih uničenjih. Hkrati se pojavljajo špekulacije, da so požari povezani z načrtovanimi urbanističnimi projekti, vključno z visokohitrostno železnico. Razvija se vedno več tako imenovanih teorij zarot, tudi takšne, da je to le preusmeritev pozornosti od kaznivih dejanj Diddyja.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

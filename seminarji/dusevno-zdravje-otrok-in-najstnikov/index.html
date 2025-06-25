@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Duševno zdravje otrok in najstnikov
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Duševno zdravje otrok in najstnikov
+          </h1>
+          <p class="subtitle">Izzivi in rešitve za mlade v sodobnem svetu</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Lara Drimel, Sara Tratnjek
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-26">
+      26. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>5 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>831 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/dusevno-zdravje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Duševno zdravje</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/psiholoska-podpora/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Psihološka podpora</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/otroci-in-mladostniki/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Otroci in mladostniki</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/pritisk-druzbenih-omrezij/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Pritisk družbenih omrežij</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>V današnjem okolju, kjer so otroci in najstniki vsakodnevno izpostavljeni različnim izzivom, postaja skrb za njihovo duševno zdravje vse pomembnejša. Duševne težave med mladimi so vse pogostejše, saj se soočajo s stresom zaradi šolskih obveznosti, vplivi družbenih omrežij, pritiski v družini in številnimi drugimi dejavniki. Ta članek raziskuje vzroke za duševne težave pri otrocih in najstnikih, vpliv teh težav na njihovo življenje ter možne strategije za pomoč mladim pri obvladovanju težav z duševnim zdravjem.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<h2 id="izzivi-in-poti-k-izboljsanju">Izzivi in poti k izboljšanju</h2>
+<p>Adolescenca je ključna faza v življenju, v kateri se otroci spreminjajo tako fizično kot čustveno. To obdobje prinaša številne izzive, ki lahko vplivajo na duševno zdravje. Po vsem svetu je ocenjenih, da eden od sedmih ljudi, starih med 10 in 19 let, doživi duševno motnjo, kar predstavlja 15 % svetovne obremenitve bolezni v tej starostni skupini. Med najpogostejšimi težavami so depresija, anksioznost in vedenjske motnje, ki spadajo med glavne vzroke za bolezni in invalidnost v adolescenci. Žal pa te težave pogosto ostajajo neprepoznane in ne obravnavane, kar ima lahko dolgotrajne posledice za mladostnike, ki trpijo zaradi njih.</p>
+<h2 id="vzroki-za-dusevne-tezave-pri-otrocih-in-najstnikih">Vzroki za duševne težave pri otrocih in najstnikih</h2>
+<h3 id="pritisk-zaradi-solskih-obveznosti">Pritisk zaradi šolskih obveznosti</h3>
+<p>Otroci in najstniki se že od mlajših let soočajo s pritiski šolskega sistema. Stres zaradi izpitov, visokih pričakovanj in akademskih dosežkov lahko vpliva na njihovo duševno zdravje. Preobremenjenost z nalogami, pomanjkanje časa za prosti čas in zabavo ter občutek, da morajo biti vedno najboljši, so dejavniki, ki lahko vodijo do tesnobe in depresije.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-otrok-in-najstnikov/slika1.jpg" alt="" /></p>
+<h3 id="vpliv-druzbenih-omrezij">Vpliv družbenih omrežij</h3>
+<p>Družbena omrežja so postala pomemben del vsakdanjega življenja otrok in najstnikov. Na teh platformah se mladostniki pogosto primerjajo z drugimi, kar lahko privede do občutkov manjvrednosti. Vpliv popolnih življenjskih slik na Instagramu, TikToku in drugih platformah je lahko zelo škodljiv za samopodobo mladih, kar povzroči stres, anksioznost in depresijo.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-otrok-in-najstnikov/slika2.jpg" alt="" /></p>
+<h3 id="druzinski-in-socialni-pritiski">Družinski in socialni pritiski</h3>
+<p>Družina je eden ključnih dejavnikov v razvoju otroka. Toda težave v družinskem okolju, kot so razveze, zlorabe, pomanjkanje podpore ali slabi odnosi s starši, lahko povzročijo občutke osamljenosti, žalosti in stresa. Poleg tega so nekateri otroci in najstniki izpostavljeni socialnim pritiskom v svojih prijateljskih krogih, kar lahko privede do težav z identiteto in duševnega zdravja.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-otrok-in-najstnikov/slika3.jpg" alt="" /></p>
+<h3 id="vpliv-medijev-in-oglasevanja">Vpliv medijev in oglaševanja</h3>
+<p>Mediji in oglaševanje otrokom pogosto ponujajo nerealne predstave o življenju, videzu in sreči. Otroci in najstniki se pogosto soočajo z občutkom, da morajo doseči določene standarde, ki jim jih predstavljajo televizija, reklame in spletni oglasi. To lahko vpliva na njihovo samopodobo in poveča tveganje za duševne težave, kot so tesnoba in depresija.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-otrok-in-najstnikov/slika4.jpg" alt="" /></p>
+<hr />
+<h2 id="vpliv-dusevnih-tezav-na-zivljenje-otrok-in-najstnikov">Vpliv duševnih težav na življenje otrok in najstnikov</h2>
+<p>Duševne težave pri mladih lahko vplivajo na številne aspekte njihovega življenja. Pomembno je razumeti, da imajo lahko dolgotrajne posledice, če se ne obravnavajo pravočasno. Med ključnimi vplivi so:</p>
+<ul>
+<li><strong>Težave pri učenju in koncentraciji</strong>: Otroci in najstniki, ki se soočajo z duševnimi težavami, imajo pogosto težave s koncentracijo in učenjem. To lahko vodi v slabše šolske rezultate in dodatno povečanje stresa.</li>
+<li><strong>Socialna izolacija in težave v odnosih</strong>: Mladostniki, ki trpijo zaradi duševnih motenj, se lahko umaknejo iz družbenega življenja in izogibajo stiku s prijatelji. To lahko vodi v osamljenost in poveča občutke depresije.</li>
+<li><strong>Telesne težave</strong>: Duševne motnje pri mladih pogosto vodijo do telesnih težav, kot so motnje hranjenja, nespečnost in utrujenost. Takšne težave lahko povzročijo dolgoročne zdravstvene zaplete.</li>
+</ul>
+<hr />
+<h2 id="mozne-resitve-in-pomoc-za-otroke-in-najstnike">Možne rešitve in pomoč za otroke in najstnike</h2>
+<p>Kljub vsem izzivom pa obstajajo učinkovite rešitve, ki lahko pomagajo otrokom in najstnikom obvladovati duševne težave. Pomembno je, da se mladim nudi ustrezna podpora in pomoč. Nekaj ključnih rešitev vključuje:</p>
+<ol>
+<li><strong>Pogovor in odprta komunikacija</strong>: Otroke in najstnike je treba spodbujati, da se pogovarjajo o svojih čustvih. Starši, učitelji in prijatelji morajo ustvariti okolje, kjer se lahko mladi počutijo varne in podprte pri izražanju svojih težav.</li>
+<li><strong>Psihološka pomoč in svetovanje</strong>: Za otroke in najstnike, ki se soočajo z duševnimi težavami, je pomembno, da poiščejo pomoč strokovnjaka. Psihologi, psihoterapevti in svetovalci so usposobljeni za pomoč mladim pri spopadanju z duševnimi težavami in jim ponujajo učinkovite tehnike za obvladovanje stresa in anksioznosti.</li>
+<li><strong>Tehnike sproščanja in telesna aktivnost</strong>: Zdrave navade, kot so šport, meditacija in sprostitvene vaje, so odličen način za zmanjšanje stresa in izboljšanje duševnega zdravja. Otroci in najstniki, ki se redno ukvarjajo s telesno aktivnostjo, so bolje pripravljeni na obvladovanje vsakodnevnih izzivov.</li>
+<li><strong>Podpora in ozaveščanje v šolah</strong>: Šole so odličen prostor za osveščanje o pomenu duševnega zdravja in za ponujanje podpore otrokom in najstnikom. Programi za spodbujanje duševnega zdravja v šolah lahko pomagajo mladim razumeti, kako obvladovati stres in kako poiskati pomoč.</li>
+</ol>
+<p>Za obvladovanje duševnih težav otrok in najstnikov je ključnega pomena, da družba sprejme ukrepe, ki omogočajo lažji dostop do pomoči. Povečanje ozaveščenosti o duševnem zdravju, zagotavljanje dostopnih svetovalnih storitev in spodbujanje odprte komunikacije so nujni za izboljšanje duševnega zdravja mladih.</p>
+<p>Duševno zdravje otrok in najstnikov je pomembno vprašanje, ki zahteva takojšnje ukrepanje. S podporo staršev, učiteljev, psihologov in širše skupnosti lahko mladim pomagamo premagati izzive, s katerimi se soočajo. Z ustreznim osveščanjem, iskanjem pomoči in učenjem zdravih načinov obvladovanja stresa lahko mladim zagotovimo bolj zdravo in srečno prihodnost.</p>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;druzbena-omrezja-in-dusevno-zdravje-med-povezanostjo-in-osamljenostjo&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Družbena omrežja in duševno zdravje: med povezanostjo in osamljenostjo
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;dusevno-zdravje-studentov-cena-akademskega-uspeha&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Duševno zdravje študentov: cena akademskega uspeha
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

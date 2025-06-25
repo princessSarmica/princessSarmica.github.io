@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Medijska predilnica - Navodila</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/tags/navodila/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-15T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/tags/navodila/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Navodila za seminar pri predmetu Praktikum: Pisanje za elektronske medije</title>
+        <published>2025-01-15T00:00:00+00:00</published>
+        <updated>2025-01-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/novice/navodila-za-seminar/"/>
+        <id>https://princesssarmica.github.io/novice/navodila-za-seminar/</id>
+        
+        <content type="html" xml:base="https://princesssarmica.github.io/novice/navodila-za-seminar/">&lt;h1 id=&quot;navodila-za-pripravo-vsebine-za-objavo-na-spletni-strani-praktikum-pisanje-za-elektronske-medije&quot;&gt;Navodila za pripravo vsebine za objavo na spletni strani – Praktikum: Pisanje za elektronske medije&lt;&#x2F;h1&gt;
+&lt;p&gt;Dragi sošolci,&lt;&#x2F;p&gt;
+&lt;p&gt;Kakorkoli se bo sledeč stavek glupo slišal, upam, da še niste preveč delali na seminarju, saj bi vam rad podal nekaj smernic za poenostavitev priprave vsebine in objavo na spletni strani (upam, da nisem too late 😥).&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;kaj-je-treba-pripraviti&quot;&gt;Kaj je treba pripraviti?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-besedilo&quot;&gt;1. &lt;strong&gt;Besedilo&lt;&#x2F;strong&gt;&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pripravite besedilno vsebino (približno 1000 besed) v formatu Word ali drugem tekstovnem formatu (npr. &lt;code&gt;.docx&lt;&#x2F;code&gt;, &lt;code&gt;.txt&lt;&#x2F;code&gt;, ali &lt;code&gt;.odt&lt;&#x2F;code&gt;).&lt;&#x2F;li&gt;
+&lt;li&gt;V dokument lahko vključite tudi opombe, kje želite dodati multimedijske elemente, kot so slike, videi, grafi itd.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;2-slike&quot;&gt;2. &lt;strong&gt;Slike&lt;&#x2F;strong&gt;&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pošljite slike ločeno od besedilnega dokumenta (npr. v formatu &lt;code&gt;.jpg&lt;&#x2F;code&gt; ali &lt;code&gt;.png&lt;&#x2F;code&gt;).&lt;&#x2F;li&gt;
+&lt;li&gt;Kak so slike poimenovane ni pomembno.&lt;&#x2F;li&gt;
+&lt;li&gt;Če boste imeli več slik je tudi možno oblikovanje v obliki fotogalerije&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;galleria mb-6&quot; style=&quot;height: 450px&quot;&gt;{
+  &quot;images&quot;: [
+    {
+      &quot;src&quot;: &quot;slika1.png&quot;,
+      &quot;title&quot;: &quot;Lazanja 1&quot;,
+      &quot;description&quot;: &quot;Njam.&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika2.png&quot;,
+      &quot;title&quot;: &quot;Lazanja 2&quot;,
+      &quot;description&quot;: &quot;Njam.&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika3.png&quot;,
+      &quot;title&quot;: &quot;Lazanja 3&quot;,
+      &quot;description&quot;: &quot;Njam.&quot;
+    },
+    {
+      &quot;src&quot;: &quot;slika4.png&quot;,
+      &quot;title&quot;: &quot;Lazanja 4&quot;,
+      &quot;description&quot;: &quot;Njam.&quot;
+    }
+  ]
+}&lt;&#x2F;div&gt;&lt;h2 id=&quot;3-video-vsebine&quot;&gt;3. &lt;strong&gt;Video vsebine&lt;&#x2F;strong&gt;&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Najlažje je, če video naložite na YouTube in mi pošljete povezavo. YouTube link lahko vključite neposredno v besedilni dokument, kamor želite, da ga umestim.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
+    &lt;iframe
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;KESyoPHt2kw&quot;
+        style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;
+        frameborder=&quot;0&quot; 
+        allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; 
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+
+&lt;!--padding-bottom: 56.25% creates space with height 9&#x2F;16 from its width (16:9 resolution).--&gt;&lt;h2 id=&quot;4-grafikoni-in-infografike&quot;&gt;4. &lt;strong&gt;Grafikoni in infografike&lt;&#x2F;strong&gt;&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Če želite vključiti grafikone, lahko podatke pripravite v Excelu, Wordu, ali čem podobnem in jih priložite. Če bi bilo možno, bi bil vesel, če mogoče grafikon izrišete, da dobim idejo, kako bi naj izgledal (da nebi npr. moral izgledati graf kot kvadratna funkcija, jaz bi pa na strani izrisal korensko funkcijo).&lt;&#x2F;li&gt;
+&lt;li&gt;Prav tako bi rad omenil, da bodo grafikoni na spletni strani avtomatsko lahko že interaktivni&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;V nadaljevanju sledi prikaz nekaj možnih interaktivnih grafikonov.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Toti grafikon:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;svg class=&quot;chart&quot;&gt;{
+&quot;type&quot;: &quot;Line&quot;,
+&quot;title&quot;: &quot;Učenje povprečnega študneta&quot;,
+&quot;xLabel&quot;: &quot;x&quot;,
+&quot;yLabel&quot;: &quot;y&quot;,
+&quot;data&quot;: {
+    &quot;labels&quot;: [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;],
+    &quot;datasets&quot;: [
+    {
+        &quot;label&quot;: &quot;Razmišljanje o učenju&quot;,
+        &quot;data&quot;: [30, 70, 200, 300, 500, 800, 1500, 2900, 5000, 8000]
+    },
+    {
+        &quot;label&quot;: &quot;Dejansko učenje&quot;,
+        &quot;data&quot;: [0, 1, 30, 70, 80, 100, 50, 80, 40, 150]
+    }
+    ]
+}
+}&lt;&#x2F;svg&gt;
+&lt;p&gt;&lt;strong&gt;Toti drugi grafikon:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;svg class=&quot;chart&quot;&gt;{
+  &quot;type&quot;: &quot;XY&quot;,
+  &quot;title&quot;: &quot;Pokemon farme&quot;,
+  &quot;xLabel&quot;: &quot;Koordinacija&quot;,
+  &quot;yLabel&quot;: &quot;Količina&quot;,
+  &quot;data&quot;: {
+    &quot;datasets&quot;: [
+      {
+        &quot;label&quot;: &quot;Pikachu&quot;,
+        &quot;data&quot;: [
+          {
+            &quot;x&quot;: 3,
+            &quot;y&quot;: 10
+          },
+          {
+            &quot;x&quot;: 4,
+            &quot;y&quot;: 122
+          },
+          {
+            &quot;x&quot;: 10,
+            &quot;y&quot;: 100
+          }
+        ]
+      },
+      {
+        &quot;label&quot;: &quot;Squirtle&quot;,
+        &quot;data&quot;: [
+          {
+            &quot;x&quot;: 1,
+            &quot;y&quot;: 1
+          },
+          {
+            &quot;x&quot;: 3,
+            &quot;y&quot;: 3
+          }
+        ]
+      },
+      {
+        &quot;label&quot;: &quot;Charizard&quot;,
+        &quot;data&quot;: [
+          {
+            &quot;x&quot;: 2,
+            &quot;y&quot;: 5
+          },
+          {
+            &quot;x&quot;: 6,
+            &quot;y&quot;: 8
+          }
+        ]
+      }
+    ]
+  },
+  &quot;options&quot;: {
+    &quot;xTickCount&quot;: 5,
+    &quot;yTickCount&quot;: 5,
+    &quot;showLine&quot;: false,
+    &quot;dotSize&quot;: 1
+  }
+}&lt;&#x2F;svg&gt;
+&lt;p&gt;&lt;strong&gt;Ta ta tretji grafikon:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;svg class=&quot;chart&quot;&gt;{
+  &quot;type&quot;: &quot;Bar&quot;,
+  &quot;title&quot;: &quot;Kako zapravin mesečno štipendijo&quot;,
+  &quot;xLabel&quot;: &quot;Hudiči zapravljanja&quot;,
+  &quot;yLabel&quot;: &quot;Denar (EUR)&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [&quot;študentski boni&quot;, &quot;Pijača&quot;, &quot;Muller&quot;],
+    &quot;datasets&quot;: [
+      {
+        &quot;data&quot;: [30, 45, 100]
+      }
+    ]
+  },
+  &quot;options&quot;: {
+    &quot;yTickCount&quot;: 2,
+    &quot;dataColors&quot;: [&quot;Red&quot;, &quot;Green&quot;, &quot;Blue&quot;]
+  }
+}&lt;&#x2F;svg&gt;
+&lt;p&gt;&lt;strong&gt;Še en grafikon&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;svg class=&quot;chart&quot;&gt;{
+  &quot;type&quot;: &quot;StackedBar&quot;,
+  &quot;title&quot;: &quot;Sadje, ki ga prodajajo branjevke&quot;,
+  &quot;xLabel&quot;: &quot;Branjevke&quot;,
+  &quot;yLabel&quot;: &quot;Število sadja&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [&quot;Lojzka&quot;, &quot;Petra&quot;, &quot;Bukev&quot;, &quot;Sara&quot;, &quot;Balbina&quot;],
+    &quot;datasets&quot;: [
+      {
+        &quot;label&quot;: &quot;Jabolka&quot;,
+        &quot;data&quot;: [12, 19, 11, 29, 17]
+      },
+      {
+        &quot;label&quot;: &quot;Slive&quot;,
+        &quot;data&quot;: [3, 5, 2, 4, 1]
+      },
+      {
+        &quot;label&quot;: &quot;Banane&quot;,
+        &quot;data&quot;: [2, 3, 0, 1, 1]
+      }
+    ]
+  }
+}&lt;&#x2F;svg&gt;
+&lt;p&gt;&lt;strong&gt;Tortnii (yey za tega celo ven ime):&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;svg class=&quot;chart&quot;&gt;{
+  &quot;type&quot;: &quot;Pie&quot;,
+  &quot;title&quot;: &quot;Priljubljenost tort med študenti&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [&quot;jagodna torta&quot;, &quot;borovnična torta&quot;, &quot;biskvit&quot;, &quot;pinki torta&quot;, &quot;pistacija myb?&quot;],
+    &quot;datasets&quot;: [
+      {
+        &quot;data&quot;: [500, 200, 80, 90, 100]
+      }
+    ]
+  }
+}&lt;&#x2F;svg&gt;
+&lt;p&gt;&lt;strong&gt;Ka da f je to??! To sploh kdo uporabla??&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;svg class=&quot;chart&quot;&gt;{
+  &quot;type&quot;: &quot;Radar&quot;,
+  &quot;title&quot;: &quot;???&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [&quot;c&quot;, &quot;h&quot;, &quot;a&quot;, &quot;r&quot;, &quot;t&quot;],
+    &quot;datasets&quot;: [
+      {
+        &quot;label&quot;: &quot;???&quot;,
+        &quot;data&quot;: [2, 1, 1, 3, 1]
+      },
+      {
+        &quot;label&quot;: &quot;???&quot;,
+        &quot;data&quot;: [1, 2, 2, 1, 1]
+      }
+    ]
+  },
+  &quot;options&quot;: {
+    &quot;showLegend&quot;: true,
+    &quot;showLabels&quot;: true
+  }
+}&lt;&#x2F;svg&gt;
+&lt;h2 id=&quot;5-dodatni-vecpredstavnostni-elementi&quot;&gt;5. &lt;strong&gt;Dodatni večpredstavnostni elementi&lt;&#x2F;strong&gt;&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Možno je tudi vključiti zemljevide, zvočne posnetke ali druge interaktivne elemente.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;predlog-za-cim-bolj-preprosto-pripravo&quot;&gt;Predlog za čim bolj preprosto pripravo&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Najpomembnejše je, da vsebino pripravite v čim bolj osnovni obliki. Poskrbeli bomo za prilagoditve in tehnično urejanje na spletni strani.&lt;&#x2F;li&gt;
+&lt;li&gt;Če imate kakšno vprašanje, se lahko obrnete name 🐱&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;zakljucek&quot;&gt;Zaključek&lt;&#x2F;h1&gt;
+&lt;p&gt;Skupaj lahko poskrbimo, da bodo vaše vsebine odlično izpadle na spletni strani. Ne pozabite, da je ključ do uspeha dobro pripravljeno besedilo in osnovni vizualni elementi – za vse drugo bomo poskrbeli med samim urejanjem. (To je rekel ChatGPT, ne jaz)&lt;&#x2F;p&gt;
+&lt;p&gt;Za samo vsebino, ki jo boste pripravili bi mogoče zaprosil edino še, da mi podate tudi nekaj naslovov za kategorije in tagge, po katerih je vaš članek zaznamovan (npr. kategorija Kulinarika, Zdrava prehrana; taggi: Lazanja, Garfiled, Fat Cat).&lt;&#x2F;p&gt;
+&lt;p&gt;Also...pri temni temi sem opazil, da znajo slike in video posnetki dobiti čudno formo spektra barv, taka toti bug še morem odpravit.&lt;&#x2F;p&gt;
+&lt;p&gt;Prispevke in vsebino oddajte v skupno mapo, pri čemer naj vsak par ustvari svojo podmapo, kamor bo shranil svoje gradivo. Povezava do skupne mape je na voljo v naši Messenger&#x2F;Discord skupini.
+Hvala vnaprej za sodelovanje in se veselim vaših prispevkov! 😊&lt;&#x2F;p&gt;
+&lt;p&gt;LPP in lep pozdrav,
+princessSarmica&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

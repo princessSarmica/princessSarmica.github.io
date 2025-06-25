@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Medijska predilnica - Potovanja</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/categories/potovanja/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-22T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/categories/potovanja/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Nenavadni muzeji Zagreba, ki privabljajo turiste</title>
+        <published>2025-01-22T00:00:00+00:00</published>
+        <updated>2025-01-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/"/>
+        <id>https://princesssarmica.github.io/novice/nenavadni-muzeji-zagreba-ki-privabljajo-turiste/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Zagreb je mesto, za katerega kljub nepreverjenim podatkom, pogosto pravijo, da ima največje število muzejev na prebivalca na svetu. Ne glede na to, ali ta trditev drži ali ne, pa se Zagreb ponaša z enimi izmed najbolj nenavadnih muzejev. Od Muzeja prekinjenih ljubezni, ki je postal svetovna ikona, do prvega muzeja smeha HaHaHouse, so zagrebški muzeji postali ena največjih turističnih atrakcij mesta. Dodatno pozornost v zadnjih letih pa so pridobili še zaradi prenove večine javnih muzejev, poškodovanih v potresu leta 2020.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

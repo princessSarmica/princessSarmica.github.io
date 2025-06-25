@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Bolnišnice polne, preventiva v rokah posameznika
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Bolnišnice polne, preventiva v rokah posameznika
+          </h1>
+          <p class="subtitle">Prezasedene urgence, naraščajoče število obolelih in nizka precepljenost sprožajo zaskrbljenost zdravstvenih strokovnjakov.</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Dunja Panič
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-22">
+      22. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>5 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>815 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/zdravje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Zdravje</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/gripa/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Gripa</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/cepljenje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Cepljenje</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/slovenija/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Slovenija</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/preventiva/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Preventiva</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Sezonska gripa, ki vsako leto v državah EU in Evropskega gospodarskega prostora (EGP) povzroči približno 50 milijonov simptomatskih primerov, se je močno razširila po Evropi. Zaradi porasta respiratornih okužb, večinoma gripe, slovenske bolnišnice v teh dneh omejujejo obiske, da bi zajezile širjenje okužb. Ob ponovnem odprtju šol se je tveganje za širjenje bolezni še povečalo.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<h2 id="evropa-pod-udarom-slovenske-bolnisnice-na-robu-zmogljivosti">Evropa pod udarom, slovenske bolnišnice na robu zmogljivosti</h2>
+<p>Sezonska gripa, ki prizadene do 200.000 Slovencev letno, je letos zaradi zapletov povzročila povečano število hospitalizacij po Evropi. V Sloveniji prevladuje influenca tipa A, medtem ko se v Španiji soočajo s prevlado influence tipa B. Slovenske bolnišnice so prezasedene, pacienti pogosto čakajo na hodnikih, obiski pa so omejeni. V Murski Soboti so odprli dodaten urgentni oddelek za obvladovanje pritiska. Po podatkih Evropskega centra za preprečevanje in obvladovanje bolezni (ECDC) je gripa splošno razširjena v vsaj 17 državah, med katerimi so najbolj prizadete Francija, Španija, Madžarska, Romunija, Danska, Latvija, Bolgarija, Avstrija, Italija in Nemčija.</p>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/bolnisnice-polne-preventiva-v-rokah-posameznika/slika1.jpg" alt="Gripa in prehlad sta najpogostejši nalezljivi bolezni, ki ju povzročajo virusi." /><br />
+<small>Gripa in prehlad sta najpogostejši nalezljivi bolezni, ki ju povzročajo virusi.︱FOTO: Žiga Živulović jr./BOBO</small></p>
+<hr />
+<h2 id="kako-prepoznati-gripo-jo-prepreciti-in-zakaj-je-pomembna-previdnost">Kako prepoznati gripo, jo preprečiti in zakaj je pomembna previdnost</h2>
+<p>Gripa, ena najpogostejših sezonskih nalezljivih bolezni, jo povzročata virusa A in B, ki se prenašata z zrakom ali preko onesnaženih površin. Čeprav jo pogosto primerjamo s prehladom, so njeni simptomi hujši in lahko povzročijo resne zaplete, zlasti pri ranljivih skupinah, kot so otroci, nosečnice, starostniki in kronični bolniki. Simptomi, kot so vročina, mrzlica, glavobol in kašelj, se običajno pojavijo nenadoma po inkubacijski dobi enega do štirih dni. Bolniki so nalezljivi že en dan pred pojavom simptomov in do sedem dni po tem. Večina ljudi si opomore doma z počitkom in tekočino, medtem ko protivirusna zdravila, kot je oseltamivir, ob pravočasni uporabi lahko skrajšajo trajanje bolezni.</p>
+<hr />
+<h2 id="cepljenje-proti-gripi">Cepljenje proti gripi</h2>
+<p>Cepljenje proti gripi je brezplačno za vse z urejenim zdravstvenim zavarovanjem in ga je mogoče opraviti pri osebnem zdravniku, v zdravstvenih domovih ali ambulantah NIJZ, ki se nahajajo v večjih mestih po Sloveniji. Cepljenje poteka od začetka oktobra, saj sezona gripe doseže vrhunec med decembrom in februarjem. Nacionalna koordinatorica za cepljenje dr. Marta Grgič Vitek iz NIJZ poudarja, da je cepljenje proti gripi še vedno smiselno, saj vrh obolevanja letos pričakujemo konec januarja in v začetku februarja. Po cepljenju telo potrebuje približno dva tedna, da razvije zaščito, zato strokovnjaki priporočajo, da se cepite čim prej, še preden gripa doseže svoj vrh. Cepljenje ne le ščiti posameznika pred težkim potekom bolezni, temveč tudi zmanjšuje širjenje gripe med bolj ranljive skupine, kot so dojenčki in starejši.</p>
+<p>Na <a href="https://nijz.si/nalezljive-bolezni/ambulante/">tej povezavi</a> lahko preverite, delovni čas ambulante v vašem kraju.</p>
+<p><img src="https://princesssarmica.github.io/novice/bolnisnice-polne-preventiva-v-rokah-posameznika/slika2.jpg" alt="Cepljenje proti gripi ostaja ključni ukrep za zaščito pred hudim potekom bolezni." /><br />
+<small>Cepljenje proti gripi ostaja ključni ukrep za zaščito pred hudim potekom bolezni.︱FOTO: Ljubo Vukelič</small></p>
+<hr />
+<h2 id="miti-in-resnice-o-cepljenju-proti-gripi">Miti in resnice o cepljenju proti gripi</h2>
+<p><em>"Zaradi cepiva lahko zboliš za gripo."</em> Cepivo proti gripi je narejeno iz neaktiviranega virusa, zato ne more povzročiti bolezni.</p>
+<p><em>"Gripa je le malce večji prehlad."</em> Gripa lahko povzroči resne zaplete, vključno z visoko vročino in celo smrtjo.</p>
+<p><em>"Brez znakov gripe bolezni ne moreš širiti."</em> Približno 20–30 % okuženih z virusom gripe nima simptomov, a še vedno lahko prenaša virus.</p>
+<p><em>"Cepljenje proti gripi ni potrebno vsako leto."</em> Zaradi mutacij virusa je letno cepljenje nujno za zaščito.</p>
+<hr />
+<h2 id="slovenija-na-dnu-lestvice-precepljenosti-proti-gripi">Slovenija na dnu lestvice precepljenosti proti gripi</h2>
+<p>Precepljenost proti gripi v Evropi močno niha med državami, pri čemer Slovenija s 5,6 % cepljenih v lanski sezoni (2023/24) spada med najslabše. Svetovna zdravstvena organizacija za starejše priporoča 75-odstotno precepljenost, a Slovenija dosega le 17,6 %. Države, kot so Nizozemska, Velika Britanija in Irska, se približujejo tem ciljem, medtem ko je v UKC Ljubljana precepljenost zdravstvenih delavcev le 14-odstotna. Po pandemiji covida-19 je precepljenost proti gripi opazno upadla v večini evropskih držav.</p>
+<hr />
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/oZ2j_zuXu7U"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+<small>Poziv k zaščiti pred gripo. | Video: NIJZ</small></p>
+<hr />
+<p>Gripa je resna sezonska bolezen, ki lahko povzroči zaplete pri ranljivih skupinah. Poleg cepljenja so ključni preventivni ukrepi, kot so higiena rok, izogibanje stikom z okuženimi ter krepitev imunskega sistema z zdravo prehrano in življenjskim slogom. Odločitev za cepljenje pa je osebna in temelji na posameznikovih potrebah in informacijah.</p>
+<h2 id="viri">Viri</h2>
+<ul>
+<li><a href="https://www.cepljenje.info/novice-in-clanki/brezplacno-cepljenje-proti-gripi">Cepljenje.info</a></li>
+<li><a href="https://nijz.si/nalezljive-bolezni/cepljenje/cepljenje-proti-gripi-v-sezoni-2024-25/">NIJZ - Cepljenje proti gripi</a></li>
+<li><a href="http://www.cilizadelo.si/miti-in-resnice-o-cepljenju-proti-gripi.html">Cilizadelo.si</a></li>
+<li><a href="https://www.zd-lj.si/zdlj/images/stories/microsoft_word_-_pogosta_vpra.pdf">ZD Ljubljana</a></li>
+<li><a href="https://www.slovenskenovice.si/novice/slovenija/cepiva-za-gripo-v-sloveniji-poglejte-za-koga-je-brezplacno/">Slovenske novice</a></li>
+<li><a href="https://vizita.si/infekcijske_bolezni/gripa.html">Vizita.si</a></li>
+<li><a href="https://www.delo.si/novice/slovenija/gripa-na-pohodu-v-evropi-v-postelji-tudi-vsak-dan-vec-slovencev">Delo - Gripa na pohodu</a></li>
+<li><a href="https://nijz.si/nalezljive-bolezni/ambulante/">NIJZ - Ambulante</a></li>
+<li><a href="https://nijz.si/nalezljive-bolezni/cepljenje/zascita-in-cepljenja-v-sezoni-okuzb-dihal-2024-2025/">NIJZ - Zaščita in cepljenja</a></li>
+</ul>
+<hr />
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;bodo-americani-morali-ziveti-brez-tiktoka&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Bodo morali Američani živeti brez TikToka?
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;jared-leto-prihaja-v-gorico&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Jared Leto prihaja v Gorico: GO! 2025 bo zasijal z zvezdniškim spektaklom
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+
