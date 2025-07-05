@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Medijska predilnica - Najemnine</title>
+    <link rel="self" type="application/atom+xml" href="https://princesssarmica.github.io/tags/najemnine/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-26T00:00:00+00:00</updated>
+    <id>https://princesssarmica.github.io/tags/najemnine/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Slovenski študenti brez doma?</title>
+        <published>2025-01-26T00:00:00+00:00</published>
+        <updated>2025-01-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://princesssarmica.github.io/seminarji/slovenski-studenti-brez-doma/"/>
+        <id>https://princesssarmica.github.io/seminarji/slovenski-studenti-brez-doma/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Študentski domovi v Sloveniji že vrsto let ne zadostujejo potrebam vseh študentov, kar številne mlade prisili v iskanje zasebnih nastanitev. Te pa so pogosto povezane z visokimi stroški in neustreznimi pogoji za študij. V Ljubljani in Mariboru se študenti soočajo s podobnimi izzivi, v slednjem pa so s prenovo študentskega doma pomembno prispevali k izboljšanju kakovosti bivanja.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Duševno zdravje študentov: cena akademskega uspeha
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Duševno zdravje študentov: cena akademskega uspeha
+          </h1>
+          <p class="subtitle">Ali sploh kdo misli na študente?</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Aja Cugmas, Tim Cof
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-26">
+      26. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>6 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>1113 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/dusevno-zdravje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Duševno zdravje</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/studenti/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Študenti</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/stres/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Stres</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/psiholoska-pomoc/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Psihološka pomoč</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Kadar govorimo o zdravju, se pogosto osredotočamo na pomembnost telesnega zdravja, medtem ko o psihičnem počutju in duševnem zdravju še vedno govorimo premalo. Tako domače kot tuje raziskave dosledno kažejo, da so prav mladi na področju duševnega zdravja med najbolj prizadetimi. Najbolj izpostavljeni stresnemu okolju pa so študentje, katerim hiter tempo življenja in cel kup študijskih obveznosti še dodatno otežujejo vsakdan. Pojavlja se vprašanje: ali kdo sploh govori o duševnem zdravju študentov?</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-studentov-cena-akademskega-uspeha/slika1.jpg" alt="Akademski pritisk in časovne stiske imajo negativen vpliv na študente " /><br />
+<small>Akademski pritisk in časovne stiske imajo negativen vpliv na študente | Slika: People Images/iStock/Getty Images Plus</small></p>
+<hr />
+<h2 id="dusevno-zdravje-kot-stigma-sodobnega-sveta">Duševno zdravje kot stigma sodobnega sveta</h2>
+<p>O duševnem zdravju smo se pogovarjali s specializantko pediatrije, dr. med. Mašo Cugmas, ki meni, da je med mladimi še vedno primanjkuje odprtih pogovorov o duševnem zdravju. Kljub temu pa situacija ni povsem črno-bela, saj se tema o duševnem zdravju in psihičnih težavah postopoma normalizira, a stigma in z njo negativna konotacija duševnega (ne)zdravja ostajata. Ko posameznik doživlja duševno stisko, mu je pogosto težko poiskati pomoč in govoriti o svojih osebnih stiskah. Pri razbijanju stigme pa veliko težo nosijo tudi mediji, kjer se o duševnem zdravju v zadnjem času vse pogosteje razpravlja. O tej temi pa se vedno več pogovarjajo tudi študentje med seboj.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-studentov-cena-akademskega-uspeha/slika2.jpg" alt="Stigma o duševnem zdravju se zmanjšuje, a v celoti še ni izginila" /><br />
+<small>Stigma o duševnem zdravju se zmanjšuje, a v celoti še ni izginila | Slika: Tim Cof</small></p>
+<hr />
+<h2 id="stres-ni-rezerviran-za-izpitna-obdobja">Stres ni rezerviran za izpitna obdobja</h2>
+<p>O svojem duševnem zdravju je spregovoril tudi magistrski študent Fakultete za elektrotehniko, računalništvo in informatiko. Njegovo duševno zdravje je v času študija pogosto nihalo, predvsem pa je bilo odvisno od dogajanja in obsega študijskih obveznosti. Najpogosteje se je med študijem znašel v stresnih situacijah, ki so mu študijsko delo dodatno oteževale. Za dobro počutje med študijem pa zasluge v največji meri pripisuje svojim prijateljem, ki so mu polepšali tudi najtežja obdobja. Stres zaradi študijskih obveznosti je za študente še posebej poudarjen v času opravljanja nujnih obveznosti, kot so časovni pritiski zaradi študijskih projektov ali pisanje izpitov ter kolokvijev. Seveda pa to ne spremeni dejstva, da je doživljanje stresa subjektivno in da se vsak posameznik vsakodnevno sooča z najrazličnejšimi stiskami. Sam se spopada s stresom tako, da se na obveznosti poskuša čim bolj pripraviti in si s tem dvigniti samozavest in zaupanje v svoje znanje.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-studentov-cena-akademskega-uspeha/slika3.jpg" alt="Pogovor s študentom Univerze v Mariboru" /><br />
+<small>Pogovor s študentom Univerze v Mariboru | Slika: Tim Cof</small></p>
+<hr />
+<h2 id="epidemija-motenj-pozornosti">Epidemija motenj pozornosti</h2>
+<p>Dr. Maša Cugmas kot najpogostejše duševne težave, s katerimi se soočajo mladostniki, navaja čustveno-vedenjske motnje. V to kategorijo spadajo tudi nekatere izmed bolj poznanih motenj, kot so anksioznost, depresija in panični napadi. Zaradi duševnih stisk pa se mladostniki dostikrat zatečejo k tveganim in kaznivim dejanjem, kot so nasilje, predprodaja in zloraba drog, dolgotrajno pa lahko tovrstno počutje vodi tudi v odvisnosti od substanc. Še posebej med dekleti so pogoste tudi prehranske motnje, med najbolj znani sodita anoreksija in bulimija. Med pogostejše motnje spadajo tudi motnje pozornosti in koncentracije, ki pa se v zadnjih letih pri mladostnikih pojavljajo v vedno večji meri. Točen vzrok za njihov pojav še ni poznan, na njihov razvoj pa vpliva več dejavnikov – najverjetneje gre za preplet genetike in načina vzgoje v zgodnjem otroštvu.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-studentov-cena-akademskega-uspeha/slika4.jpg" alt="Uporaba sodobnih tehnologij lahko škoduje zdravemu razvoju otroških možganov" /><br />
+<small>Uporaba sodobnih tehnologij lahko škoduje zdravemu razvoju otroških možganov | Slika: Freepik</small></p>
+<hr />
+<h2 id="zanasamo-se-drug-na-drugega">»Zanašamo se drug na drugega«</h2>
+<p>Največja ovira pri obravnavi in razumevanju duševnega zdravja je poiskati ustrezno pomoč in zanjo prositi. Otroci in mladostniki lahko ustrezno psihološko podporo na področju duševnega zdravja prejmejo tudi v okviru izobraževalnega sistema, saj obstaja veliko projektov, ki sodelujejo z osnovnimi in srednjimi šolami po vsej Sloveniji. Projekti, ki jih krije zdravstvena zavarovalnica, ne zajemajo le ozaveščanja o duševnem zdravju ampak tudi o pomembnosti zdravega življenjskega sloga.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-studentov-cena-akademskega-uspeha/slika5.jpg" alt="Ena izmed delavnic duševnega zdravja za osnovnošolce v okviru programa »Stresi stres«" /><br />
+<small>Ena izmed delavnic duševnega zdravja za osnovnošolce v okviru programa »Stresi stres« | Slika: MKC Maribor</small></p>
+<p>Premalo pa se o duševnem zdravju govori na fakultetah, kjer se študentje zaradi študijskih pritiskov soočajo z najtežjimi izzivi. Na dveh največjih univerzah v Sloveniji – Univerzi v Ljubljani in Univerzi v Mariboru, pa imajo glede skrbi za duševno zdravje študentov drugačne pristope. Na Univerzi v Ljubljani so na voljo tako imenovane psihosocialne delavnice, namenjene tako študentom kot zaposlenim, ki so namenjene ustreznemu soočanju z osebnimi stiskami. Tovrstnih delavnic pa ne izvaja Univerza v Mariboru, vendar je za študente v stiskah poskrbljeno s strani Študentske organizacije Univerze v Mariboru – ŠOUM. Organizacija, ki jo upravljajo mariborski študentje, ponuja brezplačna individualna psihološka svetovanja za vse študente v stiski. V okviru mladinskih centrov po Sloveniji obstaja več projektov, kjer se nudi brezplačna psihološka pomoč v obliki psihoterapije. Žal pa večina študentov, katerim bi tovrstna pomoč morda lahko koristila, za projekte in druge oblike pomoči v sklopu fakultete ne ve. Študentje mariborske univerze se, kar se tiče iskanja pomoči pri duševnih stiskah, počutijo zapostavljeno s strani izobraževalne ustanove – zanašajo se sami nase in drug na drugega.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-studentov-cena-akademskega-uspeha/slika6.jpg" alt="Mariborski študentje lahko pomoč poiščejo samo pri študentskih organizacijah" /><br />
+<small>Mariborski študentje lahko pomoč poiščejo samo pri študentskih organizacijah | Slika: ŠOUM</small></p>
+<hr />
+<h2 id="zaleze-lahko-tudi-sprehod-v-naravi">Zaleže lahko tudi sprehod v naravi</h2>
+<p>Kljub vsakršnim izzivom, ki jim pridejo nasproti, pa študentje niso popolnoma brez pomoči. Prvi korak pri iskanju pomoči je pogovor, kjer je ključna medsebojna pomoč. Predvsem je pomembno to, da ima posameznik nekoga, s komer lahko govori o svojih težavah. Strokovnjaki poudarjajo, da si morajo mladostniki, ki se soočajo s stresom, v hitrem tempu življenja vzeti tudi čas zase. Kot najučinkovitejšo tehniko sproščanja je dr. Maša Cugmas izpostavila aktivnosti v naravi in ukvarjanje s športom, saj vsakršna fizična aktivnost pomaga pri sproščanju hormona sreče. S tem se strinja tudi študent Fakultete za elektrotehniko, računalništva in informatiko, ki je kot svojo glavno tehniko sproščanja navedel sprehode v naravi. Pri spopadanju s stresom in doživljanju duševnih stisk je ključno, da se zatečemo aktivnostim, ki nas sproščajo – bodisi so to hobiji ali pa druženje s prijatelji.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/dusevno-zdravje-studentov-cena-akademskega-uspeha/slika7.jpg" alt="Sprehod v naravi ima lahko sproščujoče učinke | Slika: Freepik" /><br />
+<small>Sprehod v naravi ima lahko sproščujoče učinke | Slika: Freepik</small></p>
+<p><em>Če se ti ali tvoji bližnji spopadate z občutki obupa ali duševnimi stiskami, ne odlašajte. Pogovor lahko pomaga. Obrnite se na strokovnjake ali poiščite podporo pri prijateljih in družini. <strong>Niste sami</strong>.</em></p>
+<p><em>Za pogovor s strokovnjaki lahko pokličete <strong>Klic v duševni stiski</strong> na številko <strong>01 520 99 00</strong>, <strong>Zaupna telefona Samarijan in Sopotnik</strong> na številko <strong>116 123</strong>, <strong>Društvo SOS telefon za ženske in otroke žrtve nasilja</strong> na številko <strong>080 11 55</strong> ali <strong>TOM telefon za otroke in mladostnike</strong> na številko <strong>116 111</strong>.</em></p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/8wdTYWCaokU"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;dusevno-zdravje-otrok-in-najstnikov&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Duševno zdravje otrok in najstnikov
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;letosnje-poletje-bo-sodec-po-napovedih-eno-najtoplejsih-v-zgodovini&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Letošnje poletje bo sodeč po napovedih eno najtoplejših v zgodovini
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

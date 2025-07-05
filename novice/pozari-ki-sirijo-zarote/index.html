@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Požari, ki širijo zarote
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Požari, ki širijo zarote
+          </h1>
+          <p class="subtitle">Naravna nesreča, nepremičninski interesi in urbana prenova ali uničenje dokazov: Kaj se dogaja v Los Angelesu?</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Amanda Vogrin
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-15">
+      15. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>4 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>647 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/svet/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Svet</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/los-angeles/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Los Angeles</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/pozari/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>požari</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/teorije-zarote/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>teorije zarote</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Požari, ki so se začeli 7. januarja v Kaliforniji, so povzročili opustošenje in sprožili številna vprašanja o njihovem izvoru. Fotografije nedotaknjenih dreves sredi pogorišč pa so podžgale teorije o skrivnih tehnologijah in načrtnih uničenjih. Hkrati se pojavljajo špekulacije, da so požari povezani z načrtovanimi urbanističnimi projekti, vključno z visokohitrostno železnico. Razvija se vedno več tako imenovanih teorij zarot, tudi takšne, da je to le preusmeritev pozornosti od kaznivih dejanj Diddyja.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<h2 id="pozari-in-skrivnostno-neposkodovana-drevesa">Požari in skrivnostno nepoškodovana drevesa</h2>
+<p>Mednarodno pozornost so pritegnile fotografije posledic požarov v Los Angelesu, kjer so hiše popolnoma uničene, medtem ko drevesa v bližini ostajajo nedotaknjena. Ti nenavadni prizori so sprožili plaz teorij na družbenih medijih. Nekateri trdijo, da ogenj ni mogel preskočiti dreves in da so bile stavbe namerno napadene z napredno tehnologijo, vključno s skrivnim orožjem ali sistemi za nadzor vremena. Strokovnjaki takšne teorije zavračajo in pojasnjujejo, da so stavbe zaradi svojih materialov bolj gorljive, medtem ko lahko drevesa zaradi visoke vsebnosti vlage v nekaterih primerih ostanejo nepoškodovana. Kljub strokovnim pojasnilom pridobivajo teorije o načrtnih uničenjih vse večjo pozornost.</p>
+<p><img src="https://princesssarmica.github.io/novice/pozari-ki-sirijo-zarote/slika1.jpg" alt="Fotografija nedotaknjenih dreves med uničenimi stavbami v Los Angelesu" /><br />
+<small>Fotografija nedotaknjenih dreves med uničenimi stavbami v Los Angelesu (Profimedia)</small></p>
+<hr />
+<h2 id="nepremicninski-interesi-in-urbana-prenova">Nepremičninski interesi in urbana prenova</h2>
+<p>Slavni hollywoodski igralec Mel Gibson, katerega dom je v teh požarih pogorel, je izrazil dvom, da gre za naravno nesrečo. Dejal je: "Ko vidiš takšne stvari, se vprašaš: je to namerno? Kakšen je cilj? Ali želijo prazen mestni center?" ter namignil, da bi lahko bil cilj teh dejanj izpraznitev mesta, kar bi omogočilo nove urbanistične projekte. Ena izmed priljubljenih teorij zarote trdi, da so požari povezani s konceptom “15-minutnih mest”, kjer naj bi bile osnovne storitve, kot so delo, nakupovanje, izobraževanje in zdravstvo, dosegljive v 15 minutah hoje ali kolesarjenja. Po mnenju zagovornikov teh teorij požari uničujejo družinske hiše, da bi sprostili prostor za gradnjo stolpnic in stanovanj ter gosto urbanizacijo.</p>
+<hr />
+<h2 id="nacrtovanje-zeleznice-in-unicenje-dokazov">Načrtovanje železnice in uničenje dokazov</h2>
+<p>Poleg drugih teorij se je pojavila še ena, ki trdi, da so požari povezani z načrtovanim železniškim omrežjem visoke hitrosti v Kaliforniji. Po tej teoriji požari pomagajo "očistiti" območje, ki ga razvijalci želijo izkoristiti za gradnjo železnice med Los Angelesom in San Franciscom. Uporabniki družbenih medijev so delili zemljevide požarov, ki naj bi se natančno ujemali s predlagano traso vlakov. Ena divja teorija je povezala požare z ameriškim reperjem Seanom "Diddyjem" Combsom, domnevajoč da so požari namerno podtaknjeni, da bi uničili dokaze, povezane z <a href="https://www.themirror.com/entertainment/celebrity-news/legal-response-carolyn--1005-700005">obtožbami o zlorabah in neprimernem vedenju, ki so se pojavile v zvezi z Diddyjevimi zabavami</a>. Njegova razkošna hiša, čepraj blizu poti požara, ni utrpela poškodb, medtem ko so druge znane osebnosti v njegovi bližini izgubile svoje domove.</p>
+<p><img src="https://princesssarmica.github.io/novice/pozari-ki-sirijo-zarote/slika2.jpg" alt="Povezava med požari in načrtovano železniško traso" /><br />
+<small>Povezava med požari in načrtovano železniško traso (Daily Mail)</small></p>
+<hr />
+<h2 id="za-nekatere-teorija-za-druge-tragedija">Za nekatere teorija, za druge tragedija</h2>
+<p>Medtem ko so ti dogodki za nekatere le predmet teorij, pa za mnoge predstavljajo resnično tragedijo. Trenutno v Los Angelesu še velja opozorilo o “posebno nevarni situaciji“ in tamkajšnji prebivalci so pozvani, naj bodo v pripravljenosti na evakuacijo. V enem tednu so požari uničili 12.000 posesti in terjali najmanj 24 življenj. Tisoči se soočajo z nepredstavljivo izgubo, zato je ključno ponuditi pomoč in podporo prizadetim skupnostim.</p>
+<hr />
+<h2 id="viri">Viri</h2>
+<ul>
+<li><a href="https://www.metropolitan.si/novice/svet/los-angeles-pozari-mel-gibson-teorija-zarote/">Metropolitan - Los Angeles požari in teorije zarot</a></li>
+<li><a href="https://www.24ur.com/novice/tujina/teorije-zarote-zakaj-poleg-his-niso-pogorela-tudi-drevesa.html">24ur - Teorije zarote: zakaj poleg hiš niso pogorela tudi drevesa</a></li>
+<li><a href="https://www.dailymail.co.uk/news/article-14277681/LA-wildfire-conspiracy-theories-flooding-internet-PDiddy.html">Daily Mail - LA wildfires and conspiracy theories</a></li>
+<li><a href="https://economictimes.indiatimes.com/news/international/global-trends/la-wildfires-to-cover-up-seandiddys-crime-california-blaze-sparks-surge-of-wild-conspiracytheories/articleshow/117233327.cms?from=mdr">Economic Times - California wildfires and Diddy</a></li>
+<li><a href="https://www.cbsnews.com/live-updates/california-fires-winds-updates/">CBS News - California fires updates</a></li>
+</ul>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;antisemitski-grafiti-oskrunili-mariborsko-sinagogo&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Antisemitski grafiti oskrunili mariborsko sinagogo
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;zakulisje-zabavne-industrije&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Zakulisje zabavne industrije
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

@@ -1,0 +1,558 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Pričetek slovenske evrovizijske poti v Basel
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Pričetek slovenske evrovizijske poti v Basel
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Maja Turinek
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-24">
+      24. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>6 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>1051 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/glasba/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Glasba</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/evrovizija/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Evrovizija</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/ema/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Ema</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/basel/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Basel</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/slovenija/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Slovenija</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Približuje se 69. tekmovanje za Pesem Evrovizije, ki bo v švicarskem mestu Basel, za kar gre zasluga lanskemu zmagovalcu Nemu. 1.2. bo napočil čas, da tudi Slovenija izbere kdo bo nasledil Raiven in zastopal naše barve. Po dveh letih se ponovno vrača Ema, kjer bodo o zmagovalcu odločale strokovne žirije in občinstvo.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/pricetek-slovenske-evrovizijske-poti-v-basel/slika1.png" alt="Ema se vrača na TV zaslone." /><br />
+<small>Vir: Wikipedia</small></p>
+<hr />
+<h2 id="ema-se-vraca">Ema se vrača</h2>
+<p>Zadnji dve leti Eme ni bilo, saj je strokovna žirija interno izbrala slovenskega evrovizijskega predstavnika. Lani nas je zastopala <strong>Raiven</strong> s skladbo <a href="https://www.youtube.com/watch?v=l86DxpRnz5M">Veronika</a>, leta 2023 pa <strong>Joker Out</strong> s skladbo <a href="https://www.youtube.com/watch?v=3LXlPviGiWc">Carpe Diem</a>, ki je postala uspešnica po celi Evropi. Letos bo izbor mogoče spremljati <strong>1. februarja ob 20. uri na TV SLO 1</strong>. Voditelja večera bosta Raiven in pevec skupine Mrfy, <strong>Gregor Strasbergar – Štras</strong>, ki je o svoji vlogi dejal:</p>
+<blockquote>
+<p>»Misel na vodenje Eme mi za zdaj še ne predstavlja velikega užitka, ampak bolj stres. Verjetno me bo pol države popljuvalo, ampak na srečo bodo bolj popljuvali našega novega predstavnika.«</p>
+</blockquote>
+<p><img src="https://princesssarmica.github.io/novice/pricetek-slovenske-evrovizijske-poti-v-basel/slika2.jpg" alt="ILetošnja voditelja Eme: pevka Raiven in pevec skupine Mrfy Gregor Strasbergar – Štras" /><br />
+<small>Letošnja voditelja Eme: pevka Raiven in pevec skupine Mrfy Gregor Strasbergar – Štras. | Vir: rtvslo.si</small></p>
+<hr />
+<h2 id="dvanajst-pesmi-v-boju-za-zmago">Dvanajst pesmi v boju za zmago</h2>
+<p>Predstavilo se bo 12 izvajalcev, ki bodo poskušali prepričati strokovno žirijo in občinstvo. V prvem krogu bo namreč pet strokovnih žirij določilo dva finalista, med katerima bo zmagovalca izbrala javnost s telefonskim glasovanjem.</p>
+<div class="galleria mb-6" style="height: 450px">{
+  "images": [
+    {
+      "src": "slika3.jpg",
+      "title": "",
+      "description": "ANNA: Čau (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika4.jpg",
+      "title": "",
+      "description": "Astrid & The Scandals: Touché (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika5.jpg",
+      "title": "",      
+      "description": "ZveN: Divja (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika6.jpg",
+      "title": "",      
+      "description": "Eva Pavli: Niti (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika7.jpg",
+      "title": "",
+      "description": "Jon Vitezič: Vse ti dam (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika8.jpg",
+      "title": "",
+      "description": "July Jones: New Religion (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika9.jpg",
+      "title": "",      
+      "description": "KiKi: O-ou! (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika10.jpg",
+      "title": "",      
+      "description": "Klemen: How Much Time Do We Have Left (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika11.jpg",
+      "title": "",      
+      "description": "PolarAce: Kind (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika12.jpg",
+      "title": "",
+      "description": "RAI: Frederick's Dead (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika13.jpg",
+      "title": "",      
+      "description": "Trine: Grace (vir: rtvslo.si)"
+    },
+    {
+      "src": "slika14.jpg",
+      "title": "",      
+      "description": "Žan Videc: Pusti da gori (vir: rtvslo.si)"
+    }
+  ]
+}</div><h3 id="tekmovalci-eme-2025">Tekmovalci Eme 2025</h3>
+<ul>
+<li><strong>ANNA</strong>: <em>Čau</em></li>
+<li><strong>Astrid &amp; The Scandals</strong>: <em>Touché</em></li>
+<li><strong>ZveN</strong>: <em>Divja</em></li>
+<li><strong>Eva Pavli</strong>: <em>Niti</em></li>
+<li><strong>Jon Vitezič</strong>: <em>Vse ti dam</em></li>
+<li><strong>July Jones</strong>: <em>New Religion</em></li>
+<li><strong>KiKi</strong>: <em>O-ou!</em></li>
+<li><strong>Klemen</strong>: <em>How Much Time Do We Have Left</em></li>
+<li><strong>PolarAce</strong>: <em>Kind</em></li>
+<li><strong>RAI</strong>: <em>Frederick's Dead</em></li>
+<li><strong>Trine</strong>: <em>Grace</em></li>
+<li><strong>Žan Videc</strong>: <em>Pusti da gori</em></li>
+</ul>
+<hr />
+<h2 id="od-televizijskega-eksperimenta-do-globalnega-fenomena">Od televizijskega eksperimenta do globalnega fenomena</h2>
+<p>Pesem Evrovizije je tekmovanje za najboljšo pesem med evropskimi državam, ki se odvija vsako leto. Vse se je začelo s <strong>prvim izborom 24. maja 1956</strong>, kot televizijski eksperiment, na katerem je sodelovalo le sedem držav. Danes je tekmovanje zelo priljubljeno po celem svetu, na lanskem izboru je sodelovalo kar 37 držav. Čeprav je tekmovanje načeloma namenjeno evropskim državam, pa kot izjema od leta 2015 dalje sodeluje tudi Avstralija. Slovenija kot samostojna država tekmuje <strong>od leta 1993</strong>, ko nas je zastopal  1X Band s pesmijo <a href="https://www.youtube.com/watch?v=ZJKnD9k3soU">Tih deževen dan</a>. Naša najboljša uvrstitev na Evrovoziji je <strong>7. mesto</strong>, ki sta ga dosegli <strong>Darja Švajer</strong> leta 1995 in <strong><a href="https://www.youtube.com/watch?v=yzXmzCMOLQY">Nuša Derenda</a></strong> leta 2001. Svojega predstavnika slovenci izberemo na nacionalnem izboru Ema, ki se pod tem imenom odvija od leta 1997.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/qwnewjD7xg0"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+<small>Darja Švajger s skladbo Prisluhni mi leta 1995 | Vir: Youtube</small></p>
+<hr />
+<h2 id="lanska-zmaga-se-je-za-las-izmaknila-nasim-sosedom">Lanska zmaga se je za las izmaknila našim sosedom</h2>
+<p>Tekmovanje za Pesem Evrovizije bi se letos skoraj odvijalo zelo bliu nas, na Hrvaškem, saj je lani njihov predstavnik <a href="https://www.youtube.com/watch?v=YIBjarAiAVc">Baby Lasagna</a> zasedel drugo mesto. Za 44 točk ga je namreč prehitel švicarski predstavnik <strong>Nemo s skladbo <a href="https://www.youtube.com/watch?v=CO_qJf-nW0k">The Code</a></strong>, ki je poskrbel, da se tekmovanje po 36 letih vrača v Švico. Seveda pa tudi izbira novega prizorišča ni potekala brez težav, saj so se po izboru mesta Basel tamkajšnji prebivalci pritožili in tako so izvedli referendum, na katerem je 66,57 % volivcev podprlo financiranje dogodka. Tako se bo prvi predizbor odvil 13. maja, drugi predizbor 15. maja, veliki finale po bo na sporedu 17. maja. Na tekmovanju bo sodelovalo 38 držav, Ciper, Češka, Nizozemska Črna gora in Albanija so tudi že izbrali svoje predstavnike.</p>
+<p><img src="https://princesssarmica.github.io/novice/pricetek-slovenske-evrovizijske-poti-v-basel/slika15.png" alt="Nemo s skladbo The Code- zmagovalec Evrovizije 2024 " /><br />
+<small>Nemo s skladbo The Code- zmagovalec Evrovizije 2024 ︱vir: evrovizija.com</small></p>
+<hr />
+<h2 id="letosnje-tekmovanje-v-znamenju-poslusanja-in-dialoga">Letošnje tekmovanje v znamenju poslušanja in dialoga</h2>
+<p>Prav tako je že znan vizualni koncept letošnjega tekmovanja za katerega je letos zadolžen umetniški direktor <strong>Artur Deyneuve</strong>, ki je za vodilno temo izbral poslušanje in celoten koncept poimenoval Enotnost oblikuje ljubezen, ob čimer je dejal: "Če poslušamo drug drugega, najdemo ljubezen,". Za podobo odra je že osmič poskrbel scenograf švicarskih korenin <strong>Florian Wieder</strong>, ki je navdih črpal pri švicarskih gorah in jezkovni raznolikosti države. "Naš cilj je bil ustvariti revolucionaren koncept odra – celostno izkušnjo, ki je na Evroviziji še nismo videli," je povedal.</p>
+<p><img src="https://princesssarmica.github.io/novice/pricetek-slovenske-evrovizijske-poti-v-basel/slika16.jpg" alt="Izgled odra na Evroviziji 2025 po navdihnu švicarskih gora " /><br />
+<small>Izgled odra na Evroviziji 2025 po navdihnu švicarskih gora | vir: rtvslo.si</small></p>
+<hr />
+<h2 id="izvajalce-bomo-lahko-spoznali-ze-pred-emo">Izvajalce bomo lahko spoznali že pred Emo</h2>
+<p>Oddaja <em>Ema pred Emo</em> bo na sporedu 25. januarja ob 20. uri na TV SLO 1. Voditelja oddaje bosta <strong>Bernarda Žarn</strong> in <strong>Jože Robežnik</strong>, gledalci pa bodo lahko spoznali tekmovalce in prvič slišali njihove pesmi.</p>
+<hr />
+<h2 id="viri">Viri</h2>
+<ul>
+<li><a href="https://eurovision.tv/history/origins-of-eurovision">Evrovizija - Zgodovina</a></li>
+<li><a href="https://eurovision.tv/event/malmo-2024">Evrovizija 2024 - Malmo</a></li>
+<li><a href="https://eurovision.tv/country/australia">Evrovizija - Avstralija</a></li>
+<li><a href="https://eurovision.tv/country/slovenia">Evrovizija - Slovenija</a></li>
+<li><a href="https://www.rtvslo.si/zabava-in-slog/glasba/ema/prvi-vpogled-v-emo-pesmi-o-minljivosti-avtenticnosti-divjosti-ljubezni-in-prijaznosti/733240">RTVSLO - Prvi vpogled v Ema pesmi</a></li>
+<li><a href="https://www.rtvslo.si/zabava-in-slog/glasba/ema/emo-2025-bosta-povezovala-raiven-in-stras/732642">RTVSLO - Voditelja Eme 2025</a></li>
+<li><a href="https://www.rtvslo.si/zabava-in-slog/glasba/ema/znani-so-nastopajoci-na-emi-2025/730468">RTVSLO - Nastopajoči na Ema 2025</a></li>
+<li><a href="https://eurovisionworld.com/eurovision/2024">Evrovizija - Eurovision 2024</a></li>
+<li><a href="https://evrovizija.com/baselski-volivci-na-referendumu-odlocili-evrovizija-bo/">Evrovizija - Referendum o Baslu</a></li>
+<li><a href="https://evrovizija.com/basel-2025-od-38-sodelujocih-znanih-5-predstavnikov-in-2-pesmi/">Evrovizija 2025 - Basel</a></li>
+<li><a href="https://www.rtvslo.si/zabava-in-slog/glasba/ema/gore-dialog-in-jodlanje-koncept-prihajajoce-evrovizije-navdihuje-svicarska-tradicija/731265">RTVSLO - Koncept Evrovizije 2025</a></li>
+</ul>
+<hr />
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;arcane-zgodba-vredna-cetrt-milijarde-dolarjev-zakljucena&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Arcane: Zgodba, vredna četrt milijarde dolarjev, zaključena
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;bodo-americani-morali-ziveti-brez-tiktoka&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Bodo morali Američani živeti brez TikToka?
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

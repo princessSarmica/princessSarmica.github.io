@@ -1,0 +1,480 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Je oskar še pomemben, ko izgubiš dom?
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Je oskar še pomemben, ko izgubiš dom?
+          </h1>
+          <p class="subtitle">Uničujoči požari v Kaliforniji so prizadeli tisoče ljudi, med njimi tudi filmske in televizijske ustvarjalce</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Eva Plešec
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-22">
+      22. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>4 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>748 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/zabavna-industrija/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Zabavna industrija</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/kalifornija/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Kalifornija</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/pozari/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Požari</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/oskarji/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Oskarji</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/grammyji/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Grammyji</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Že od prvih dni novega leta se gasilci borijo s požari, ki divjajo po zvezdniškem Los Angelesu. Številne produkcije, premiere in podelitve nagrad so že prestavljene, le glasbeni grammyji zaenkrat potekajo po prvotnem načrtu. Ob tem pa se postavlja vprašanje, kako zares smiselne so podelitve v takšnih trenutkih.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<p><img src="https://princesssarmica.github.io/novice/je-oskar-se-pomemben-ko-izgubis-dom/slika1.png" alt="Požari so v nekaj dneh uničili več kot 12 000 zgradb." /><br />
+<small><em>Požari so v nekaj dneh uničili več kot 12 000 zgradb. (Foto: Hollywood Reporter)</em></small></p>
+<hr />
+<h2 id="brez-doma-ostali-stevilni-znani-in-manj-znani">Brez doma ostali številni znani (in manj znani)</h2>
+<p>Mediji trenutno veliko poročajo o uničenih domovih zvezdnikov, kot so Mandy Moore, Paris Hilton, Milo Ventimiglia - <a href="https://www.rtvslo.si/zabava-in-slog/popkultura/v-pozaru-v-los-angelesu-pogorela-tudi-125-milijonov-dolarjev-vredna-grascina-iz-nasledstva/733102">tudi o 125 milijonov dolarjev vredni graščini</a>, od katere so ostali le tramovi in bazen. Predsednik filmske organizacije FilmLA, <strong>Paul Audley</strong>, pa opozarja tudi na ostale zgodbe:</p>
+<blockquote>
+<p><em>»Ta tragedija je neposredno prizadela mnoge, ki sodelujejo v zabavni industriji.«</em></p>
+</blockquote>
+<p>Na prizadetih območjih Kalifornije tako ne domujejo le (znani) igralci, temveč tudi snemalci, lučkarji, make-up artisti in drugi, ki delujejo za kulisami zabavne industrije. Po uničujočih požarih se je večina razpršila po domovih sorodnikov, prijateljev ali si je poiskala nova začasna prenočišča. To pa bo vsaj kratkoročno <a href="https://www.hollywoodreporter.com/business/business-news/film-tv-production-wildfires-la-1236111283/">vplivalo tudi na nadaljnjo produkcijo</a>.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/5UHSfJHc6H8"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+<small><em>Posnetki iz Altadene, Malibuja in Pacific Palisades prikazujejo do tal porušene stavbe. (Video: Guardian)</em></small></p>
+<hr />
+<h2 id="oskarji-prestavljeni-grammyji-z-dobrodelno-noto">Oskarji prestavljeni, Grammyji z dobrodelno noto</h2>
+<p>Trenutne okoliščine so vplivale tudi na podelitev nagrad, ki zaznamujejo začetek leta v zabavni industriji. Zaradi požarov so <a href="https://www.24ur.com/popin/film_tv/ponovno-prestavili-razglasitev-nominirancev-za-oskarje.html">že dvakrat prestavili razglasitev nominacij za oskarje</a>, datum podelitve, 2. marec, zaenkrat še ni dokončno potrjen. So pa že odpovedali tradicionalno kosilo nominirancev in praznovanje vseh tistih, ki se potegujejo za kipce. Odpovedane so tudi številne premiere in produkcije. Le glasbeni grammyji bodo zaenkrat potekali po prvotnem načrtu, 2. februarja. Letos bodo <a href="https://www.24ur.com/popin/glasba/podelitev-grammyjev-kot-nacrtovano-zbirali-bodo-sredstva-za-zrtve-pozarov.html">med prireditvijo zbirali dobrodelna sredstva</a>:</p>
+<blockquote>
+<p><em>»Podprli bomo žrtve požarov in počastili pogum gasilcev, ki tvegajo svoja življenja, da bi zaščitili naša,« so sporočili organizatorji.</em></p>
+</blockquote>
+<p><img src="https://princesssarmica.github.io/novice/je-oskar-se-pomemben-ko-izgubis-dom/slika2.png" alt="Organizatorji grammyjev so skupaj z neprofitno organizacijo MusiCares že donirali milijon evrov pomoči glasbenikom, ki so v požarih izgubili imetje." /><br />
+<small><em>Organizatorji grammyjev so skupaj z neprofitno organizacijo MusiCares že donirali milijon evrov pomoči glasbenikom, ki so v požarih izgubili imetje. (Foto: MusiCares)</em></small></p>
+<hr />
+<h2 id="sov-se-mora-nadaljevati">Šov se mora nadaljevati</h2>
+<p>Vedno glasnejši pa so pozivi k odpovedi podelitev nagrad, ki so trenutno marsikomu drugotnega pomena. Igralec <strong>Adrien Brody</strong> je nedavno nagrado New York Film Critics Circle <a href="https://www.instagram.com/reel/DEnTFYeOzj0/">sprejel s solznimi očmi</a>:</p>
+<blockquote>
+<p><em>»Težko je sprejeti nekaj takega, ko pa toliko ljudi trpi.«</em></p>
+</blockquote>
+<p>Tudi nekdanja predsednica družbe CBS Films, <strong>Terry Press</strong>, <a href="https://www.nytimes.com/2025/01/14/business/la-wildfires-hollywood-film-production.html">opozarja na nesmiselnost situacije</a>:</p>
+<blockquote>
+<p><em>»Bomo torej v enem trenutku govorili, kako pretreseni smo zaradi naših bližnjih, v naslednjem pa pojasnjevali, da je našo obleko dizajniral Gucci?«</em></p>
+</blockquote>
+<p><img src="https://princesssarmica.github.io/novice/je-oskar-se-pomemben-ko-izgubis-dom/slika3.png" alt="Adrien Brody, igralec filma Brutalist, je bil ob zahvalnem govoru vidno pretresen nad nedavnimi dogodki. Posnetek zaslona: New York Film Critics Circle." /><br />
+<small><em>Adrien Brody, igralec filma Brutalist, je bil ob zahvalnem govoru vidno pretresen nad nedavnimi dogodki. (Posnetek zaslona: New York Film Critics Circle.)</em></small></p>
+<p>Po drugi strani pa pri <a href="https://www.washingtonpost.com/entertainment/movies/2025/01/13/oscars-grammys-awards-season-la-fires/">Washington Post</a> ugotavljajo, da bi odpovedi dogodkov dodatno prizadele tamkajšnje delavce:</p>
+<blockquote>
+<p><em>»Če odvzamete podelitve nagrad, brez dela ostanejo maskerji, vozniki, frizerji, asistenti v produkciji, osvetljevalci, kurirji in varnostniki. Kako se bodo znašli delavci, pri katerih je vse odvisno od dveh najbolj obremenjenih mesecev v letu?«</em></p>
+</blockquote>
+<p>Čas bo torej pokazal, kakšno smer in hitrost okrevanja bo ubral svet Hollywooda. Kdo ve, morda bodo prav ti požari postali zgodba filma na enem od naslednjih oskarjev. Upajmo, da s čim lažjim epilogom.</p>
+<hr />
+<h2 id="viri">Viri</h2>
+<ul>
+<li><a href="https://www.rtvslo.si/zabava-in-slog/popkultura/v-pozaru-v-los-angelesu-pogorela-tudi-125-milijonov-dolarjev-vredna-grascina-iz-nasledstva/733102">RTV Slovenija</a></li>
+<li><a href="https://www.hollywoodreporter.com/business/business-news/film-tv-production-wildfires-la-1236111283/">Hollywood Reporter</a></li>
+<li><a href="https://www.24ur.com/popin/film_tv/ponovno-prestavili-razglasitev-nominirancev-za-oskarje.html">24ur</a></li>
+<li><a href="https://www.24ur.com/popin/glasba/podelitev-grammyjev-kot-nacrtovano-zbirali-bodo-sredstva-za-zrtve-pozarov.html">24ur</a></li>
+<li><a href="https://www.nytimes.com/2025/01/14/business/la-wildfires-hollywood-film-production.html">New York Times</a></li>
+<li><a href="https://www.washingtonpost.com/entertainment/movies/2025/01/13/oscars-grammys-awards-season-la-fires/">Washington Post</a></li>
+</ul>
+<hr />
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;jared-leto-prihaja-v-gorico&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Jared Leto prihaja v Gorico: GO! 2025 bo zasijal z zvezdniškim spektaklom
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;novice&#x2F;nenavadni-muzeji-zagreba-ki-privabljajo-turiste&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Nenavadni muzeji Zagreba, ki privabljajo turiste
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

@@ -1,0 +1,459 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Letošnje poletje bo sodeč po napovedih eno najtoplejših v zgodovini
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Letošnje poletje bo sodeč po napovedih eno najtoplejših v zgodovini
+          </h1>
+          <p class="subtitle">Za povišanje temperatur je krivo taljenje arktičnih ledenikov</p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Elena Schmid, Klarisa Hren
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-26">
+      26. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>6 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>1128 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/okolje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Okolje</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/podnebne-spremembe/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Podnebne spremembe</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/globalno-segrevanje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Globalno segrevanje</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/ledeniki/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Ledeniki</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><strong>Nova študija je razkrila, da taljenje ledenikov na območju Arktike, za katero je v največji meri odgovorno globalno segrevanje, povečuje dotok sveže hladne vode v severni Atlantik. Vzhodno od Grenlandije se namreč nahaja več kot 2 tisoč kilometrov širok odsek, skozi katerega se lahko staljeni led neposredno izliva vanj. Sodeč po poročanju revije Weather and Climate Dynamics, je to eden glavnih povzročiteljev vročinskih valov in sušnih obdobij v Evropi, katerih naj bi bilo po napovedih vedno več. ARSO izpostavlja, da bo razsežnost sprememb odvisna od izpustov toplogrednih plinov, ki povzročajo globalno segrevanje in posledično tudi taljenje ledenikov.</strong></p>
+<span id="continue-reading"></span>
+<hr />
+<p><img src="https://princesssarmica.github.io/seminarji/letosnje-poletje-bo-sodec-po-napovedih-eno-najtoplejsih-v-zgodovini/slika1.png" alt="Povprečni odklon temperature zraka po Sloveniji v obdobju od leta 1991 do 2020." /><br />
+<small>Povprečni odklon temperature zraka po Sloveniji v obdobju od leta 1991 do 2020. | Foto: ARSO</small></p>
+<h2 id="problem-nastane-ob-mesanju-sladke-ledeniske-s-slano-morsko-vodo">Problem nastane ob mešanju sladke ledeniške s slano morsko vodo</h2>
+<p>Arktika zaradi naraščajočih temperatur v povprečju letno izgubi več sto kubičnih kilometrov morskega in ledeniškega ledu. Taljenje le-tega v severni Atlantik dodaja velike količine sladke vode, za katero so raziskovalci dokazali, da povzroča ekstremne vremenske razmere po Evropi. Sladka voda ima namreč v primerjavi z morsko nizko gostoto, zaradi česar ostaja na površju oceana – strokovno se ta pojav imenuja sladkovodna anomalija. Znanstvenica Marilena Oltmanns, ki deluje v Nacionalnem oceanografskem centru v Združenem kraljestvu, je dejala, da razloga za nastanek teh mehanizmov še ne poznajo ter da “sladka voda zavira izmenjavo toplote med globjim oceanom in zrakom” oz. deluje kot nekakšna pregrada.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/letosnje-poletje-bo-sodec-po-napovedih-eno-najtoplejsih-v-zgodovini/slika2.png" alt="" /></p>
+<p>Raziskovalci so ugotovili, da se sladkovodne anomalije v jesenskem in zimskem času hitreje ohladijo kot okoliške vodne mase. To med drugim spodbuja nastanek nevihtnega vremena. Nastali vetrovi nato povzročijo spremembe tlaka, ki tvorijo vrtince za prihajajočo zimo. Oltmanns in njeni sodelavci so ob analizi zadnjih 40 poletij v Evropi ugotovili, da so najtoplejša poletja običajno sledila zimam, za katere so bile značilne večje sladkovodne anomalije. Zatrdila je, da bo glede na napovedi povečanja stopnje taljenja v Arktiki, južna Evropa brez dvoma postala toplejša, tamkajšnji zrak pa bolj suh.</p>
+<p>Po besedah Oltmannsove naj bi omenjena raziskava ponudila možnost predvidljivosti evropskega poletja za kar eno zimo vnaprej, za kar meni, da bi ponujalo pomembno pot za napovedovanje vremena v prihodnosti. Podnebna dinamičarka na Pensilvanski univerzi Melissa Gervais je uporabnost tovrstnih napovedi pospremila z besedami “Če sem kmetica in vem, da me čakata vročina in suša, bom morda spremenila pridelke, ki jih imam. Morda bi razmislila tudi o moji strategiji namakanja”. S tem je nakazala na praktične koristi, ki bi jih imele tovrstne napovedi za kmetovalce.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/letosnje-poletje-bo-sodec-po-napovedih-eno-najtoplejsih-v-zgodovini/slika3.jpg" alt="Vročina in sušna obdobja imajo velik vpliv na upad letine pridelkov, zaradi česar bo v prihodnosti pomembno upoštevati prilagajanje novim vremenskim razmeram." /><br />
+<small>Vročina in sušna obdobja imajo velik vpliv na upad letine pridelkov, zaradi česar bo v prihodnosti pomembno upoštevati prilagajanje novim vremenskim razmeram. | Foto: Podjetnik kmet</small></p>
+<h2 id="ledeniki-pod-groznjo-taljenja">Ledeniki pod grožnjo taljenja</h2>
+<p>Led deluje kot zaščitni pokrov nad Zemljo in našimi oceani. Te bele površine odvečno toploto odbijajo nazaj v vesolje in ohranjajo planet hladnejši. A zaradi taljenja je do sedaj izginilo že 95 % najstarejšega in najdebelejšega ledu na Arktiki. Hitro taljenje ledenikov poteka že od zgodnjih 1900-ih let, za kar so v največji meri krive človeške dejavnosti. Od industrijske revolucije naprej se emisije ogljikovega dioksida in drugih toplogrednih plinov dvigujejo temperature po vsem svetu, vključno s severnim in južnim polom, kar povzroča taljenje ledenikov in njihovo odtekanje v morje. Znanstveniki predvidevajo, da bi lahko Arktika, v kolikor bodo emisije še naprej nenadzorovano naraščale, brez ledu ostala že čez 15 let.</p>
+<p><div class="galleria mb-6" style="height: 450px">{
+  "images": [
+    {
+      "src": "slika4.jpg",
+      "title": "",
+      "description": ""
+    },
+    {
+      "src": "slika5.jpg",
+      "title": "",
+      "description": ""
+    },
+    {
+      "src": "slika6.jpg",
+      "title": "",      
+      "description": ""
+    }
+  ]
+}</div>
+<small>Izginjanje ledenika Blomstrandbreen skozi leta. Foto: Norveški polarni inštitut</small></p>
+<p>Dvigovanje morske gladine je ena izmed posledic taljenja ledenikov, ki vodi po povečanja obalne erozije in nevihtnih valov, medtem ko segrevanje zraka in temperature oceanov povzroča pogostejše in močnejše obalne nevihte kot so orkani in tajfuni. Grenlandska ledena plošča trenutno izginja štirikrat hitreje kot leta 2003 in že prispeva 20 % k trenutnemu dvigu morske gladine. Koliko in kako hitro se bodo te grenlandske in antarktične ledene plošče stopile v prihodnosti, bo v veliki meri odvisno od dvigovanje morske gladine. Zaskrbljujoče je, da bi se globalna gladina morja, če bi se stopil ves led na Grenlandiji, dvignila za šest metrov.</p>
+<h2 id="slovenija-pod-vplivom-rastocih-temperatur">Slovenija pod vplivom rastočih temperatur</h2>
+<p>V Sloveniji se temperature višajo hitreje od svetovnega povprečja, kar je bilo najbolj očitno v zadnjih tridesetih letih. V mestih, kot je Ljubljana, so vročinski vali občutnejši kot na podeželju, kar se bo z višanjem temperatur, ki jih napoveduje ARSO, le še stopnjevalo. Trend naraščanja temperature zraka je nekoliko večji v vzhodni kot v zahodni polovici države. Nadzorno ga lahko opazimo s spremljanjem taljenjem slovenskega ledenika.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/letosnje-poletje-bo-sodec-po-napovedih-eno-najtoplejsih-v-zgodovini/slika7.jpg" alt="Ponazoritev krčenja obsega ledenika na Triglavu skozi leta." /><br />
+<small>Ponazoritev krčenja obsega ledenika na Triglavu skozi leta. | Foto: Arhiv GIAM ZRC SAZU</small></p>
+<blockquote>
+<p>“<em>Skrajen primer podnebnih sprememb na ledenikih je tudi Triglavski ledenik. V dobrih sto letih je ostala tisočinka njegove mase. Po svetu ledeniki v zadnjih tridesetih letih izgubijo pol metra ledu na leto. V zadnjih letih, leta 2018 in 2019, je to povprečje en meter.</em>” – Gregor Vertačnik o taljenju ledenikov (vir: Ars humana)</p>
+</blockquote>
+<p>Topel zrak zadrži več vlage, kar z višanjem temperature pomeni, da bodo padavinski dogodki v bližnji prihodnosti postali intenzivnejši. Možnost zimskih poplav bo večja zaradi odtekanja večjih količin padavin. Projekcije za Slovenijo ne kažejo znatnih sprememb količine poletnih padavin, vendar se bo podaljšal čas med padavinskimi dogodki. Spremenila se je tudi snežna odeja, ki se bo s časom še naprej manjšala. Vsi našteti dogodki bodo vplivali na kakovost naših življenj.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/letosnje-poletje-bo-sodec-po-napovedih-eno-najtoplejsih-v-zgodovini/slika8.jpg" alt="Poleti 2024 so zaradi suše razglasili veliko požarno ogroženost po celotnem območju Slovenije." /><br />
+<small>Poleti 2024 so zaradi suše razglasili veliko požarno ogroženost po celotnem območju Slovenije. | Foto: BoBo</small></p>
+<p>Po napovedih ARSO, bo najverjetneje najbolj zrasla temperatura pozimi, le nekoliko manj poleti in jeseni, najmanj pa spomladi. Deležni bomo večjemu številu vročih dni in daljših vročinskih valov. Z optimističnimi napovedi o količini izpustov, ARSO poroča, da bo temperatura do konca stoletja zrasla za približno 1,3 °C, po pesimističnemu scenariju pa šokantnih 4,1 °C.</p>
+<h2 id="mracen-pogled-v-prihodnost">Mračen pogled v prihodnost</h2>
+<p>Dokler se bodo morski led in ledeniki topili ter oceani segrevali, bodo oceanski tokovi še naprej motili vremenske vzorce po vsem svetu. Že v sredini stoletja se naj bi v vzhodni Sloveniji zimske padavine povečale do 40 odstotkov. Zaradi taljenja ledenikov in toplotnega raztezanja morske vodo, bodo med posledicami tudi zvišanje gladine morja, ekstremni vremenski in podnebni dogodki kot so to poplave, suše, toča ter močan veter. Izgubljamo tudi naravne znamenitosti, ki so del naše kulture. Triglavski ledenik se je skrčil na 0,7 hektarjev iz svojih prvotnih meritev iz 19. stoletja, kadar je še znašal več kot 45 hektarjev. Najverjetneje smo zadnja generacija, ki lahko opazuje ostanke ledenika v živo.</p>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;dusevno-zdravje-studentov-cena-akademskega-uspeha&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Duševno zdravje študentov: cena akademskega uspeha
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;narascanju-temperatur-ni-videti-konca&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Naraščanju temperatur ni videti konca
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+

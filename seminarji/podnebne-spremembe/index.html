@@ -1,0 +1,516 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("theme", "dark");
+      }
+    })();
+  </script>  
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;favicon.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-192x192.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;web-app-manifest-512x512.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.css" integrity="sha384-+rY0QD+LRnTOquDMzGa9lXU6jIwdiQuwCJQ2cdcW0qeP/0UbjQCZlXnRsUMA+9pH" crossorigin="anonymous">
+  
+
+  
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" integrity="sha384-oGm59HWAkwO32h2w8u0B98wKBZJwd6MbWtAJwQKCTffZjOXHXrnyv9Syjovgc+UV" crossorigin="anonymous">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link href="https://princesssarmica.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Medijska predilnica | Podnebne Spremembe
+
+  </title>
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=&lt;your_gtag&gt;"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "&lt;your_gtag&gt;");
+  </script>
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body>
+  
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;">
+          <img src="&#x2F;images&#x2F;avatar.svg" class="mr-2" style="height: 1.5rem;">
+          Medijska predilnica
+        </a>
+      
+        <a class="navbar-item is-hidden-desktop" id="nav-search-mobile" title="Search" style="display: flex; margin-left: auto;">
+          <span class="icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-desktop" id="dark-mode-mobile" title="Switch to dark theme" style="display: flex;">
+          <span class="icon">
+            <i class="fas fa-adjust"></i>
+          </span>
+        </a>
+      </div>
+      
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-left">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;">
+            Domov
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;seminarji">
+            Seminarji
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;novice">
+            Novice
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;radio">
+            Radio
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;tags">
+            Etikete
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;&#x2F;categories">
+            Kategorije
+          </a>
+          
+          
+          
+          <a class="navbar-item is-hidden-touch" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>          
+          <a class="navbar-item is-hidden-touch" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Podnebne Spremembe
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>
+    Avtor:
+    
+      Tilen Caf
+    
+  </span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span>
+    Objavljeno:
+    <time datetime="2025-01-26">
+      26. January 2025
+    </time>
+  </span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>6 min</span>
+  <!-- <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>1193 words</span> -->
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/categories/podnebne-spremembe/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>Podnebne spremembe</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/globalno-segrevanje/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Globalno segrevanje</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/toplogredni-plini/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Toplogredni plini</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https://princesssarmica.github.io/tags/podnebni-ukrepi/">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>Podnebni ukrepi</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <h2 id="1-kje-je-tezava">1. Kje je težava?</h2>
+<p>Naš planet se vse bolj segreva.</p>
+<p>V zadnjih 100 letih se je povprečna temperatura Zemljinega površja zvišala za približno 0,85 °C (1,4 °F). Po ocenah naj bi globalna temperatura do leta 2050 narasla za približno 1,5 stopinje Celzija (2,7 °F) ter do leta 2100 za 2–4 stopinje Celzija (3,6–7,2 °F).</p>
+<p>Nacionalna uprava za oceane in atmosfero (NOAA) ugotavlja, da se povprečne letne temperature na globalni ravni stalno povečujejo že od 60. let prejšnjega stoletja. Na sliki 1 so prikazana odstopanja od povprečne globalne temperature, pri čemer vodoravna črta na 0,00 °C predstavlja povprečje 20. stoletja. Modri stolpci označujejo leta, ko je bila temperatura nižja od tega povprečja, rdeči stolpci pa predstavljajo leta z višjo temperaturo. Devetnajst izmed dvajsetih najtoplejših let je bilo zabeleženih po letu 2001. Zelo verjetno je, da bodo prihodnja najhladnejša leta toplejša od najtoplejših let, ki smo jih doživeli v 20. stoletju.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/podnebne-spremembe/slika1.png" alt="" /></p>
+<hr />
+<h2 id="2-kje-je-vzrok">2. Kje je vzrok</h2>
+<p>Glavni krivec so toplogredni plini, predvsem ogljikov dioksid.</p>
+<p>Po mnenju znanstvenikov emisije, torej plini, ki jih v ozračje spušča industrija in kmetijstvo, krepijo naravni učinek tople grede. Ta proces omogoča, da Zemljina atmosfera zadrži del Sončeve energije. Največji vpliv ima človekovo delovanje, kot je kurjenje fosilnih goriv (premoga, nafte in zemeljskega plina), saj to močno povečuje količino ogljikovega dioksida (CO2) v ozračju. CO2 velja za glavni toplogredni plin, ki prispeva k globalnemu segrevanju. Poleg tega se izsekavajo gozdovi, ki bi sicer absorbirali ogljikov dioksid.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/podnebne-spremembe/slika2.png" alt="" /></p>
+<p><img src="https://princesssarmica.github.io/seminarji/podnebne-spremembe/slika3.png" alt="Vir: Greenmatch" />
+<small>Vir: Greenmatch</small></p>
+<p>Danes je koncentracija CO2 v atmosferi višja, kot je bila kadarkoli v zadnjih 800.000 letih. Rekordne vrednosti so bile zabeležene maja 2015, leto 2016 pa je bilo že peto leto zapored, ko je koncentracija CO2 narasla za vsaj dva delca na milijon.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/podnebne-spremembe/slika4.png" alt="Največji svetovni onesnaževalci s toplogrednimi plini." /></p>
+<hr />
+<h2 id="3-kaksni-so-ucinki-taljenje-morskega-ledu-na-arktiki">3. Kakšni so učinki? Taljenje morskega ledu na Arktiki</h2>
+<p>Segrevanje podnebja povzroča višje temperature, pogostejše in hujše vremenske ekstreme ter dvigovanje morske gladine, kar lahko močno spremeni številne regije sveta. Od začetka 20. stoletja se je gladina morja na svetovni ravni povprečno dvignila za približno 19 cm. V zadnjih desetletjih se je ta proces še pospešil, kar predstavlja veliko tveganje za otoške države in nizko ležeče območje. Pomembno k dvigu morske gladine prispeva krčenje ledenih plošč na polarnih območjih. Čeprav arktični morski led zaradi višjih temperatur hitro izginja, ta proces le malo vpliva na dvig gladine morja. V primerjavi z zgodnjimi 80. leti prejšnjega stoletja smo izgubili območje morskega ledu, ki je skoraj 10-krat večje od površine Združenega kraljestva.</p>
+<video controls width="100%" poster="https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005382/sea_ice_2024_min_1080p60.mp4">
+  <source src="https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005382/sea_ice_2024_min_1080p60.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<p>Satelitske pasivne mikrovodne slike morskega ledu že od leta 1979 omogočajo zanesljivo spremljanje sprememb v arktičnem ledu. Vsako poletje se arktična ledena kapa zaradi taljenja zmanjša do tako imenovanega "minimuma", preden se z začetkom hladnejšega vremena ledena površina znova začne povečevati. Analiza satelitskih podatkov, ki so jo izvedli znanstveniki, kaže, da je minimum v letu 2024, dosežen verjetno 11. septembra, obsegal 4,28 milijona kvadratnih kilometrov (1,65 milijona kvadratnih milj). To predstavlja sedmi najmanjši izmerjeni obseg arktičnega morskega ledu v zgodovini meritev.</p>
+<p>Animacija prikazuje dnevne spremembe arktičnega morskega ledu in sezonske spremembe kopenskega pokrova skozi čas – od najvišjega letnega obsega ledu, zabeleženega 14. marca 2024, do njegovega minimuma 11. septembra 2024. Na vodni površini lahko opazujemo, kako se arktični morski led spreminja iz dneva v dan, pri čemer so prikazane regije, kjer je koncentracija ledu večja od 15 %. Modro-bel odtenek ledu temelji na 3-dnevnem minimalnem teku svetlosti temperature pri 89 GHz. Rumena črta označuje povprečni minimum iz 30-letnega obdobja med letoma 1981 in 2010. Na kopnem pa se mesečni podatki o sezonskih spremembah, pridobljeni iz niza satelitskih slik, postopoma spreminjajo iz meseca v mesec.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/LwRTw_7NNJs"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).--><h3 id="globalno-segrevanje-od-leta-1880-do-leta-2022">Globalno segrevanje od leta 1880 do leta 2022</h3>
+<p>Animirani prikaz ponazarja mesečna temperaturna odstopanja od poletja 1880 do poletja 2023, primerjana z NASA-inim povprečjem za obdobje 1951–1980.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/NMnFbIDIEGs"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!--padding-bottom: 56.25% creates space with height 9/16 from its width (16:9 resolution).-->
+<p>Po poročilu Združenih narodov trenutni predlogi kažejo na dvig temperature za 2,7 °C nad predindustrijsko raven do leta 2100.
+Znanstveniki so ugotovili, da bo preseganje dviga temperature za 2 °C povzročilo znatne in nevarne podnebne posledice, ki bodo posebej prizadele revnejše prebivalstvo sveta.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/podnebne-spremembe/slika5.png" alt="" /></p>
+<p>Barvno kodirana karta nazorno prikazuje dramatične spremembe globalnih površinskih temperatur od leta 1884. Temno modra barva jasno označuje območja z občutno nižjimi temperaturami od povprečja, medtem ko temno rdeča poudarja območja z izrazito višjimi temperaturami od povprečja.</p>
+<p><img src="https://princesssarmica.github.io/seminarji/podnebne-spremembe/slika6.png" alt="" /></p>
+<p><img src="https://princesssarmica.github.io/seminarji/podnebne-spremembe/slika7.png" alt="" /></p>
+<h2 id="4-omejevanje-skode">4. Omejevanje škode</h2>
+<ul>
+<li>
+<p><strong>Varčevanje z energijo doma</strong><br />
+Velik del elektrike in ogrevanja prihaja iz premoga, nafte in plina. Prihranite energijo z manjšo porabo ogrevanja in hlajenja, uporabo LED žarnic in učinkovitih naprav, pranjem perila s hladno vodo ter sušenjem perila na zraku. Izboljšajte izolacijo doma ali zamenjajte kurilno napravo s toplotno črpalko in zmanjšajte ogljični odtis za do <strong>900 kg CO2 na leto</strong>.</p>
+</li>
+<li>
+<p><strong>Prehod na obnovljive vire energije</strong><br />
+Preverite pri dobavitelju energije, ali vaš dom uporablja premog, nafto ali plin. Če je mogoče, preidite na obnovljive vire, kot sta veter ali sonce. Namestitev sončnih celic lahko zmanjša vaš ogljični odtis za do <strong>1,5 tone CO2 na leto</strong>.</p>
+</li>
+<li>
+<p><strong>Peš, s kolesom ali javnim prevozom</strong><br />
+Namesto vožnje avtomobila raje hodite peš ali kolesarite, kar zmanjša emisije toplogrednih plinov in izboljša zdravje. Za daljše poti uporabite vlak ali avtobus. Življenje brez avtomobila lahko zmanjša vaš ogljični odtis za do <strong>2 toni CO2 letno</strong>.</p>
+</li>
+<li>
+<p><strong>Prehod na električni avtomobil</strong><br />
+Pri nakupu avtomobila razmislite o električnem vozilu, saj ima manjši vpliv na okolje kot bencinski ali dizelski avtomobili. Prehod na električni avto lahko zmanjša vaš ogljični odtis za do <strong>2 toni CO2 na leto</strong>, hibrid pa za do <strong>700 kg CO2</strong>.</p>
+</li>
+<li>
+<p><strong>Manj zavržene hrane</strong><br />
+Z metanjem hrane stran zapravljamo tudi vire in energijo. Kupujte premišljeno, porabite vse kupljeno in ostanke kompostirajte. Zmanjšanje odpadne hrane lahko zmanjša vaš ogljični odtis za do <strong>300 kg CO2 letno</strong>.</p>
+</li>
+<li>
+<p><strong>Več rastlinske prehrane</strong><br />
+Prehod na prehrano z več zelenjave in manj mesa zmanjša okoljski vpliv. Vegetarijanska prehrana lahko zmanjša vaš ogljični odtis za do <strong>500 kg CO2 na leto</strong>, veganska pa do <strong>900 kg CO2</strong>.</p>
+</li>
+<li>
+<p><strong>Sajenje avtohtonih rastlin</strong><br />
+V vrtu posadite domače rastline, ki podpirajo lokalni ekosistem. Zamenjajte invazivne vrste in se izogibajte uporabi pesticidov.</p>
+</li>
+<li>
+<p><strong>Čiščenje okolja</strong><br />
+Sodelujte pri lokalnih akcijah čiščenja narave. Odpadki onesnažujejo zemljo in vodo, zato odpadke vedno pravilno odložite.</p>
+</li>
+<li>
+<p><strong>Pametno upravljanje denarja</strong><br />
+Podpirajte podjetja, ki delujejo trajnostno. Preverite, ali vaše naložbe podpirajo okolju prijazne dejavnosti.</p>
+</li>
+<li>
+<p><strong>Spodbujajte druge k ukrepanju</strong><br />
+Pogovarjajte se s sosedi, podjetji in voditelji ter zahtevajte odločne ukrepe za varovanje podnebja.</p>
+</li>
+</ul>
+<h3 id="viri">Viri</h3>
+<ul>
+<li><a href="https://climate.nasa.gov/interactives/climate-time-machine/?intent=021">Climate Time Machine – NASA</a></li>
+<li><a href="https://www.bbc.co.uk/news/resources/idt-5aceb360-8bc3-4741-99f0-2e4f76ca02bb">BBC Interactive: Climate Change</a></li>
+<li><a href="https://svs.gsfc.nasa.gov/5382/">NASA: Climate Change Visualizations</a></li>
+<li><a href="https://www.youtube.com/watch?v=LwRTw_7NNJs">YouTube: Climate Change Explained</a></li>
+<li><a href="https://dnr.wisconsin.gov/climatechange/science#:~:text=Since%201880%2C%20average%20global%20temperatures,7.2%20degrees%20Fahrenheit">Wisconsin Department of Natural Resources: Climate Science</a></li>
+<li><a href="https://www.greenmatch.co.uk/blog/countries-with-the-highest-carbon-footprint">Countries with the Highest Carbon Footprint – GreenMatch</a></li>
+<li><a href="https://www.un.org/en/actnow/ten-actions">UN ActNow: Ten Actions to Fight Climate Change</a></li>
+</ul>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Iskanje</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Vnesite iskalni niz..." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+ 
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <nav class="level">
+              
+          <div class="level is-mobile" style="margin: auto; gap: 1rem; flex-wrap: wrap;">
+            
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;narascanju-temperatur-ni-videti-konca&#x2F;">
+                <span class="icon mr-2">
+                  <i class="fas fa-arrow-circle-left"></i>
+                </span>
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Naraščanju temperatur ni videti konca
+                </span>
+              </a>
+            </div>
+             
+            <div class="level-item has-text-centered">
+              <a class="button is-black is-outlined" href="https:&#x2F;&#x2F;princesssarmica.github.io&#x2F;seminarji&#x2F;resnica-in-manipulacija&#x2F;">
+                <span style="display: inline-block; max-width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                  Resnica in manipulacija
+                </span>
+                <span class="icon ml-2">
+                  <i class="fas fa-arrow-circle-right"></i>
+                </span>
+              </a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<figure class="image is-flex is-justify-content-center is-align-items-center">
+  <img src="/images/reading_cat.svg" style="max-width: 248px; padding-bottom: 5%" />
+</figure>   
+
+
+
+  
+
+
+
+  
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/galleria.min.js" integrity="sha384-QSfwGT8/EU536DKdtyP2D6SLlh8zBaZ0cVkwfrwhqzIU9VCfJT00CLVP5t+HAiYg" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/galleria@1.6.1/dist/themes/folio/galleria.folio.min.js" integrity="sha384-DwpKI+deZB267+hPKwiOIc5Y2GKsVL0mR6hgz7GgIu7AgAMYqJwcJKY1YBNfhWcY" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.13.5/dist/mermaid.min.js" integrity="sha384-0yWn54pSGtfKCU+skfA69l25VsCw+MZt4LQov3xNRoS7YkAMrFokGgSBnAWSK4pv" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js" integrity="sha384-xC3h1+IHXK8seA+8KfT79Z4e0GPsznjXBoMa5nd8ooWKplPyXx92NOmljWxLC/cs" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js" integrity="sha384-Pulw7+h73841BQIK0LzJCydKRPChJUF9w8h8W0o3h+cLtoyNPJS847bQauLWOTwg" crossorigin="anonymous"></script>
+  
+  <script src="https://princesssarmica.github.io/elasticlunr.min.js"></script>
+  <script src="https://princesssarmica.github.io/search_index.en.js"></script><script src="https://princesssarmica.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
+
+
